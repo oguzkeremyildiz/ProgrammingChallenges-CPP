@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(ProgrammingChallenges_CPP)
+set(CMAKE_CXX_STANDARD 14)
+include_directories(include)
+link_directories(library)
+add_executable(ProgrammingChallenges_CPP GettingStarted/G1/The3nPlus1.cpp)
