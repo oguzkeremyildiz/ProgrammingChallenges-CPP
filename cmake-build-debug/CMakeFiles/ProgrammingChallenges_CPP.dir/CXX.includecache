@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/GettingStarted/G1/The3nPlus1.cpp
+iostream
+-
+vector
+-
+fstream
+-
+
