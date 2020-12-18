@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/GettingStarted/G1/The3nPlus1.cpp" "/Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G1/The3nPlus1.cpp.o"
+  "/Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/GettingStarted/G2/Minesweeper.cpp" "/Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G2/Minesweeper.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

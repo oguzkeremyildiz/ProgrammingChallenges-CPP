@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GettingStarted/G1/The3nPlus1.o: GettingStarted/G1/The3nPlus1.cpp.o
+GettingStarted/G2/Minesweeper.o: GettingStarted/G2/Minesweeper.cpp.o
 
-.PHONY : GettingStarted/G1/The3nPlus1.o
+.PHONY : GettingStarted/G2/Minesweeper.o
 
 # target to build an object file
-GettingStarted/G1/The3nPlus1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G1/The3nPlus1.cpp.o
-.PHONY : GettingStarted/G1/The3nPlus1.cpp.o
+GettingStarted/G2/Minesweeper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G2/Minesweeper.cpp.o
+.PHONY : GettingStarted/G2/Minesweeper.cpp.o
 
-GettingStarted/G1/The3nPlus1.i: GettingStarted/G1/The3nPlus1.cpp.i
+GettingStarted/G2/Minesweeper.i: GettingStarted/G2/Minesweeper.cpp.i
 
-.PHONY : GettingStarted/G1/The3nPlus1.i
+.PHONY : GettingStarted/G2/Minesweeper.i
 
 # target to preprocess a source file
-GettingStarted/G1/The3nPlus1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G1/The3nPlus1.cpp.i
-.PHONY : GettingStarted/G1/The3nPlus1.cpp.i
+GettingStarted/G2/Minesweeper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G2/Minesweeper.cpp.i
+.PHONY : GettingStarted/G2/Minesweeper.cpp.i
 
-GettingStarted/G1/The3nPlus1.s: GettingStarted/G1/The3nPlus1.cpp.s
+GettingStarted/G2/Minesweeper.s: GettingStarted/G2/Minesweeper.cpp.s
 
-.PHONY : GettingStarted/G1/The3nPlus1.s
+.PHONY : GettingStarted/G2/Minesweeper.s
 
 # target to generate assembly for a file
-GettingStarted/G1/The3nPlus1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G1/The3nPlus1.cpp.s
-.PHONY : GettingStarted/G1/The3nPlus1.cpp.s
+GettingStarted/G2/Minesweeper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G2/Minesweeper.cpp.s
+.PHONY : GettingStarted/G2/Minesweeper.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GettingStarted/G1/The3nPlus1.o"
-	@echo "... GettingStarted/G1/The3nPlus1.i"
-	@echo "... GettingStarted/G1/The3nPlus1.s"
+	@echo "... GettingStarted/G2/Minesweeper.o"
+	@echo "... GettingStarted/G2/Minesweeper.i"
+	@echo "... GettingStarted/G2/Minesweeper.s"
 .PHONY : help
 
 
