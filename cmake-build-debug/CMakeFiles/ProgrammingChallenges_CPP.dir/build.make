@@ -77,27 +77,27 @@ include CMakeFiles/ProgrammingChallenges_CPP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G3/TheTrip.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G3/TheTrip.cpp.o: ../GettingStarted/G3/TheTrip.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G3/TheTrip.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G3/TheTrip.cpp.o -c /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/GettingStarted/G3/TheTrip.cpp
+CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
+CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.o: ../Backtracking/B1/LittleBishops.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.o -c /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/Backtracking/B1/LittleBishops.cpp
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G3/TheTrip.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G3/TheTrip.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/GettingStarted/G3/TheTrip.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G3/TheTrip.cpp.i
+CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/Backtracking/B1/LittleBishops.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.i
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G3/TheTrip.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G3/TheTrip.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/GettingStarted/G3/TheTrip.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G3/TheTrip.cpp.s
+CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/Backtracking/B1/LittleBishops.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.s
 
 # Object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_OBJECTS = \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G3/TheTrip.cpp.o"
+"CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.o"
 
 # External object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_EXTERNAL_OBJECTS =
 
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G3/TheTrip.cpp.o
+ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.o
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/build.make
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ProgrammingChallenges_CPP"

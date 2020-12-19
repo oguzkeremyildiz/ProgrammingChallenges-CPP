@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GettingStarted/G3/TheTrip.o: GettingStarted/G3/TheTrip.cpp.o
+Backtracking/B1/LittleBishops.o: Backtracking/B1/LittleBishops.cpp.o
 
-.PHONY : GettingStarted/G3/TheTrip.o
+.PHONY : Backtracking/B1/LittleBishops.o
 
 # target to build an object file
-GettingStarted/G3/TheTrip.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G3/TheTrip.cpp.o
-.PHONY : GettingStarted/G3/TheTrip.cpp.o
+Backtracking/B1/LittleBishops.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.o
+.PHONY : Backtracking/B1/LittleBishops.cpp.o
 
-GettingStarted/G3/TheTrip.i: GettingStarted/G3/TheTrip.cpp.i
+Backtracking/B1/LittleBishops.i: Backtracking/B1/LittleBishops.cpp.i
 
-.PHONY : GettingStarted/G3/TheTrip.i
+.PHONY : Backtracking/B1/LittleBishops.i
 
 # target to preprocess a source file
-GettingStarted/G3/TheTrip.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G3/TheTrip.cpp.i
-.PHONY : GettingStarted/G3/TheTrip.cpp.i
+Backtracking/B1/LittleBishops.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.i
+.PHONY : Backtracking/B1/LittleBishops.cpp.i
 
-GettingStarted/G3/TheTrip.s: GettingStarted/G3/TheTrip.cpp.s
+Backtracking/B1/LittleBishops.s: Backtracking/B1/LittleBishops.cpp.s
 
-.PHONY : GettingStarted/G3/TheTrip.s
+.PHONY : Backtracking/B1/LittleBishops.s
 
 # target to generate assembly for a file
-GettingStarted/G3/TheTrip.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G3/TheTrip.cpp.s
-.PHONY : GettingStarted/G3/TheTrip.cpp.s
+Backtracking/B1/LittleBishops.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.s
+.PHONY : Backtracking/B1/LittleBishops.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GettingStarted/G3/TheTrip.o"
-	@echo "... GettingStarted/G3/TheTrip.i"
-	@echo "... GettingStarted/G3/TheTrip.s"
+	@echo "... Backtracking/B1/LittleBishops.o"
+	@echo "... Backtracking/B1/LittleBishops.i"
+	@echo "... Backtracking/B1/LittleBishops.s"
 .PHONY : help
 
 
