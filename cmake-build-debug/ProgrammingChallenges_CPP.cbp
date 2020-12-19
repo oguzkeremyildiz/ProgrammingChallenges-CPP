@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/GettingStarted/G2/Minesweeper.cpp">
+		<Unit filename="/Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/GettingStarted/G3/TheTrip.cpp">
 			<Option target="ProgrammingChallenges_CPP"/>
 		</Unit>
 		<Unit filename="/Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/CMakeLists.txt">
