@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/Backtracking/B1/LittleBishops.cpp
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D4/Number.h
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D4/UnidirectionalTSP.cpp
+Number.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D4/Number.h
+fstream
+-
 iostream
 -
-vector
--
-fstream
+unordered_map
 -
 

@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP
+CMAKE_SOURCE_DIR = /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ProgrammingChallenges_CPP.dir/depend.make
@@ -77,30 +77,45 @@ include CMakeFiles/ProgrammingChallenges_CPP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.o: ../Backtracking/B1/LittleBishops.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.o -c /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/Backtracking/B1/LittleBishops.cpp
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.o: ../DynamicProgramming/D4/UnidirectionalTSP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D4/UnidirectionalTSP.cpp
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/Backtracking/B1/LittleBishops.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.i
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D4/UnidirectionalTSP.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.i
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/Backtracking/B1/LittleBishops.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.s
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D4/UnidirectionalTSP.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.s
+
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.o: ../DynamicProgramming/D4/Number.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D4/Number.cpp
+
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D4/Number.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.i
+
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D4/Number.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.s
 
 # Object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_OBJECTS = \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.o"
+"CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.o" \
+"CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.o"
 
 # External object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_EXTERNAL_OBJECTS =
 
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.o
+ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.o
+ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.o
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/build.make
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ProgrammingChallenges_CPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ProgrammingChallenges_CPP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProgrammingChallenges_CPP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +128,6 @@ CMakeFiles/ProgrammingChallenges_CPP.dir/clean:
 .PHONY : CMakeFiles/ProgrammingChallenges_CPP.dir/clean
 
 CMakeFiles/ProgrammingChallenges_CPP.dir/depend:
-	cd /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/ProgrammingChallenges_CPP.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/ProgrammingChallenges_CPP.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ProgrammingChallenges_CPP.dir/depend
 

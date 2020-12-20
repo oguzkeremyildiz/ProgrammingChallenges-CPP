@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP
+CMAKE_SOURCE_DIR = /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oguzkeremyildiz/CLionProjects/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,59 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Backtracking/B1/LittleBishops.o: Backtracking/B1/LittleBishops.cpp.o
+DynamicProgramming/D4/Number.o: DynamicProgramming/D4/Number.cpp.o
 
-.PHONY : Backtracking/B1/LittleBishops.o
+.PHONY : DynamicProgramming/D4/Number.o
 
 # target to build an object file
-Backtracking/B1/LittleBishops.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.o
-.PHONY : Backtracking/B1/LittleBishops.cpp.o
+DynamicProgramming/D4/Number.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.o
+.PHONY : DynamicProgramming/D4/Number.cpp.o
 
-Backtracking/B1/LittleBishops.i: Backtracking/B1/LittleBishops.cpp.i
+DynamicProgramming/D4/Number.i: DynamicProgramming/D4/Number.cpp.i
 
-.PHONY : Backtracking/B1/LittleBishops.i
+.PHONY : DynamicProgramming/D4/Number.i
 
 # target to preprocess a source file
-Backtracking/B1/LittleBishops.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.i
-.PHONY : Backtracking/B1/LittleBishops.cpp.i
+DynamicProgramming/D4/Number.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.i
+.PHONY : DynamicProgramming/D4/Number.cpp.i
 
-Backtracking/B1/LittleBishops.s: Backtracking/B1/LittleBishops.cpp.s
+DynamicProgramming/D4/Number.s: DynamicProgramming/D4/Number.cpp.s
 
-.PHONY : Backtracking/B1/LittleBishops.s
+.PHONY : DynamicProgramming/D4/Number.s
 
 # target to generate assembly for a file
-Backtracking/B1/LittleBishops.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B1/LittleBishops.cpp.s
-.PHONY : Backtracking/B1/LittleBishops.cpp.s
+DynamicProgramming/D4/Number.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.s
+.PHONY : DynamicProgramming/D4/Number.cpp.s
+
+DynamicProgramming/D4/UnidirectionalTSP.o: DynamicProgramming/D4/UnidirectionalTSP.cpp.o
+
+.PHONY : DynamicProgramming/D4/UnidirectionalTSP.o
+
+# target to build an object file
+DynamicProgramming/D4/UnidirectionalTSP.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.o
+.PHONY : DynamicProgramming/D4/UnidirectionalTSP.cpp.o
+
+DynamicProgramming/D4/UnidirectionalTSP.i: DynamicProgramming/D4/UnidirectionalTSP.cpp.i
+
+.PHONY : DynamicProgramming/D4/UnidirectionalTSP.i
+
+# target to preprocess a source file
+DynamicProgramming/D4/UnidirectionalTSP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.i
+.PHONY : DynamicProgramming/D4/UnidirectionalTSP.cpp.i
+
+DynamicProgramming/D4/UnidirectionalTSP.s: DynamicProgramming/D4/UnidirectionalTSP.cpp.s
+
+.PHONY : DynamicProgramming/D4/UnidirectionalTSP.s
+
+# target to generate assembly for a file
+DynamicProgramming/D4/UnidirectionalTSP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.s
+.PHONY : DynamicProgramming/D4/UnidirectionalTSP.cpp.s
 
 # Help Target
 help:
@@ -179,9 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Backtracking/B1/LittleBishops.o"
-	@echo "... Backtracking/B1/LittleBishops.i"
-	@echo "... Backtracking/B1/LittleBishops.s"
+	@echo "... DynamicProgramming/D4/Number.o"
+	@echo "... DynamicProgramming/D4/Number.i"
+	@echo "... DynamicProgramming/D4/Number.s"
+	@echo "... DynamicProgramming/D4/UnidirectionalTSP.o"
+	@echo "... DynamicProgramming/D4/UnidirectionalTSP.i"
+	@echo "... DynamicProgramming/D4/UnidirectionalTSP.s"
 .PHONY : help
 
 
