@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GettingStarted/G4/LCDDisplay.o: GettingStarted/G4/LCDDisplay.cpp.o
+DataStructures/D1/JollyJumpers.o: DataStructures/D1/JollyJumpers.cpp.o
 
-.PHONY : GettingStarted/G4/LCDDisplay.o
+.PHONY : DataStructures/D1/JollyJumpers.o
 
 # target to build an object file
-GettingStarted/G4/LCDDisplay.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G4/LCDDisplay.cpp.o
-.PHONY : GettingStarted/G4/LCDDisplay.cpp.o
+DataStructures/D1/JollyJumpers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D1/JollyJumpers.cpp.o
+.PHONY : DataStructures/D1/JollyJumpers.cpp.o
 
-GettingStarted/G4/LCDDisplay.i: GettingStarted/G4/LCDDisplay.cpp.i
+DataStructures/D1/JollyJumpers.i: DataStructures/D1/JollyJumpers.cpp.i
 
-.PHONY : GettingStarted/G4/LCDDisplay.i
+.PHONY : DataStructures/D1/JollyJumpers.i
 
 # target to preprocess a source file
-GettingStarted/G4/LCDDisplay.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G4/LCDDisplay.cpp.i
-.PHONY : GettingStarted/G4/LCDDisplay.cpp.i
+DataStructures/D1/JollyJumpers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D1/JollyJumpers.cpp.i
+.PHONY : DataStructures/D1/JollyJumpers.cpp.i
 
-GettingStarted/G4/LCDDisplay.s: GettingStarted/G4/LCDDisplay.cpp.s
+DataStructures/D1/JollyJumpers.s: DataStructures/D1/JollyJumpers.cpp.s
 
-.PHONY : GettingStarted/G4/LCDDisplay.s
+.PHONY : DataStructures/D1/JollyJumpers.s
 
 # target to generate assembly for a file
-GettingStarted/G4/LCDDisplay.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G4/LCDDisplay.cpp.s
-.PHONY : GettingStarted/G4/LCDDisplay.cpp.s
+DataStructures/D1/JollyJumpers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D1/JollyJumpers.cpp.s
+.PHONY : DataStructures/D1/JollyJumpers.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GettingStarted/G4/LCDDisplay.o"
-	@echo "... GettingStarted/G4/LCDDisplay.i"
-	@echo "... GettingStarted/G4/LCDDisplay.s"
+	@echo "... DataStructures/D1/JollyJumpers.o"
+	@echo "... DataStructures/D1/JollyJumpers.i"
+	@echo "... DataStructures/D1/JollyJumpers.s"
 .PHONY : help
 
 
