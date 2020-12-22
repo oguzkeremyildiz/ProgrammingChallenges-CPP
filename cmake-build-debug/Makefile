@@ -143,59 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-DynamicProgramming/D4/Number.o: DynamicProgramming/D4/Number.cpp.o
+GettingStarted/G4/LCDDisplay.o: GettingStarted/G4/LCDDisplay.cpp.o
 
-.PHONY : DynamicProgramming/D4/Number.o
-
-# target to build an object file
-DynamicProgramming/D4/Number.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.o
-.PHONY : DynamicProgramming/D4/Number.cpp.o
-
-DynamicProgramming/D4/Number.i: DynamicProgramming/D4/Number.cpp.i
-
-.PHONY : DynamicProgramming/D4/Number.i
-
-# target to preprocess a source file
-DynamicProgramming/D4/Number.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.i
-.PHONY : DynamicProgramming/D4/Number.cpp.i
-
-DynamicProgramming/D4/Number.s: DynamicProgramming/D4/Number.cpp.s
-
-.PHONY : DynamicProgramming/D4/Number.s
-
-# target to generate assembly for a file
-DynamicProgramming/D4/Number.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.s
-.PHONY : DynamicProgramming/D4/Number.cpp.s
-
-DynamicProgramming/D4/UnidirectionalTSP.o: DynamicProgramming/D4/UnidirectionalTSP.cpp.o
-
-.PHONY : DynamicProgramming/D4/UnidirectionalTSP.o
+.PHONY : GettingStarted/G4/LCDDisplay.o
 
 # target to build an object file
-DynamicProgramming/D4/UnidirectionalTSP.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.o
-.PHONY : DynamicProgramming/D4/UnidirectionalTSP.cpp.o
+GettingStarted/G4/LCDDisplay.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G4/LCDDisplay.cpp.o
+.PHONY : GettingStarted/G4/LCDDisplay.cpp.o
 
-DynamicProgramming/D4/UnidirectionalTSP.i: DynamicProgramming/D4/UnidirectionalTSP.cpp.i
+GettingStarted/G4/LCDDisplay.i: GettingStarted/G4/LCDDisplay.cpp.i
 
-.PHONY : DynamicProgramming/D4/UnidirectionalTSP.i
+.PHONY : GettingStarted/G4/LCDDisplay.i
 
 # target to preprocess a source file
-DynamicProgramming/D4/UnidirectionalTSP.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.i
-.PHONY : DynamicProgramming/D4/UnidirectionalTSP.cpp.i
+GettingStarted/G4/LCDDisplay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G4/LCDDisplay.cpp.i
+.PHONY : GettingStarted/G4/LCDDisplay.cpp.i
 
-DynamicProgramming/D4/UnidirectionalTSP.s: DynamicProgramming/D4/UnidirectionalTSP.cpp.s
+GettingStarted/G4/LCDDisplay.s: GettingStarted/G4/LCDDisplay.cpp.s
 
-.PHONY : DynamicProgramming/D4/UnidirectionalTSP.s
+.PHONY : GettingStarted/G4/LCDDisplay.s
 
 # target to generate assembly for a file
-DynamicProgramming/D4/UnidirectionalTSP.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.s
-.PHONY : DynamicProgramming/D4/UnidirectionalTSP.cpp.s
+GettingStarted/G4/LCDDisplay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G4/LCDDisplay.cpp.s
+.PHONY : GettingStarted/G4/LCDDisplay.cpp.s
 
 # Help Target
 help:
@@ -206,12 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... DynamicProgramming/D4/Number.o"
-	@echo "... DynamicProgramming/D4/Number.i"
-	@echo "... DynamicProgramming/D4/Number.s"
-	@echo "... DynamicProgramming/D4/UnidirectionalTSP.o"
-	@echo "... DynamicProgramming/D4/UnidirectionalTSP.i"
-	@echo "... DynamicProgramming/D4/UnidirectionalTSP.s"
+	@echo "... GettingStarted/G4/LCDDisplay.o"
+	@echo "... GettingStarted/G4/LCDDisplay.i"
+	@echo "... GettingStarted/G4/LCDDisplay.s"
 .PHONY : help
 
 

@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D4/Number.h
-
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D4/UnidirectionalTSP.cpp
-Number.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D4/Number.h
-fstream
--
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GettingStarted/G4/LCDDisplay.cpp
 iostream
 -
-unordered_map
+vector
 -
 

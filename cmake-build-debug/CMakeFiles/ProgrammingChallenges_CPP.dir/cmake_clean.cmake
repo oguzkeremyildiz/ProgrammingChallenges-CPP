@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/Number.cpp.o"
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D4/UnidirectionalTSP.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G4/LCDDisplay.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )
