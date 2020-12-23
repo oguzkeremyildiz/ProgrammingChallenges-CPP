@@ -6,25 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../include/Pair.h
-string
--
-
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D3/Turtle.h
-Pair.h
--
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GettingStarted/G5/GraphicalEditor.cpp
 iostream
 -
-
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D3/WeightsAndMeasures.cpp
-Pair.h
--
-vector
--
-fstream
--
-iostream
--
-Turtle.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D3/Turtle.h
 
