@@ -5,6 +5,10 @@
 #ifndef COOKIES_CPP_UNIT_H
 #define COOKIES_CPP_UNIT_H
 
+#include <string>
+
+using namespace std;
+
 template<class A> class Unit {
 private:
     A a;
