@@ -2,7 +2,7 @@
 // Created by Oğuz Kerem Yıldız on 23.12.2020.
 //
 
-#include <Pair.h>
+#include <Tuple/Pair.h>
 #include <vector>
 #include <fstream>
 #include <iostream>
