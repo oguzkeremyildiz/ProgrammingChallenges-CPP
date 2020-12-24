@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GettingStarted/G5/GraphicalEditor.o: GettingStarted/G5/GraphicalEditor.cpp.o
+GraphTraversal/G1/Bicoloring.o: GraphTraversal/G1/Bicoloring.cpp.o
 
-.PHONY : GettingStarted/G5/GraphicalEditor.o
+.PHONY : GraphTraversal/G1/Bicoloring.o
 
 # target to build an object file
-GettingStarted/G5/GraphicalEditor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G5/GraphicalEditor.cpp.o
-.PHONY : GettingStarted/G5/GraphicalEditor.cpp.o
+GraphTraversal/G1/Bicoloring.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G1/Bicoloring.cpp.o
+.PHONY : GraphTraversal/G1/Bicoloring.cpp.o
 
-GettingStarted/G5/GraphicalEditor.i: GettingStarted/G5/GraphicalEditor.cpp.i
+GraphTraversal/G1/Bicoloring.i: GraphTraversal/G1/Bicoloring.cpp.i
 
-.PHONY : GettingStarted/G5/GraphicalEditor.i
+.PHONY : GraphTraversal/G1/Bicoloring.i
 
 # target to preprocess a source file
-GettingStarted/G5/GraphicalEditor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G5/GraphicalEditor.cpp.i
-.PHONY : GettingStarted/G5/GraphicalEditor.cpp.i
+GraphTraversal/G1/Bicoloring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G1/Bicoloring.cpp.i
+.PHONY : GraphTraversal/G1/Bicoloring.cpp.i
 
-GettingStarted/G5/GraphicalEditor.s: GettingStarted/G5/GraphicalEditor.cpp.s
+GraphTraversal/G1/Bicoloring.s: GraphTraversal/G1/Bicoloring.cpp.s
 
-.PHONY : GettingStarted/G5/GraphicalEditor.s
+.PHONY : GraphTraversal/G1/Bicoloring.s
 
 # target to generate assembly for a file
-GettingStarted/G5/GraphicalEditor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G5/GraphicalEditor.cpp.s
-.PHONY : GettingStarted/G5/GraphicalEditor.cpp.s
+GraphTraversal/G1/Bicoloring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G1/Bicoloring.cpp.s
+.PHONY : GraphTraversal/G1/Bicoloring.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GettingStarted/G5/GraphicalEditor.o"
-	@echo "... GettingStarted/G5/GraphicalEditor.i"
-	@echo "... GettingStarted/G5/GraphicalEditor.s"
+	@echo "... GraphTraversal/G1/Bicoloring.o"
+	@echo "... GraphTraversal/G1/Bicoloring.i"
+	@echo "... GraphTraversal/G1/Bicoloring.s"
 .PHONY : help
 
 

@@ -6,7 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GettingStarted/G5/GraphicalEditor.cpp
+../include/Graph/Graph.h
+unordered_set
+-
+unordered_map
+-
+vector
+-
+utility
+-
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G1/Bicoloring.cpp
 iostream
+-
+fstream
+-
+vector
+-
+unordered_map
+-
+unordered_set
+-
+Graph/Graph.h
 -
 
