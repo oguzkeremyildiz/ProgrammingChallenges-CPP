@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GraphTraversal/G1/Bicoloring.o: GraphTraversal/G1/Bicoloring.cpp.o
+GraphAlgorithms/G1/Freckles.o: GraphAlgorithms/G1/Freckles.cpp.o
 
-.PHONY : GraphTraversal/G1/Bicoloring.o
+.PHONY : GraphAlgorithms/G1/Freckles.o
 
 # target to build an object file
-GraphTraversal/G1/Bicoloring.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G1/Bicoloring.cpp.o
-.PHONY : GraphTraversal/G1/Bicoloring.cpp.o
+GraphAlgorithms/G1/Freckles.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G1/Freckles.cpp.o
+.PHONY : GraphAlgorithms/G1/Freckles.cpp.o
 
-GraphTraversal/G1/Bicoloring.i: GraphTraversal/G1/Bicoloring.cpp.i
+GraphAlgorithms/G1/Freckles.i: GraphAlgorithms/G1/Freckles.cpp.i
 
-.PHONY : GraphTraversal/G1/Bicoloring.i
+.PHONY : GraphAlgorithms/G1/Freckles.i
 
 # target to preprocess a source file
-GraphTraversal/G1/Bicoloring.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G1/Bicoloring.cpp.i
-.PHONY : GraphTraversal/G1/Bicoloring.cpp.i
+GraphAlgorithms/G1/Freckles.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G1/Freckles.cpp.i
+.PHONY : GraphAlgorithms/G1/Freckles.cpp.i
 
-GraphTraversal/G1/Bicoloring.s: GraphTraversal/G1/Bicoloring.cpp.s
+GraphAlgorithms/G1/Freckles.s: GraphAlgorithms/G1/Freckles.cpp.s
 
-.PHONY : GraphTraversal/G1/Bicoloring.s
+.PHONY : GraphAlgorithms/G1/Freckles.s
 
 # target to generate assembly for a file
-GraphTraversal/G1/Bicoloring.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G1/Bicoloring.cpp.s
-.PHONY : GraphTraversal/G1/Bicoloring.cpp.s
+GraphAlgorithms/G1/Freckles.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G1/Freckles.cpp.s
+.PHONY : GraphAlgorithms/G1/Freckles.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GraphTraversal/G1/Bicoloring.o"
-	@echo "... GraphTraversal/G1/Bicoloring.i"
-	@echo "... GraphTraversal/G1/Bicoloring.s"
+	@echo "... GraphAlgorithms/G1/Freckles.o"
+	@echo "... GraphAlgorithms/G1/Freckles.i"
+	@echo "... GraphAlgorithms/G1/Freckles.s"
 .PHONY : help
 
 

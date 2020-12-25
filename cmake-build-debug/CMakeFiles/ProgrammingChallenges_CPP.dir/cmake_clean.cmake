@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G1/Bicoloring.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G1/Freckles.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )
