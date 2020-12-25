@@ -23,6 +23,8 @@ private:
     unordered_map<int, Symbol> invert(unordered_map<Symbol, int> map);
     bool containsAll(unordered_set<Symbol> elements);
     vector<Triplet<Symbol, Symbol, Length>> sort(vector<Triplet<Symbol, Symbol, Length>> list);
+    pair<bool, int> containsElement(Symbol edge, Symbol element);
+    Symbol findMinimum(unordered_set<Symbol> visited, unordered_map<Symbol, pair<Length, Symbol>> map);
 public:
     WeightedGraph();
     WeightedGraph(LengthInterface<Length> *lengthInterface);
@@ -41,12 +43,11 @@ public:
     vector<pair<Symbol, Length>> get(Symbol index);
     pair<Symbol, Length> get(Symbol element, int index);
     unordered_map<Symbol, pair<Length, Symbol>> bellmanFord(Symbol edge);
-    void printShortestPathBellmanFord(Symbol key);
     vector<vector<Length>> floydWarshall();
     pair<unordered_map<int, Symbol>, vector<vector<int>>> floydWarshallWithKeys();
-    void printAllShortestPath();
     Length prims();
     Length kruskal();
+    unordered_map<Symbol, pair<Length, Symbol>> dijkstra(Symbol edge);
 };
 
 template<class Symbol, class Length> WeightedGraph<Symbol, Length>::WeightedGraph() = default;
@@ -135,7 +136,7 @@ template<class Symbol, class Length> unordered_map<Symbol, pair<Length, Symbol>>
     map[edge] = pair<Length, Symbol>(lengthInterface->min(), edge);
     for (Symbol element : vertexList) {
         if (element != edge) {
-            map[element] = pair<Length, Symbol>(lengthInterface->max(), NULL);
+            map[element] = pair<Length, Symbol>(lengthInterface->max(), Symbol());
         }
     }
     for (int t = 0; t < vertexList.size() - 1; t++) {
@@ -145,7 +146,7 @@ template<class Symbol, class Length> unordered_map<Symbol, pair<Length, Symbol>>
                     pair<Symbol, Length> element = this->get(key.first).at(i);
                     if (map[key.first].first != lengthInterface->max()) {
                         if (lengthInterface->compare(map[element.first].first, lengthInterface->add(element.second, map[key.first].first)) > 0) {
-                            map[element.first] = pair<Symbol, Length>(lengthInterface->add(element.second, map[key.first].first), key.first);
+                            map[element.first] = pair<Length, Symbol>(lengthInterface->add(element.second, map[key.first].first), key.first);
                         }
                     }
                 }
@@ -153,13 +154,6 @@ template<class Symbol, class Length> unordered_map<Symbol, pair<Length, Symbol>>
         }
     }
     return map;
-}
-
-template<class Symbol, class Length> void WeightedGraph<Symbol, Length>::printShortestPathBellmanFord(Symbol key) {
-    unordered_map<Symbol, pair<Length, Symbol>> map = this->bellmanFord(key);
-    for (auto& element : map) {
-        cout << std::to_string(5) + " -> " + std::to_string(element.first) + " = " + std::to_string(map[element.first].first) + " " +  std::to_string(map[element.first].second) << endl;
-    }
 }
 
 template<class Symbol, class Length> vector<vector<Length>> WeightedGraph<Symbol, Length>::floydWarshall() {
@@ -256,16 +250,9 @@ template<class Symbol, class Length> unordered_map<int, Symbol> WeightedGraph<Sy
     return inv;
 }
 
-template<class Symbol, class Length> void WeightedGraph<Symbol, Length>::printAllShortestPath() {
-    pair<unordered_map<int, Symbol>, vector<vector<Length>>> pair;
-    pair = this->floydWarshallWithKeys();
-    for (int i = 0; i < pair.second.size(); i++) {
-        for (int j = 0; j < pair.second.at(i).size(); j++) {
-            cout << std::to_string(pair.first[i]) + " -> " + std::to_string(pair.first[j]) + " = " + std::to_string(pair.second.at(i).at(j)) << endl;
-        }
-    }
-}
-
+/**
+ * can't handle default values!
+ */
 template<class Symbol, class Length> Length WeightedGraph<Symbol, Length>::prims() {
     Length total = lengthInterface->min();
     if (vertexList.size() > 2) {
@@ -348,6 +335,56 @@ template<class Symbol, class Length> vector<Triplet<Symbol, Symbol, Length>> Wei
         }
     }
     return list;
+}
+
+template<class Symbol, class Length> pair<bool, int> WeightedGraph<Symbol, Length>::containsElement(Symbol edge, Symbol element) {
+    for (int i = 0; i < get(edge).size(); i++) {
+        if (get(edge, i).first == element) {
+            return pair<bool, int>(true, i);
+        }
+    }
+    return pair<bool, int>(false, -1);
+}
+
+template<class Symbol, class Length> Symbol WeightedGraph<Symbol, Length>::findMinimum(unordered_set<Symbol> visited, unordered_map<Symbol, pair<Length, Symbol>> map) {
+    Symbol element = Symbol();
+    Length length = lengthInterface->max();
+    for (auto &key : map) {
+        if (visited.find(key.first) == visited.end()) {
+            if (lengthInterface->compare(length, key.second.first) > 0) {
+                length = key.second.first;
+                element = key.first;
+            }
+        }
+    }
+    return element;
+}
+
+template<class Symbol, class Length> unordered_map<Symbol, pair<Length, Symbol>> WeightedGraph<Symbol, Length>::dijkstra(Symbol edge) {
+    unordered_set<Symbol> visited = unordered_set<Symbol>();
+    unordered_map<Symbol, pair<Length, Symbol>> map = unordered_map<Symbol, pair<Length, Symbol>>();
+    visited.insert(edge);
+    for (Symbol element : vertexList) {
+        if (edge == element) {
+            map[element] = pair<Length, Symbol>(lengthInterface->min(), edge);
+        } else if (containsElement(edge, element).first) {
+            map[element] = pair<Length, Symbol>(get(edge, containsElement(edge, element).second).second, edge);
+        } else {
+            map[element] = pair<Length, Symbol>(lengthInterface->max(), Symbol());
+        }
+    }
+    for (int i = 0; i < vertexList.size() - 1; i++) {
+        Symbol key = findMinimum(visited, map);
+        visited.insert(key);
+        if (containsKey(key)) {
+            for (int j = 0; j < get(key).size(); j++) {
+                if (lengthInterface->compare(lengthInterface->add(map[key].first, get(key, j).second), map[get(key, j).first].first) < 0) {
+                    map[get(key, j).first] = pair<Length, Symbol>(lengthInterface->add(map[key].first, get(key, j).second), key);
+                }
+            }
+        }
+    }
+    return map;
 }
 
 #endif //COOKIES_CPP_WEIGHTEDGRAPH_H
