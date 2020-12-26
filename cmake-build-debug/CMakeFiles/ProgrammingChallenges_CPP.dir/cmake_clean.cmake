@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G3/FireStation.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G6/Interpreter.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )

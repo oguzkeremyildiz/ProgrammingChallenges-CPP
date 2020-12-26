@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GraphAlgorithms/G3/FireStation.o: GraphAlgorithms/G3/FireStation.cpp.o
+GettingStarted/G6/Interpreter.o: GettingStarted/G6/Interpreter.cpp.o
 
-.PHONY : GraphAlgorithms/G3/FireStation.o
+.PHONY : GettingStarted/G6/Interpreter.o
 
 # target to build an object file
-GraphAlgorithms/G3/FireStation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G3/FireStation.cpp.o
-.PHONY : GraphAlgorithms/G3/FireStation.cpp.o
+GettingStarted/G6/Interpreter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G6/Interpreter.cpp.o
+.PHONY : GettingStarted/G6/Interpreter.cpp.o
 
-GraphAlgorithms/G3/FireStation.i: GraphAlgorithms/G3/FireStation.cpp.i
+GettingStarted/G6/Interpreter.i: GettingStarted/G6/Interpreter.cpp.i
 
-.PHONY : GraphAlgorithms/G3/FireStation.i
+.PHONY : GettingStarted/G6/Interpreter.i
 
 # target to preprocess a source file
-GraphAlgorithms/G3/FireStation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G3/FireStation.cpp.i
-.PHONY : GraphAlgorithms/G3/FireStation.cpp.i
+GettingStarted/G6/Interpreter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G6/Interpreter.cpp.i
+.PHONY : GettingStarted/G6/Interpreter.cpp.i
 
-GraphAlgorithms/G3/FireStation.s: GraphAlgorithms/G3/FireStation.cpp.s
+GettingStarted/G6/Interpreter.s: GettingStarted/G6/Interpreter.cpp.s
 
-.PHONY : GraphAlgorithms/G3/FireStation.s
+.PHONY : GettingStarted/G6/Interpreter.s
 
 # target to generate assembly for a file
-GraphAlgorithms/G3/FireStation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G3/FireStation.cpp.s
-.PHONY : GraphAlgorithms/G3/FireStation.cpp.s
+GettingStarted/G6/Interpreter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G6/Interpreter.cpp.s
+.PHONY : GettingStarted/G6/Interpreter.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GraphAlgorithms/G3/FireStation.o"
-	@echo "... GraphAlgorithms/G3/FireStation.i"
-	@echo "... GraphAlgorithms/G3/FireStation.s"
+	@echo "... GettingStarted/G6/Interpreter.o"
+	@echo "... GettingStarted/G6/Interpreter.i"
+	@echo "... GettingStarted/G6/Interpreter.s"
 .PHONY : help
 
 
