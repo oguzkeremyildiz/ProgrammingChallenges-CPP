@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GettingStarted/G6/Interpreter.o: GettingStarted/G6/Interpreter.cpp.o
+Sorting/S1/VitosFamily.o: Sorting/S1/VitosFamily.cpp.o
 
-.PHONY : GettingStarted/G6/Interpreter.o
+.PHONY : Sorting/S1/VitosFamily.o
 
 # target to build an object file
-GettingStarted/G6/Interpreter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G6/Interpreter.cpp.o
-.PHONY : GettingStarted/G6/Interpreter.cpp.o
+Sorting/S1/VitosFamily.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S1/VitosFamily.cpp.o
+.PHONY : Sorting/S1/VitosFamily.cpp.o
 
-GettingStarted/G6/Interpreter.i: GettingStarted/G6/Interpreter.cpp.i
+Sorting/S1/VitosFamily.i: Sorting/S1/VitosFamily.cpp.i
 
-.PHONY : GettingStarted/G6/Interpreter.i
+.PHONY : Sorting/S1/VitosFamily.i
 
 # target to preprocess a source file
-GettingStarted/G6/Interpreter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G6/Interpreter.cpp.i
-.PHONY : GettingStarted/G6/Interpreter.cpp.i
+Sorting/S1/VitosFamily.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S1/VitosFamily.cpp.i
+.PHONY : Sorting/S1/VitosFamily.cpp.i
 
-GettingStarted/G6/Interpreter.s: GettingStarted/G6/Interpreter.cpp.s
+Sorting/S1/VitosFamily.s: Sorting/S1/VitosFamily.cpp.s
 
-.PHONY : GettingStarted/G6/Interpreter.s
+.PHONY : Sorting/S1/VitosFamily.s
 
 # target to generate assembly for a file
-GettingStarted/G6/Interpreter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G6/Interpreter.cpp.s
-.PHONY : GettingStarted/G6/Interpreter.cpp.s
+Sorting/S1/VitosFamily.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S1/VitosFamily.cpp.s
+.PHONY : Sorting/S1/VitosFamily.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GettingStarted/G6/Interpreter.o"
-	@echo "... GettingStarted/G6/Interpreter.i"
-	@echo "... GettingStarted/G6/Interpreter.s"
+	@echo "... Sorting/S1/VitosFamily.o"
+	@echo "... Sorting/S1/VitosFamily.i"
+	@echo "... Sorting/S1/VitosFamily.s"
 .PHONY : help
 
 

@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GettingStarted/G6/Interpreter.cpp
-fstream
--
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S1/VitosFamily.cpp
 iostream
 -
 vector
 -
-utility
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GettingStarted/G6/utility
+fstream
+-
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G6/Interpreter.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S1/VitosFamily.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )
