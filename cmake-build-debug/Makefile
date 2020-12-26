@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Sorting/S1/VitosFamily.o: Sorting/S1/VitosFamily.cpp.o
+Backtracking/B3/Queue.o: Backtracking/B3/Queue.cpp.o
 
-.PHONY : Sorting/S1/VitosFamily.o
+.PHONY : Backtracking/B3/Queue.o
 
 # target to build an object file
-Sorting/S1/VitosFamily.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S1/VitosFamily.cpp.o
-.PHONY : Sorting/S1/VitosFamily.cpp.o
+Backtracking/B3/Queue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B3/Queue.cpp.o
+.PHONY : Backtracking/B3/Queue.cpp.o
 
-Sorting/S1/VitosFamily.i: Sorting/S1/VitosFamily.cpp.i
+Backtracking/B3/Queue.i: Backtracking/B3/Queue.cpp.i
 
-.PHONY : Sorting/S1/VitosFamily.i
+.PHONY : Backtracking/B3/Queue.i
 
 # target to preprocess a source file
-Sorting/S1/VitosFamily.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S1/VitosFamily.cpp.i
-.PHONY : Sorting/S1/VitosFamily.cpp.i
+Backtracking/B3/Queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B3/Queue.cpp.i
+.PHONY : Backtracking/B3/Queue.cpp.i
 
-Sorting/S1/VitosFamily.s: Sorting/S1/VitosFamily.cpp.s
+Backtracking/B3/Queue.s: Backtracking/B3/Queue.cpp.s
 
-.PHONY : Sorting/S1/VitosFamily.s
+.PHONY : Backtracking/B3/Queue.s
 
 # target to generate assembly for a file
-Sorting/S1/VitosFamily.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S1/VitosFamily.cpp.s
-.PHONY : Sorting/S1/VitosFamily.cpp.s
+Backtracking/B3/Queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B3/Queue.cpp.s
+.PHONY : Backtracking/B3/Queue.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Sorting/S1/VitosFamily.o"
-	@echo "... Sorting/S1/VitosFamily.i"
-	@echo "... Sorting/S1/VitosFamily.s"
+	@echo "... Backtracking/B3/Queue.o"
+	@echo "... Backtracking/B3/Queue.i"
+	@echo "... Backtracking/B3/Queue.s"
 .PHONY : help
 
 
