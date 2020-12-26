@@ -6,10 +6,8 @@
 
 #IncludeRegexTransform: 
 
-../include/Graph/DoubleLength.h
+../include/Graph/IntegerLength.h
 iostream
--
-float.h
 -
 
 ../include/Graph/LengthInterface.h
@@ -46,17 +44,21 @@ vector
 string
 -
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G1/Freckles.cpp
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G3/FireStation.cpp
 fstream
 -
 Graph/WeightedGraph.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G1/Graph/WeightedGraph.h
-Graph/DoubleLength.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G1/Graph/DoubleLength.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G3/Graph/WeightedGraph.h
+Graph/IntegerLength.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G3/Graph/IntegerLength.h
 iostream
 -
 vector
 -
 utility
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G1/utility
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G3/utility
+unordered_set
+-
+unordered_map
+-
 

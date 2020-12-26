@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GraphAlgorithms/G1/Freckles.o: GraphAlgorithms/G1/Freckles.cpp.o
+GraphAlgorithms/G3/FireStation.o: GraphAlgorithms/G3/FireStation.cpp.o
 
-.PHONY : GraphAlgorithms/G1/Freckles.o
+.PHONY : GraphAlgorithms/G3/FireStation.o
 
 # target to build an object file
-GraphAlgorithms/G1/Freckles.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G1/Freckles.cpp.o
-.PHONY : GraphAlgorithms/G1/Freckles.cpp.o
+GraphAlgorithms/G3/FireStation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G3/FireStation.cpp.o
+.PHONY : GraphAlgorithms/G3/FireStation.cpp.o
 
-GraphAlgorithms/G1/Freckles.i: GraphAlgorithms/G1/Freckles.cpp.i
+GraphAlgorithms/G3/FireStation.i: GraphAlgorithms/G3/FireStation.cpp.i
 
-.PHONY : GraphAlgorithms/G1/Freckles.i
+.PHONY : GraphAlgorithms/G3/FireStation.i
 
 # target to preprocess a source file
-GraphAlgorithms/G1/Freckles.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G1/Freckles.cpp.i
-.PHONY : GraphAlgorithms/G1/Freckles.cpp.i
+GraphAlgorithms/G3/FireStation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G3/FireStation.cpp.i
+.PHONY : GraphAlgorithms/G3/FireStation.cpp.i
 
-GraphAlgorithms/G1/Freckles.s: GraphAlgorithms/G1/Freckles.cpp.s
+GraphAlgorithms/G3/FireStation.s: GraphAlgorithms/G3/FireStation.cpp.s
 
-.PHONY : GraphAlgorithms/G1/Freckles.s
+.PHONY : GraphAlgorithms/G3/FireStation.s
 
 # target to generate assembly for a file
-GraphAlgorithms/G1/Freckles.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G1/Freckles.cpp.s
-.PHONY : GraphAlgorithms/G1/Freckles.cpp.s
+GraphAlgorithms/G3/FireStation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G3/FireStation.cpp.s
+.PHONY : GraphAlgorithms/G3/FireStation.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GraphAlgorithms/G1/Freckles.o"
-	@echo "... GraphAlgorithms/G1/Freckles.i"
-	@echo "... GraphAlgorithms/G1/Freckles.s"
+	@echo "... GraphAlgorithms/G3/FireStation.o"
+	@echo "... GraphAlgorithms/G3/FireStation.i"
+	@echo "... GraphAlgorithms/G3/FireStation.s"
 .PHONY : help
 
 
