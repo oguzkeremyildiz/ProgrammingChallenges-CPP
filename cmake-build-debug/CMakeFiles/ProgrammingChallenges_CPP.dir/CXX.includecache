@@ -6,23 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/Board.cpp
-cstdlib
--
-Board.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/Board.h
-
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/Board.h
-fstream
--
-
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/PuzzleProblem15.cpp
-iostream
+../include/Graph/Graph.h
+unordered_set
 -
 unordered_map
 -
-Board.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/Board.h
 vector
+-
+utility
+-
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G2/PlayingWithWheels.cpp
+iostream
+-
+fstream
+-
+vector
+-
+unordered_set
+-
+Graph/Graph.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G2/Graph/Graph.h
+utility
 -
 

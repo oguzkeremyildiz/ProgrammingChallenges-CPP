@@ -77,45 +77,30 @@ include CMakeFiles/ProgrammingChallenges_CPP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.o: ../Backtracking/B2/PuzzleProblem15.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/PuzzleProblem15.cpp
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G2/PlayingWithWheels.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G2/PlayingWithWheels.cpp.o: ../GraphTraversal/G2/PlayingWithWheels.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G2/PlayingWithWheels.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G2/PlayingWithWheels.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G2/PlayingWithWheels.cpp
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/PuzzleProblem15.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.i
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G2/PlayingWithWheels.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G2/PlayingWithWheels.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G2/PlayingWithWheels.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G2/PlayingWithWheels.cpp.i
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/PuzzleProblem15.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.s
-
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.o: ../Backtracking/B2/Board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/Board.cpp
-
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/Board.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.i
-
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/Board.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.s
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G2/PlayingWithWheels.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G2/PlayingWithWheels.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G2/PlayingWithWheels.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G2/PlayingWithWheels.cpp.s
 
 # Object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_OBJECTS = \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.o" \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.o"
+"CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G2/PlayingWithWheels.cpp.o"
 
 # External object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_EXTERNAL_OBJECTS =
 
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.o
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.o
+ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G2/PlayingWithWheels.cpp.o
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/build.make
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ProgrammingChallenges_CPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ProgrammingChallenges_CPP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProgrammingChallenges_CPP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
