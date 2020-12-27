@@ -25,6 +25,7 @@ private:
     vector<Triplet<Symbol, Symbol, Length>> sort(vector<Triplet<Symbol, Symbol, Length>> list);
     pair<bool, int> containsElement(Symbol edge, Symbol element);
     Symbol findMinimum(unordered_set<Symbol> visited, unordered_map<Symbol, pair<Length, Symbol>> map);
+    pair<WeightedGraph<Symbol, Length>, unordered_map<Symbol, bool>> depthFirstSearch(Symbol i, unordered_map<Symbol, bool> visited, pair<WeightedGraph<Symbol, Length>, unordered_map<Symbol, bool>> pair);
 public:
     WeightedGraph();
     WeightedGraph(LengthInterface<Length> *lengthInterface);
@@ -48,6 +49,7 @@ public:
     Length prims();
     Length kruskal();
     unordered_map<Symbol, pair<Length, Symbol>> dijkstra(Symbol edge);
+    vector<WeightedGraph<Symbol, Length>> connectedComponents();
 };
 
 template<class Symbol, class Length> WeightedGraph<Symbol, Length>::WeightedGraph() = default;
@@ -385,6 +387,45 @@ template<class Symbol, class Length> unordered_map<Symbol, pair<Length, Symbol>>
         }
     }
     return map;
+}
+
+template<class Symbol, class Length> vector<WeightedGraph<Symbol, Length>> WeightedGraph<Symbol, Length>::connectedComponents() {
+    vector<WeightedGraph<Symbol, Length>> graphs = vector<WeightedGraph<Symbol, Length>>();
+    int i;
+    unordered_map<Symbol, bool> visited = unordered_map<Symbol, bool>();
+    for (Symbol vertex: vertexList) {
+        visited[vertex] = false;
+    }
+    for (Symbol vertex: vertexList) {
+        if (!visited[vertex]) {
+            visited[vertex] = true;
+            WeightedGraph<Symbol, Length> connectedComponent = WeightedGraph<Symbol, Length>(lengthInterface);
+            pair<WeightedGraph<Symbol, Length>, unordered_map<Symbol, bool>> defaultPair;
+            pair<WeightedGraph<Symbol, Length>, unordered_map<Symbol, bool>> pair = depthFirstSearch(vertex, visited, defaultPair);
+            connectedComponent = pair.first;
+            visited = pair.second;
+            if (!connectedComponent.isEmpty()) {
+                graphs.push_back(connectedComponent);
+            }
+        }
+    }
+    return graphs;
+}
+
+template<class Symbol, class Length> pair<WeightedGraph<Symbol, Length>, unordered_map<Symbol, bool>> WeightedGraph<Symbol, Length>::depthFirstSearch(Symbol i, unordered_map<Symbol, bool> visited, pair<WeightedGraph<Symbol, Length>, unordered_map<Symbol, bool>> defaultPair) {
+    if (containsKey(i)) {
+        defaultPair.first.put(i, get(i));
+        for (pair<Symbol, Length> toNode : get(i)) {
+            if (!visited[toNode.first]) {
+                visited[toNode.first] = true;
+                defaultPair.second = visited;
+                defaultPair = depthFirstSearch(toNode.first, visited, defaultPair);
+                visited = defaultPair.second;
+            }
+        }
+    }
+    defaultPair.second = visited;
+    return defaultPair;
 }
 
 #endif //COOKIES_CPP_WEIGHTEDGRAPH_H

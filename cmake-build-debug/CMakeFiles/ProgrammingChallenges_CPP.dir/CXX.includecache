@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/Board.cpp
+cstdlib
+-
+Board.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/Board.h
+
 /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/Board.h
 fstream
 -
