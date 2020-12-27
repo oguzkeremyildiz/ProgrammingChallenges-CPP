@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S1/VitosFamily.cpp
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/Board.h
+fstream
+-
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/PuzzleProblem15.cpp
 iostream
 -
-vector
+unordered_map
 -
-fstream
+Board.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B2/Board.h
+vector
 -
 

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B3/Queue.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )

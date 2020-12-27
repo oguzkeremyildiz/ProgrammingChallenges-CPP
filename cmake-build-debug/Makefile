@@ -143,32 +143,59 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Backtracking/B3/Queue.o: Backtracking/B3/Queue.cpp.o
+Backtracking/B2/Board.o: Backtracking/B2/Board.cpp.o
 
-.PHONY : Backtracking/B3/Queue.o
+.PHONY : Backtracking/B2/Board.o
 
 # target to build an object file
-Backtracking/B3/Queue.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B3/Queue.cpp.o
-.PHONY : Backtracking/B3/Queue.cpp.o
+Backtracking/B2/Board.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.o
+.PHONY : Backtracking/B2/Board.cpp.o
 
-Backtracking/B3/Queue.i: Backtracking/B3/Queue.cpp.i
+Backtracking/B2/Board.i: Backtracking/B2/Board.cpp.i
 
-.PHONY : Backtracking/B3/Queue.i
+.PHONY : Backtracking/B2/Board.i
 
 # target to preprocess a source file
-Backtracking/B3/Queue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B3/Queue.cpp.i
-.PHONY : Backtracking/B3/Queue.cpp.i
+Backtracking/B2/Board.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.i
+.PHONY : Backtracking/B2/Board.cpp.i
 
-Backtracking/B3/Queue.s: Backtracking/B3/Queue.cpp.s
+Backtracking/B2/Board.s: Backtracking/B2/Board.cpp.s
 
-.PHONY : Backtracking/B3/Queue.s
+.PHONY : Backtracking/B2/Board.s
 
 # target to generate assembly for a file
-Backtracking/B3/Queue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B3/Queue.cpp.s
-.PHONY : Backtracking/B3/Queue.cpp.s
+Backtracking/B2/Board.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/Board.cpp.s
+.PHONY : Backtracking/B2/Board.cpp.s
+
+Backtracking/B2/PuzzleProblem15.o: Backtracking/B2/PuzzleProblem15.cpp.o
+
+.PHONY : Backtracking/B2/PuzzleProblem15.o
+
+# target to build an object file
+Backtracking/B2/PuzzleProblem15.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.o
+.PHONY : Backtracking/B2/PuzzleProblem15.cpp.o
+
+Backtracking/B2/PuzzleProblem15.i: Backtracking/B2/PuzzleProblem15.cpp.i
+
+.PHONY : Backtracking/B2/PuzzleProblem15.i
+
+# target to preprocess a source file
+Backtracking/B2/PuzzleProblem15.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.i
+.PHONY : Backtracking/B2/PuzzleProblem15.cpp.i
+
+Backtracking/B2/PuzzleProblem15.s: Backtracking/B2/PuzzleProblem15.cpp.s
+
+.PHONY : Backtracking/B2/PuzzleProblem15.s
+
+# target to generate assembly for a file
+Backtracking/B2/PuzzleProblem15.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B2/PuzzleProblem15.cpp.s
+.PHONY : Backtracking/B2/PuzzleProblem15.cpp.s
 
 # Help Target
 help:
@@ -179,9 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Backtracking/B3/Queue.o"
-	@echo "... Backtracking/B3/Queue.i"
-	@echo "... Backtracking/B3/Queue.s"
+	@echo "... Backtracking/B2/Board.o"
+	@echo "... Backtracking/B2/Board.i"
+	@echo "... Backtracking/B2/Board.s"
+	@echo "... Backtracking/B2/PuzzleProblem15.o"
+	@echo "... Backtracking/B2/PuzzleProblem15.i"
+	@echo "... Backtracking/B2/PuzzleProblem15.s"
 .PHONY : help
 
 
