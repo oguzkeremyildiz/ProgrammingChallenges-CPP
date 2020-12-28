@@ -11,137 +11,88 @@
 
 using namespace std;
 
-static unordered_set<int> edgeList;
-static bool boolFind;
-static int iterate;
-
-int firstDigit(int digit, int number) {
-    switch (digit) {
-        case 0:
-            return number % 10;
-        case 1:
-            return (number / 10) % 10;
-        case 2:
-            return (number / 100) % 10;
-        case 3:
-            return (number / 1000) % 10;
+vector<string> changeDigit(int i, string current) {
+    vector<string> list = vector<string>();
+    string str(1, current.at(i));
+    int currentDigit = stoi(str);
+    if (currentDigit == 9) {
+        list.push_back(current.substr(0, i) + "0" + current.substr(i + 1));
+        list.push_back(current.substr(0, i) + "8" + current.substr(i + 1));
+    } else if (currentDigit == 0) {
+        list.push_back(current.substr(0, i) + "1" + current.substr(i + 1));
+        list.push_back(current.substr(0, i) + "9" + current.substr(i + 1));
+    } else {
+        list.push_back(current.substr(0, i) + to_string(currentDigit + 1) + current.substr(i + 1));
+        list.push_back(current.substr(0, i) + to_string(currentDigit - 1) + current.substr(i + 1));
     }
-    return -1;
+    return list;
 }
 
-int incrementDigit(int digit, int number) {
-    int currentDigit = firstDigit(digit, number);
-    switch (digit) {
-        case 0:
-            if (currentDigit == 9) {
-                return number - 9;
-            } else {
-                return number + 1;
-            }
-        case 1:
-            if (currentDigit == 9) {
-                return number - 90;
-            } else {
-                return number + 10;
-            }
-        case 2:
-            if (currentDigit == 9) {
-                return number - 900;
-            } else {
-                return number + 100;
-            }
-        case 3:
-            if (currentDigit == 9) {
-                return number - 9000;
-            } else {
-                return number + 1000;
-            }
-    }
-    return -1;
-}
-
-int decrementDigit(int digit, int number) {
-    int currentDigit = firstDigit(digit, number);
-    switch (digit) {
-        case 0:
-            if (currentDigit == 0) {
-                return number + 9;
-            } else {
-                return number - 1;
-            }
-        case 1:
-            if (currentDigit == 0) {
-                return number + 90;
-            } else {
-                return number - 10;
-            }
-        case 2:
-            if (currentDigit == 0) {
-                return number + 900;
-            } else {
-                return number - 100;
-            }
-        case 3:
-            if (currentDigit == 0) {
-                return number + 9000;
-            } else {
-                return number - 1000;
-            }
-    }
-    return -1;
-}
-
-pair<Graph<int>, bool> constructCandidates(Graph<int> graph, int target) {
-    bool check = false;
-    int candidateOne;
-    int candidateTwo;
-    for (int i = 0; i < graph.get(iterate - 1).size(); i++) {
-        for (int j = 0; j < 4; j++) {
-            candidateOne = incrementDigit(j, graph.get(iterate - 1).at(i));
-            if (edgeList.find(candidateOne) == edgeList.end()) {
-                graph.addDirectedEdge(iterate, candidateOne);
-                edgeList.insert(candidateOne);
-                if (target == candidateOne) {
-                    cout << to_string(candidateOne) + " " + to_string(iterate) << endl;
-                    boolFind = false;
-                    check = false;
-                    break;
-                } else {
-                    check = true;
-                }
-            }
-            candidateTwo = decrementDigit(j, graph.get(iterate - 1).at(i));
-            if (edgeList.find(candidateTwo) == edgeList.end()) {
-                graph.addDirectedEdge(iterate, candidateTwo);
-                edgeList.insert(candidateTwo);
-                if (target == candidateTwo) {
-                    cout << to_string(candidateTwo) + " " + to_string(iterate) << endl;
-                    boolFind = false;
-                    check = false;
-                    break;
-                } else {
-                    check = true;
-                }
-            }
+vector<string> constructCandidates(string current) {
+    vector<string> list = vector<string>();
+    for (int i = 0; i < 4; i++) {
+        vector<string> vector = changeDigit(i, current);
+        for (int j = 0; j < vector.size(); j++) {
+            list.push_back(vector.at(j));
         }
     }
-    return pair<Graph<int>, bool>(graph, check);
+    return list;
 }
 
-Graph<int> addEdge(Graph<int> graph, int target) {
-    iterate++;
-    graph.put(iterate, vector<int>());
-    bool check = true;
-    while (check) {
-        pair<Graph<int>, bool> candidates = constructCandidates(graph, target);
-        graph = candidates.first;
-        check = candidates.second;
-        if (check) {
-            iterate++;
-            graph.put(iterate, vector<int>());
+bool contains(vector<string> vector, string str) {
+    for (auto & i : vector) {
+        if (i == str) {
+            return true;
+        }
+    }
+    return false;
+}
+
+Graph<string> addEdges() {
+    Graph<string> graph = Graph<string>();
+    for (int i = 0; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
+            for (int k = 0; k < 10; k++) {
+                for (int l = 0; l < 10; l++) {
+                    string current = to_string(i) + to_string(j) + to_string(k) + to_string(l);
+                    vector<string> subsets = constructCandidates(current);
+                    for (int m = 0; m < subsets.size(); m++) {
+                        if (!graph.containsKey(current)) {
+                            graph.addUnDirectedEdge(current, subsets.at(m));
+                        } else if (!contains(graph.get(current), subsets.at(m))) {
+                            graph.addUnDirectedEdge(current, subsets.at(m));
+                        }
+                    }
+                }
+            }
         }
     }
     return graph;
+}
+
+bool breadthFirstSearch(Graph<string> graph, unordered_set<string> edgeList, string current, string target) {
+    unordered_map<int, vector<string>> depth = unordered_map<int, vector<string>>();
+    int iterate = 1;
+    depth[iterate].push_back(current);
+    bool find = false;
+    do {
+        for (int i = 0; i < depth[iterate].size(); i++) {
+            string element = depth[iterate].at(i);
+            for (int j = 0; j < graph.get(element).size(); j++) {
+                if (edgeList.find(graph.get(element, j)) == edgeList.end()) {
+                    edgeList.insert(graph.get(element, j));
+                    depth[iterate + 1].push_back(graph.get(element, j));
+                    if (graph.get(element, j) == target) {
+                        cout << iterate << endl;
+                        find = true;
+                        break;
+                    }
+                }
+            }
+        }
+        iterate++;
+    } while (!depth[iterate].empty());
+    return find;
 }
 
 int main() {
@@ -150,30 +101,26 @@ int main() {
     if (file.fail()) {
         cout << "file not reading" << endl;
     } else {
-        int times, current, currentWheel;
+        int times, edgeListSize;
         file >> times;
-        edgeList = unordered_set<int>();
-        Graph<int> graph = Graph<int>();
+        string currentWheel, target, current;
+        unordered_set<string> edgeList = unordered_set<string>();
+        Graph<string> graph = addEdges();
         for (int i = 0; i < times; i++) {
-            boolFind = true;
-            iterate = 0;
             file >> currentWheel;
-            graph.put(0, vector<int>());
-            graph.addDirectedEdge(0, currentWheel);
-            int target;
             file >> target;
-            file >> current;
-            edgeList.insert(graph.get(0).at(0));
-            for (int j = 0; j < current; j++) {
-                int source;
-                file >> source;
-                edgeList.insert(source);
+            file >> edgeListSize;
+            for (int j = 0; j < edgeListSize; j++) {
+                file >> current;
+                edgeList.insert(current);
             }
-            graph = addEdge(graph, target);
-            if (boolFind) {
-                cout << -1 << endl;
+            if (!breadthFirstSearch(graph, edgeList, currentWheel, target)) {
+                if (currentWheel == target) {
+                    cout << 0 << endl;
+                } else {
+                    cout << -1 << endl;
+                }
             }
-            graph.clear();
             edgeList.clear();
         }
     }
