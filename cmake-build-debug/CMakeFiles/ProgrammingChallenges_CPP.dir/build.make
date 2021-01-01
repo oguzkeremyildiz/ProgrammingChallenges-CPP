@@ -77,27 +77,27 @@ include CMakeFiles/ProgrammingChallenges_CPP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.o: ../Backtracking/B4/ServicingStations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B4/ServicingStations.cpp
+CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
+CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.o: ../GettingStarted/G8/AustralianVoting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GettingStarted/G8/AustralianVoting.cpp
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B4/ServicingStations.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.i
+CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GettingStarted/G8/AustralianVoting.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.i
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B4/ServicingStations.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.s
+CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GettingStarted/G8/AustralianVoting.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.s
 
 # Object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_OBJECTS = \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.o"
+"CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.o"
 
 # External object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_EXTERNAL_OBJECTS =
 
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.o
+ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.o
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/build.make
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ProgrammingChallenges_CPP"

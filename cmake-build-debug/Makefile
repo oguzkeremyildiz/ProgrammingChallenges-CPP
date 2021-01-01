@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Backtracking/B4/ServicingStations.o: Backtracking/B4/ServicingStations.cpp.o
+GettingStarted/G8/AustralianVoting.o: GettingStarted/G8/AustralianVoting.cpp.o
 
-.PHONY : Backtracking/B4/ServicingStations.o
+.PHONY : GettingStarted/G8/AustralianVoting.o
 
 # target to build an object file
-Backtracking/B4/ServicingStations.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.o
-.PHONY : Backtracking/B4/ServicingStations.cpp.o
+GettingStarted/G8/AustralianVoting.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.o
+.PHONY : GettingStarted/G8/AustralianVoting.cpp.o
 
-Backtracking/B4/ServicingStations.i: Backtracking/B4/ServicingStations.cpp.i
+GettingStarted/G8/AustralianVoting.i: GettingStarted/G8/AustralianVoting.cpp.i
 
-.PHONY : Backtracking/B4/ServicingStations.i
+.PHONY : GettingStarted/G8/AustralianVoting.i
 
 # target to preprocess a source file
-Backtracking/B4/ServicingStations.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.i
-.PHONY : Backtracking/B4/ServicingStations.cpp.i
+GettingStarted/G8/AustralianVoting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.i
+.PHONY : GettingStarted/G8/AustralianVoting.cpp.i
 
-Backtracking/B4/ServicingStations.s: Backtracking/B4/ServicingStations.cpp.s
+GettingStarted/G8/AustralianVoting.s: GettingStarted/G8/AustralianVoting.cpp.s
 
-.PHONY : Backtracking/B4/ServicingStations.s
+.PHONY : GettingStarted/G8/AustralianVoting.s
 
 # target to generate assembly for a file
-Backtracking/B4/ServicingStations.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.s
-.PHONY : Backtracking/B4/ServicingStations.cpp.s
+GettingStarted/G8/AustralianVoting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.s
+.PHONY : GettingStarted/G8/AustralianVoting.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Backtracking/B4/ServicingStations.o"
-	@echo "... Backtracking/B4/ServicingStations.i"
-	@echo "... Backtracking/B4/ServicingStations.s"
+	@echo "... GettingStarted/G8/AustralianVoting.o"
+	@echo "... GettingStarted/G8/AustralianVoting.i"
+	@echo "... GettingStarted/G8/AustralianVoting.s"
 .PHONY : help
 
 

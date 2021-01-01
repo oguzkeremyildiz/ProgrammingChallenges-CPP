@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B4/ServicingStations.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )
