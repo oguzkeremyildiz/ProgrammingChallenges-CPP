@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GettingStarted/G7/CheckTheCheck.o: GettingStarted/G7/CheckTheCheck.cpp.o
+DataStructures/D2/PokerHands.o: DataStructures/D2/PokerHands.cpp.o
 
-.PHONY : GettingStarted/G7/CheckTheCheck.o
+.PHONY : DataStructures/D2/PokerHands.o
 
 # target to build an object file
-GettingStarted/G7/CheckTheCheck.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G7/CheckTheCheck.cpp.o
-.PHONY : GettingStarted/G7/CheckTheCheck.cpp.o
+DataStructures/D2/PokerHands.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D2/PokerHands.cpp.o
+.PHONY : DataStructures/D2/PokerHands.cpp.o
 
-GettingStarted/G7/CheckTheCheck.i: GettingStarted/G7/CheckTheCheck.cpp.i
+DataStructures/D2/PokerHands.i: DataStructures/D2/PokerHands.cpp.i
 
-.PHONY : GettingStarted/G7/CheckTheCheck.i
+.PHONY : DataStructures/D2/PokerHands.i
 
 # target to preprocess a source file
-GettingStarted/G7/CheckTheCheck.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G7/CheckTheCheck.cpp.i
-.PHONY : GettingStarted/G7/CheckTheCheck.cpp.i
+DataStructures/D2/PokerHands.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D2/PokerHands.cpp.i
+.PHONY : DataStructures/D2/PokerHands.cpp.i
 
-GettingStarted/G7/CheckTheCheck.s: GettingStarted/G7/CheckTheCheck.cpp.s
+DataStructures/D2/PokerHands.s: DataStructures/D2/PokerHands.cpp.s
 
-.PHONY : GettingStarted/G7/CheckTheCheck.s
+.PHONY : DataStructures/D2/PokerHands.s
 
 # target to generate assembly for a file
-GettingStarted/G7/CheckTheCheck.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G7/CheckTheCheck.cpp.s
-.PHONY : GettingStarted/G7/CheckTheCheck.cpp.s
+DataStructures/D2/PokerHands.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D2/PokerHands.cpp.s
+.PHONY : DataStructures/D2/PokerHands.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GettingStarted/G7/CheckTheCheck.o"
-	@echo "... GettingStarted/G7/CheckTheCheck.i"
-	@echo "... GettingStarted/G7/CheckTheCheck.s"
+	@echo "... DataStructures/D2/PokerHands.o"
+	@echo "... DataStructures/D2/PokerHands.i"
+	@echo "... DataStructures/D2/PokerHands.s"
 .PHONY : help
 
 
