@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GettingStarted/G8/AustralianVoting.o: GettingStarted/G8/AustralianVoting.cpp.o
+GettingStarted/G7/CheckTheCheck.o: GettingStarted/G7/CheckTheCheck.cpp.o
 
-.PHONY : GettingStarted/G8/AustralianVoting.o
+.PHONY : GettingStarted/G7/CheckTheCheck.o
 
 # target to build an object file
-GettingStarted/G8/AustralianVoting.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.o
-.PHONY : GettingStarted/G8/AustralianVoting.cpp.o
+GettingStarted/G7/CheckTheCheck.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G7/CheckTheCheck.cpp.o
+.PHONY : GettingStarted/G7/CheckTheCheck.cpp.o
 
-GettingStarted/G8/AustralianVoting.i: GettingStarted/G8/AustralianVoting.cpp.i
+GettingStarted/G7/CheckTheCheck.i: GettingStarted/G7/CheckTheCheck.cpp.i
 
-.PHONY : GettingStarted/G8/AustralianVoting.i
+.PHONY : GettingStarted/G7/CheckTheCheck.i
 
 # target to preprocess a source file
-GettingStarted/G8/AustralianVoting.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.i
-.PHONY : GettingStarted/G8/AustralianVoting.cpp.i
+GettingStarted/G7/CheckTheCheck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G7/CheckTheCheck.cpp.i
+.PHONY : GettingStarted/G7/CheckTheCheck.cpp.i
 
-GettingStarted/G8/AustralianVoting.s: GettingStarted/G8/AustralianVoting.cpp.s
+GettingStarted/G7/CheckTheCheck.s: GettingStarted/G7/CheckTheCheck.cpp.s
 
-.PHONY : GettingStarted/G8/AustralianVoting.s
+.PHONY : GettingStarted/G7/CheckTheCheck.s
 
 # target to generate assembly for a file
-GettingStarted/G8/AustralianVoting.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G8/AustralianVoting.cpp.s
-.PHONY : GettingStarted/G8/AustralianVoting.cpp.s
+GettingStarted/G7/CheckTheCheck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GettingStarted/G7/CheckTheCheck.cpp.s
+.PHONY : GettingStarted/G7/CheckTheCheck.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GettingStarted/G8/AustralianVoting.o"
-	@echo "... GettingStarted/G8/AustralianVoting.i"
-	@echo "... GettingStarted/G8/AustralianVoting.s"
+	@echo "... GettingStarted/G7/CheckTheCheck.o"
+	@echo "... GettingStarted/G7/CheckTheCheck.i"
+	@echo "... GettingStarted/G7/CheckTheCheck.s"
 .PHONY : help
 
 

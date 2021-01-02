@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GettingStarted/G8/AustralianVoting.cpp
-vector
--
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GettingStarted/G7/CheckTheCheck.cpp
 iostream
 -
 fstream
