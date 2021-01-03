@@ -15,7 +15,7 @@ template<class Symbol> class Graph {
 private:
     unordered_set<Symbol> vertexList;
     unordered_map<Symbol, vector<Symbol>> edgeList;
-    pair<Graph<Symbol>, unordered_map<Symbol, bool>> depthFirstSearch(Symbol i, unordered_map<Symbol, bool> visited, pair<Graph<Symbol>, unordered_map<Symbol, bool>> pair);
+    void depthFirstSearch(Graph<Symbol> &connectedComponent, Symbol i, unordered_map<Symbol, bool> &visited);
 public:
     Graph();
     Graph(unordered_set<Symbol> vertexList);
@@ -125,11 +125,8 @@ template<class Symbol> vector<Graph<Symbol>> Graph<Symbol>::connectedComponents(
     for (Symbol vertex: vertexList) {
         if (!visited[vertex]) {
             visited[vertex] = true;
-            Graph<Symbol> connectedComponent;
-            pair<Graph<Symbol>, unordered_map<Symbol, bool>> null;
-            pair<Graph<Symbol>, unordered_map<Symbol, bool>> pair = depthFirstSearch(vertex, visited, null);
-            connectedComponent = pair.first;
-            visited = pair.second;
+            Graph<Symbol> connectedComponent = Graph<Symbol>();
+            depthFirstSearch(connectedComponent, vertex, visited);
             if (!connectedComponent.isEmpty()) {
                 graphs.push_back(connectedComponent);
             }
@@ -138,19 +135,15 @@ template<class Symbol> vector<Graph<Symbol>> Graph<Symbol>::connectedComponents(
     return graphs;
 }
 
-template<class Symbol> pair<Graph<Symbol>, unordered_map<Symbol, bool>> Graph<Symbol>::depthFirstSearch(Symbol i, unordered_map<Symbol, bool> visited, pair<Graph<Symbol>, unordered_map<Symbol, bool>> pair) {
+template<class Symbol> void Graph<Symbol>::depthFirstSearch(Graph<Symbol> &connectedComponents, Symbol i, unordered_map<Symbol, bool> &visited) {
     if (containsKey(i)) {
-        pair.first.put(i, get(i));
+        connectedComponents.put(i, get(i));
         for (Symbol toNode : get(i)) {
             if (!visited[toNode]) {
                 visited[toNode] = true;
-                pair.second = visited;
-                pair = depthFirstSearch(toNode, visited, pair);
-                visited = pair.second;
+                depthFirstSearch(connectedComponents, toNode, visited);
             }
         }
     }
-    pair.second = visited;
-    return pair;
 }
 #endif //COOKIES_CPP_GRAPH_H

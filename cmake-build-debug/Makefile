@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Sorting/S2/StacksOfFlapjacks.o: Sorting/S2/StacksOfFlapjacks.cpp.o
+DataStructures/D4/CryptKicker.o: DataStructures/D4/CryptKicker.cpp.o
 
-.PHONY : Sorting/S2/StacksOfFlapjacks.o
+.PHONY : DataStructures/D4/CryptKicker.o
 
 # target to build an object file
-Sorting/S2/StacksOfFlapjacks.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S2/StacksOfFlapjacks.cpp.o
-.PHONY : Sorting/S2/StacksOfFlapjacks.cpp.o
+DataStructures/D4/CryptKicker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D4/CryptKicker.cpp.o
+.PHONY : DataStructures/D4/CryptKicker.cpp.o
 
-Sorting/S2/StacksOfFlapjacks.i: Sorting/S2/StacksOfFlapjacks.cpp.i
+DataStructures/D4/CryptKicker.i: DataStructures/D4/CryptKicker.cpp.i
 
-.PHONY : Sorting/S2/StacksOfFlapjacks.i
+.PHONY : DataStructures/D4/CryptKicker.i
 
 # target to preprocess a source file
-Sorting/S2/StacksOfFlapjacks.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S2/StacksOfFlapjacks.cpp.i
-.PHONY : Sorting/S2/StacksOfFlapjacks.cpp.i
+DataStructures/D4/CryptKicker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D4/CryptKicker.cpp.i
+.PHONY : DataStructures/D4/CryptKicker.cpp.i
 
-Sorting/S2/StacksOfFlapjacks.s: Sorting/S2/StacksOfFlapjacks.cpp.s
+DataStructures/D4/CryptKicker.s: DataStructures/D4/CryptKicker.cpp.s
 
-.PHONY : Sorting/S2/StacksOfFlapjacks.s
+.PHONY : DataStructures/D4/CryptKicker.s
 
 # target to generate assembly for a file
-Sorting/S2/StacksOfFlapjacks.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S2/StacksOfFlapjacks.cpp.s
-.PHONY : Sorting/S2/StacksOfFlapjacks.cpp.s
+DataStructures/D4/CryptKicker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D4/CryptKicker.cpp.s
+.PHONY : DataStructures/D4/CryptKicker.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Sorting/S2/StacksOfFlapjacks.o"
-	@echo "... Sorting/S2/StacksOfFlapjacks.i"
-	@echo "... Sorting/S2/StacksOfFlapjacks.s"
+	@echo "... DataStructures/D4/CryptKicker.o"
+	@echo "... DataStructures/D4/CryptKicker.i"
+	@echo "... DataStructures/D4/CryptKicker.s"
 .PHONY : help
 
 

@@ -24,7 +24,7 @@ public:
     }
 };
 
-vector<int> flip(vector<int> pancakes, int index) {
+void flip(vector<int> &pancakes, int index) {
     int tmp;
     int checkFirst;
     int checkSecond;
@@ -41,7 +41,6 @@ vector<int> flip(vector<int> pancakes, int index) {
             }
         }
     }
-    return pancakes;
 }
 
 void print(vector<int> pancakes) {
@@ -57,14 +56,13 @@ void print(vector<int> pancakes) {
     cout << "" << endl;
 }
 
-vector<int> find(vector<int> pancakes, int i) {
-    vector<int> results = vector<int>();
+void find(vector<int> &pancakes, int i, vector<int> &results) {
     int tmp = 0;
     int element;
     vector<int> realPancakes = vector<int>(pancakes);
     Comparator<int> *comparator = new IntegerComparator();
     QuickSort<int> quickSort = QuickSort<int>(comparator);
-    realPancakes = quickSort.sort(realPancakes, 0, realPancakes.size() - 1);
+    quickSort.sort(realPancakes, 0, realPancakes.size() - 1);
     if (pancakes.at(0) != realPancakes.at(realPancakes.size() - 1 - i)) {
         element = realPancakes.at(realPancakes.size() - 1 - i);
     } else {
@@ -77,23 +75,19 @@ vector<int> find(vector<int> pancakes, int i) {
                 break;
             }
         }
-        pancakes = flip(pancakes, tmp);
-        pancakes = flip(pancakes, pancakes.size() - 1 - i);
+        flip(pancakes, tmp);
+        flip(pancakes, pancakes.size() - 1 - i);
         results.push_back(1 + i);
     }
     i++;
     if (i < pancakes.size()) {
         if (realPancakes != pancakes) {
-            vector<int> current = find(pancakes, i);
-            for (int j = 0; j < current.size(); j++) {
-                results.push_back(current.at(j));
-            }
+            find(pancakes, i, results);
         } else {
             results.push_back(0);
             print(pancakes);
         }
     }
-    return results;
 }
 
 int main() {
@@ -121,7 +115,7 @@ int main() {
                 pancake = stoi(s);
                 pancakes.push_back(pancake);
             }
-            results = find(pancakes, 0);
+            find(pancakes, 0, results);
             for (int result : results) {
                 cout << to_string(result) + " ";
             }
