@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-DataStructures/D3/Hartals.o: DataStructures/D3/Hartals.cpp.o
+Sorting/S2/StacksOfFlapjacks.o: Sorting/S2/StacksOfFlapjacks.cpp.o
 
-.PHONY : DataStructures/D3/Hartals.o
+.PHONY : Sorting/S2/StacksOfFlapjacks.o
 
 # target to build an object file
-DataStructures/D3/Hartals.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D3/Hartals.cpp.o
-.PHONY : DataStructures/D3/Hartals.cpp.o
+Sorting/S2/StacksOfFlapjacks.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S2/StacksOfFlapjacks.cpp.o
+.PHONY : Sorting/S2/StacksOfFlapjacks.cpp.o
 
-DataStructures/D3/Hartals.i: DataStructures/D3/Hartals.cpp.i
+Sorting/S2/StacksOfFlapjacks.i: Sorting/S2/StacksOfFlapjacks.cpp.i
 
-.PHONY : DataStructures/D3/Hartals.i
+.PHONY : Sorting/S2/StacksOfFlapjacks.i
 
 # target to preprocess a source file
-DataStructures/D3/Hartals.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D3/Hartals.cpp.i
-.PHONY : DataStructures/D3/Hartals.cpp.i
+Sorting/S2/StacksOfFlapjacks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S2/StacksOfFlapjacks.cpp.i
+.PHONY : Sorting/S2/StacksOfFlapjacks.cpp.i
 
-DataStructures/D3/Hartals.s: DataStructures/D3/Hartals.cpp.s
+Sorting/S2/StacksOfFlapjacks.s: Sorting/S2/StacksOfFlapjacks.cpp.s
 
-.PHONY : DataStructures/D3/Hartals.s
+.PHONY : Sorting/S2/StacksOfFlapjacks.s
 
 # target to generate assembly for a file
-DataStructures/D3/Hartals.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D3/Hartals.cpp.s
-.PHONY : DataStructures/D3/Hartals.cpp.s
+Sorting/S2/StacksOfFlapjacks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S2/StacksOfFlapjacks.cpp.s
+.PHONY : Sorting/S2/StacksOfFlapjacks.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... DataStructures/D3/Hartals.o"
-	@echo "... DataStructures/D3/Hartals.i"
-	@echo "... DataStructures/D3/Hartals.s"
+	@echo "... Sorting/S2/StacksOfFlapjacks.o"
+	@echo "... Sorting/S2/StacksOfFlapjacks.i"
+	@echo "... Sorting/S2/StacksOfFlapjacks.s"
 .PHONY : help
 
 

@@ -6,13 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D3/Hartals.cpp
-iostream
--
-fstream
+../include/Sort/Comparator.h
+
+../include/Sort/QuickSort.h
+Comparator.h
+../include/Sort/Comparator.h
+utility
 -
 vector
 -
-unordered_set
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S2/StacksOfFlapjacks.cpp
+fstream
+-
+iostream
+-
+vector
+-
+Sort/QuickSort.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S2/Sort/QuickSort.h
+sstream
 -
 
