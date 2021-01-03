@@ -6,25 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D2/Card.h
-string
--
-
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D2/Hand.h
-Card.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D2/Card.h
-vector
--
-utility
--
-
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D2/PokerHands.cpp
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D3/Hartals.cpp
 iostream
 -
 fstream
 -
-Hand.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D2/Hand.h
 vector
+-
+unordered_set
 -
 

@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-DataStructures/D2/PokerHands.o: DataStructures/D2/PokerHands.cpp.o
+DataStructures/D3/Hartals.o: DataStructures/D3/Hartals.cpp.o
 
-.PHONY : DataStructures/D2/PokerHands.o
+.PHONY : DataStructures/D3/Hartals.o
 
 # target to build an object file
-DataStructures/D2/PokerHands.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D2/PokerHands.cpp.o
-.PHONY : DataStructures/D2/PokerHands.cpp.o
+DataStructures/D3/Hartals.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D3/Hartals.cpp.o
+.PHONY : DataStructures/D3/Hartals.cpp.o
 
-DataStructures/D2/PokerHands.i: DataStructures/D2/PokerHands.cpp.i
+DataStructures/D3/Hartals.i: DataStructures/D3/Hartals.cpp.i
 
-.PHONY : DataStructures/D2/PokerHands.i
+.PHONY : DataStructures/D3/Hartals.i
 
 # target to preprocess a source file
-DataStructures/D2/PokerHands.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D2/PokerHands.cpp.i
-.PHONY : DataStructures/D2/PokerHands.cpp.i
+DataStructures/D3/Hartals.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D3/Hartals.cpp.i
+.PHONY : DataStructures/D3/Hartals.cpp.i
 
-DataStructures/D2/PokerHands.s: DataStructures/D2/PokerHands.cpp.s
+DataStructures/D3/Hartals.s: DataStructures/D3/Hartals.cpp.s
 
-.PHONY : DataStructures/D2/PokerHands.s
+.PHONY : DataStructures/D3/Hartals.s
 
 # target to generate assembly for a file
-DataStructures/D2/PokerHands.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D2/PokerHands.cpp.s
-.PHONY : DataStructures/D2/PokerHands.cpp.s
+DataStructures/D3/Hartals.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D3/Hartals.cpp.s
+.PHONY : DataStructures/D3/Hartals.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... DataStructures/D2/PokerHands.o"
-	@echo "... DataStructures/D2/PokerHands.i"
-	@echo "... DataStructures/D2/PokerHands.s"
+	@echo "... DataStructures/D3/Hartals.o"
+	@echo "... DataStructures/D3/Hartals.i"
+	@echo "... DataStructures/D3/Hartals.s"
 .PHONY : help
 
 
