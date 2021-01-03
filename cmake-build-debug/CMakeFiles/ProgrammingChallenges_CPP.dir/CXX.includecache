@@ -6,25 +6,19 @@
 
 #IncludeRegexTransform: 
 
-../include/Sort/Comparator.h
-
-../include/Sort/QuickSort.h
-Comparator.h
-../include/Sort/Comparator.h
-utility
--
-vector
--
-
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S2/StacksOfFlapjacks.cpp
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D4/CryptKicker.cpp
 fstream
 -
 iostream
 -
 vector
 -
-Sort/QuickSort.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S2/Sort/QuickSort.h
+unordered_map
+-
 sstream
+-
+unordered_set
+-
+utility
 -
 
