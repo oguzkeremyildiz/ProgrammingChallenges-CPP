@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D4/CryptKicker.cpp.o  -o ProgrammingChallenges_CPP 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D5/StackemUp.cpp.o  -o ProgrammingChallenges_CPP 

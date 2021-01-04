@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-DataStructures/D4/CryptKicker.o: DataStructures/D4/CryptKicker.cpp.o
+DataStructures/D5/StackemUp.o: DataStructures/D5/StackemUp.cpp.o
 
-.PHONY : DataStructures/D4/CryptKicker.o
+.PHONY : DataStructures/D5/StackemUp.o
 
 # target to build an object file
-DataStructures/D4/CryptKicker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D4/CryptKicker.cpp.o
-.PHONY : DataStructures/D4/CryptKicker.cpp.o
+DataStructures/D5/StackemUp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D5/StackemUp.cpp.o
+.PHONY : DataStructures/D5/StackemUp.cpp.o
 
-DataStructures/D4/CryptKicker.i: DataStructures/D4/CryptKicker.cpp.i
+DataStructures/D5/StackemUp.i: DataStructures/D5/StackemUp.cpp.i
 
-.PHONY : DataStructures/D4/CryptKicker.i
+.PHONY : DataStructures/D5/StackemUp.i
 
 # target to preprocess a source file
-DataStructures/D4/CryptKicker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D4/CryptKicker.cpp.i
-.PHONY : DataStructures/D4/CryptKicker.cpp.i
+DataStructures/D5/StackemUp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D5/StackemUp.cpp.i
+.PHONY : DataStructures/D5/StackemUp.cpp.i
 
-DataStructures/D4/CryptKicker.s: DataStructures/D4/CryptKicker.cpp.s
+DataStructures/D5/StackemUp.s: DataStructures/D5/StackemUp.cpp.s
 
-.PHONY : DataStructures/D4/CryptKicker.s
+.PHONY : DataStructures/D5/StackemUp.s
 
 # target to generate assembly for a file
-DataStructures/D4/CryptKicker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D4/CryptKicker.cpp.s
-.PHONY : DataStructures/D4/CryptKicker.cpp.s
+DataStructures/D5/StackemUp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D5/StackemUp.cpp.s
+.PHONY : DataStructures/D5/StackemUp.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... DataStructures/D4/CryptKicker.o"
-	@echo "... DataStructures/D4/CryptKicker.i"
-	@echo "... DataStructures/D4/CryptKicker.s"
+	@echo "... DataStructures/D5/StackemUp.o"
+	@echo "... DataStructures/D5/StackemUp.i"
+	@echo "... DataStructures/D5/StackemUp.s"
 .PHONY : help
 
 
