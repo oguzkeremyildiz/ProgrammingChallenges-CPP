@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D5/StackemUp.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D3/Turtle.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D3/WeightsAndMeasures.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )

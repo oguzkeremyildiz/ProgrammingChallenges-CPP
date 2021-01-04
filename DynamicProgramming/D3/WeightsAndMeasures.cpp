@@ -10,7 +10,7 @@
 
 using namespace std;
 
-vector<Turtle> sort(vector<Turtle> list) {
+void sort(vector<Turtle> &list) {
     for (int i = 0; i < list.size(); i++) {
         for (int j = 0; j < list.size(); j++) {
             if (list.at(i).getPair().getKey() < list.at(j).getPair().getKey()) {
@@ -20,7 +20,6 @@ vector<Turtle> sort(vector<Turtle> list) {
             }
         }
     }
-    return list;
 }
 
 int find(vector<Turtle> list) {
@@ -85,7 +84,7 @@ int main() {
             Pair<int, int> pair = Pair<int, int>(key, value);
             list.emplace_back(index, pair);
         }
-        list = sort(list);
+        sort(list);
         cout << find(list) << endl;
     }
 }

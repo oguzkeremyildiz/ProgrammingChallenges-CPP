@@ -11,8 +11,7 @@ using namespace std;
 
 static int t = 0;
 
-pair<int*, int*> ramMethod(int digit1, int digit2, int digit3, int *array, int *ram) {
-    pair<int*, int*> returning = pair<int*, int*>();
+void ramMethod(int digit1, int digit2, int digit3, int *array, int *ram) {
     switch (digit1) {
         case 2:
             array[digit2] = digit3;
@@ -56,9 +55,6 @@ pair<int*, int*> ramMethod(int digit1, int digit2, int digit3, int *array, int *
         default:
             break;
     }
-    returning.first = array;
-    returning.second = ram;
-    return returning;
 }
 
 int main() {
@@ -94,9 +90,7 @@ int main() {
                 digit.push_back(temporary);
                 temporary = ram[t] % 10;
                 digit.push_back(temporary);
-                pair<int*, int*> pair = ramMethod(digit.at(digit.size() - 3), digit.at(digit.size() - 2), digit.at(digit.size() - 1), array, ram);
-                array = pair.first;
-                ram = pair.second;
+                ramMethod(digit.at(digit.size() - 3), digit.at(digit.size() - 2), digit.at(digit.size() - 1), array, ram);
                 count++;
             }
             cout << count << endl;

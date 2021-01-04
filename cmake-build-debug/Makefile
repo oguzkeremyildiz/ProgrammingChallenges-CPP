@@ -143,32 +143,59 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-DataStructures/D5/StackemUp.o: DataStructures/D5/StackemUp.cpp.o
+DynamicProgramming/D3/Turtle.o: DynamicProgramming/D3/Turtle.cpp.o
 
-.PHONY : DataStructures/D5/StackemUp.o
+.PHONY : DynamicProgramming/D3/Turtle.o
 
 # target to build an object file
-DataStructures/D5/StackemUp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D5/StackemUp.cpp.o
-.PHONY : DataStructures/D5/StackemUp.cpp.o
+DynamicProgramming/D3/Turtle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D3/Turtle.cpp.o
+.PHONY : DynamicProgramming/D3/Turtle.cpp.o
 
-DataStructures/D5/StackemUp.i: DataStructures/D5/StackemUp.cpp.i
+DynamicProgramming/D3/Turtle.i: DynamicProgramming/D3/Turtle.cpp.i
 
-.PHONY : DataStructures/D5/StackemUp.i
+.PHONY : DynamicProgramming/D3/Turtle.i
 
 # target to preprocess a source file
-DataStructures/D5/StackemUp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D5/StackemUp.cpp.i
-.PHONY : DataStructures/D5/StackemUp.cpp.i
+DynamicProgramming/D3/Turtle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D3/Turtle.cpp.i
+.PHONY : DynamicProgramming/D3/Turtle.cpp.i
 
-DataStructures/D5/StackemUp.s: DataStructures/D5/StackemUp.cpp.s
+DynamicProgramming/D3/Turtle.s: DynamicProgramming/D3/Turtle.cpp.s
 
-.PHONY : DataStructures/D5/StackemUp.s
+.PHONY : DynamicProgramming/D3/Turtle.s
 
 # target to generate assembly for a file
-DataStructures/D5/StackemUp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D5/StackemUp.cpp.s
-.PHONY : DataStructures/D5/StackemUp.cpp.s
+DynamicProgramming/D3/Turtle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D3/Turtle.cpp.s
+.PHONY : DynamicProgramming/D3/Turtle.cpp.s
+
+DynamicProgramming/D3/WeightsAndMeasures.o: DynamicProgramming/D3/WeightsAndMeasures.cpp.o
+
+.PHONY : DynamicProgramming/D3/WeightsAndMeasures.o
+
+# target to build an object file
+DynamicProgramming/D3/WeightsAndMeasures.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D3/WeightsAndMeasures.cpp.o
+.PHONY : DynamicProgramming/D3/WeightsAndMeasures.cpp.o
+
+DynamicProgramming/D3/WeightsAndMeasures.i: DynamicProgramming/D3/WeightsAndMeasures.cpp.i
+
+.PHONY : DynamicProgramming/D3/WeightsAndMeasures.i
+
+# target to preprocess a source file
+DynamicProgramming/D3/WeightsAndMeasures.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D3/WeightsAndMeasures.cpp.i
+.PHONY : DynamicProgramming/D3/WeightsAndMeasures.cpp.i
+
+DynamicProgramming/D3/WeightsAndMeasures.s: DynamicProgramming/D3/WeightsAndMeasures.cpp.s
+
+.PHONY : DynamicProgramming/D3/WeightsAndMeasures.s
+
+# target to generate assembly for a file
+DynamicProgramming/D3/WeightsAndMeasures.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D3/WeightsAndMeasures.cpp.s
+.PHONY : DynamicProgramming/D3/WeightsAndMeasures.cpp.s
 
 # Help Target
 help:
@@ -179,9 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... DataStructures/D5/StackemUp.o"
-	@echo "... DataStructures/D5/StackemUp.i"
-	@echo "... DataStructures/D5/StackemUp.s"
+	@echo "... DynamicProgramming/D3/Turtle.o"
+	@echo "... DynamicProgramming/D3/Turtle.i"
+	@echo "... DynamicProgramming/D3/Turtle.s"
+	@echo "... DynamicProgramming/D3/WeightsAndMeasures.o"
+	@echo "... DynamicProgramming/D3/WeightsAndMeasures.i"
+	@echo "... DynamicProgramming/D3/WeightsAndMeasures.s"
 .PHONY : help
 
 
