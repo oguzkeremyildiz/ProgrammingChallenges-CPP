@@ -4,8 +4,7 @@
 
 #ifndef COOKIES_CPP_QUICKSORT_H
 #define COOKIES_CPP_QUICKSORT_H
-#include "Comparator.h"
-#include <utility>
+#include "../Comparator.h"
 #include <vector>
 
 using namespace std;
