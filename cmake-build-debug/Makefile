@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-DynamicProgramming/D5/CuttingSticks.o: DynamicProgramming/D5/CuttingSticks.cpp.o
+Combinatorics/C1/HowManyFibs.o: Combinatorics/C1/HowManyFibs.cpp.o
 
-.PHONY : DynamicProgramming/D5/CuttingSticks.o
+.PHONY : Combinatorics/C1/HowManyFibs.o
 
 # target to build an object file
-DynamicProgramming/D5/CuttingSticks.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D5/CuttingSticks.cpp.o
-.PHONY : DynamicProgramming/D5/CuttingSticks.cpp.o
+Combinatorics/C1/HowManyFibs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C1/HowManyFibs.cpp.o
+.PHONY : Combinatorics/C1/HowManyFibs.cpp.o
 
-DynamicProgramming/D5/CuttingSticks.i: DynamicProgramming/D5/CuttingSticks.cpp.i
+Combinatorics/C1/HowManyFibs.i: Combinatorics/C1/HowManyFibs.cpp.i
 
-.PHONY : DynamicProgramming/D5/CuttingSticks.i
+.PHONY : Combinatorics/C1/HowManyFibs.i
 
 # target to preprocess a source file
-DynamicProgramming/D5/CuttingSticks.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D5/CuttingSticks.cpp.i
-.PHONY : DynamicProgramming/D5/CuttingSticks.cpp.i
+Combinatorics/C1/HowManyFibs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C1/HowManyFibs.cpp.i
+.PHONY : Combinatorics/C1/HowManyFibs.cpp.i
 
-DynamicProgramming/D5/CuttingSticks.s: DynamicProgramming/D5/CuttingSticks.cpp.s
+Combinatorics/C1/HowManyFibs.s: Combinatorics/C1/HowManyFibs.cpp.s
 
-.PHONY : DynamicProgramming/D5/CuttingSticks.s
+.PHONY : Combinatorics/C1/HowManyFibs.s
 
 # target to generate assembly for a file
-DynamicProgramming/D5/CuttingSticks.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D5/CuttingSticks.cpp.s
-.PHONY : DynamicProgramming/D5/CuttingSticks.cpp.s
+Combinatorics/C1/HowManyFibs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C1/HowManyFibs.cpp.s
+.PHONY : Combinatorics/C1/HowManyFibs.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... DynamicProgramming/D5/CuttingSticks.o"
-	@echo "... DynamicProgramming/D5/CuttingSticks.i"
-	@echo "... DynamicProgramming/D5/CuttingSticks.s"
+	@echo "... Combinatorics/C1/HowManyFibs.o"
+	@echo "... Combinatorics/C1/HowManyFibs.i"
+	@echo "... Combinatorics/C1/HowManyFibs.s"
 .PHONY : help
 
 

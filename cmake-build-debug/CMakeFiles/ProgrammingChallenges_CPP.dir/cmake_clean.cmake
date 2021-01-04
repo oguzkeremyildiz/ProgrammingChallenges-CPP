@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D5/CuttingSticks.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C1/HowManyFibs.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )

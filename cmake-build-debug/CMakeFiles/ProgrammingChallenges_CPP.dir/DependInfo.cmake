@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D5/CuttingSticks.cpp" "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D5/CuttingSticks.cpp.o"
+  "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Combinatorics/C1/HowManyFibs.cpp" "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C1/HowManyFibs.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
