@@ -143,32 +143,86 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-DataStructures/D7/ContestScoreboard.o: DataStructures/D7/ContestScoreboard.cpp.o
+Sorting/S6/CDVII.o: Sorting/S6/CDVII.cpp.o
 
-.PHONY : DataStructures/D7/ContestScoreboard.o
+.PHONY : Sorting/S6/CDVII.o
 
 # target to build an object file
-DataStructures/D7/ContestScoreboard.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D7/ContestScoreboard.cpp.o
-.PHONY : DataStructures/D7/ContestScoreboard.cpp.o
+Sorting/S6/CDVII.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.o
+.PHONY : Sorting/S6/CDVII.cpp.o
 
-DataStructures/D7/ContestScoreboard.i: DataStructures/D7/ContestScoreboard.cpp.i
+Sorting/S6/CDVII.i: Sorting/S6/CDVII.cpp.i
 
-.PHONY : DataStructures/D7/ContestScoreboard.i
+.PHONY : Sorting/S6/CDVII.i
 
 # target to preprocess a source file
-DataStructures/D7/ContestScoreboard.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D7/ContestScoreboard.cpp.i
-.PHONY : DataStructures/D7/ContestScoreboard.cpp.i
+Sorting/S6/CDVII.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.i
+.PHONY : Sorting/S6/CDVII.cpp.i
 
-DataStructures/D7/ContestScoreboard.s: DataStructures/D7/ContestScoreboard.cpp.s
+Sorting/S6/CDVII.s: Sorting/S6/CDVII.cpp.s
 
-.PHONY : DataStructures/D7/ContestScoreboard.s
+.PHONY : Sorting/S6/CDVII.s
 
 # target to generate assembly for a file
-DataStructures/D7/ContestScoreboard.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D7/ContestScoreboard.cpp.s
-.PHONY : DataStructures/D7/ContestScoreboard.cpp.s
+Sorting/S6/CDVII.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.s
+.PHONY : Sorting/S6/CDVII.cpp.s
+
+Sorting/S6/Car.o: Sorting/S6/Car.cpp.o
+
+.PHONY : Sorting/S6/Car.o
+
+# target to build an object file
+Sorting/S6/Car.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.o
+.PHONY : Sorting/S6/Car.cpp.o
+
+Sorting/S6/Car.i: Sorting/S6/Car.cpp.i
+
+.PHONY : Sorting/S6/Car.i
+
+# target to preprocess a source file
+Sorting/S6/Car.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.i
+.PHONY : Sorting/S6/Car.cpp.i
+
+Sorting/S6/Car.s: Sorting/S6/Car.cpp.s
+
+.PHONY : Sorting/S6/Car.s
+
+# target to generate assembly for a file
+Sorting/S6/Car.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.s
+.PHONY : Sorting/S6/Car.cpp.s
+
+Sorting/S6/Cars.o: Sorting/S6/Cars.cpp.o
+
+.PHONY : Sorting/S6/Cars.o
+
+# target to build an object file
+Sorting/S6/Cars.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.o
+.PHONY : Sorting/S6/Cars.cpp.o
+
+Sorting/S6/Cars.i: Sorting/S6/Cars.cpp.i
+
+.PHONY : Sorting/S6/Cars.i
+
+# target to preprocess a source file
+Sorting/S6/Cars.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.i
+.PHONY : Sorting/S6/Cars.cpp.i
+
+Sorting/S6/Cars.s: Sorting/S6/Cars.cpp.s
+
+.PHONY : Sorting/S6/Cars.s
+
+# target to generate assembly for a file
+Sorting/S6/Cars.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.s
+.PHONY : Sorting/S6/Cars.cpp.s
 
 # Help Target
 help:
@@ -179,9 +233,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... DataStructures/D7/ContestScoreboard.o"
-	@echo "... DataStructures/D7/ContestScoreboard.i"
-	@echo "... DataStructures/D7/ContestScoreboard.s"
+	@echo "... Sorting/S6/CDVII.o"
+	@echo "... Sorting/S6/CDVII.i"
+	@echo "... Sorting/S6/CDVII.s"
+	@echo "... Sorting/S6/Car.o"
+	@echo "... Sorting/S6/Car.i"
+	@echo "... Sorting/S6/Car.s"
+	@echo "... Sorting/S6/Cars.o"
+	@echo "... Sorting/S6/Cars.i"
+	@echo "... Sorting/S6/Cars.s"
 .PHONY : help
 
 

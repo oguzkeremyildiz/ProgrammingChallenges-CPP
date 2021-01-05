@@ -80,7 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D7/ContestScoreboard.cpp">
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/CDVII.cpp">
+			<Option target="ProgrammingChallenges_CPP"/>
+		</Unit>
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/Car.cpp">
+			<Option target="ProgrammingChallenges_CPP"/>
+		</Unit>
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/Car.h">
+			<Option target="ProgrammingChallenges_CPP"/>
+		</Unit>
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/Cars.cpp">
+			<Option target="ProgrammingChallenges_CPP"/>
+		</Unit>
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/Cars.h">
 			<Option target="ProgrammingChallenges_CPP"/>
 		</Unit>
 		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/CMakeLists.txt">
