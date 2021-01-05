@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Combinatorics/C1/HowManyFibs.cpp
-fstream
--
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D7/ContestScoreboard.cpp
 iostream
 -
+fstream
+-
+unordered_map
+-
 vector
+-
+utility
 -
 

@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-DataStructures/D6/ErdösNumbers.o: DataStructures/D6/ErdösNumbers.cpp.o
+DataStructures/D7/ContestScoreboard.o: DataStructures/D7/ContestScoreboard.cpp.o
 
-.PHONY : DataStructures/D6/ErdösNumbers.o
+.PHONY : DataStructures/D7/ContestScoreboard.o
 
 # target to build an object file
-DataStructures/D6/ErdösNumbers.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D6/ErdösNumbers.cpp.o
-.PHONY : DataStructures/D6/ErdösNumbers.cpp.o
+DataStructures/D7/ContestScoreboard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D7/ContestScoreboard.cpp.o
+.PHONY : DataStructures/D7/ContestScoreboard.cpp.o
 
-DataStructures/D6/ErdösNumbers.i: DataStructures/D6/ErdösNumbers.cpp.i
+DataStructures/D7/ContestScoreboard.i: DataStructures/D7/ContestScoreboard.cpp.i
 
-.PHONY : DataStructures/D6/ErdösNumbers.i
+.PHONY : DataStructures/D7/ContestScoreboard.i
 
 # target to preprocess a source file
-DataStructures/D6/ErdösNumbers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D6/ErdösNumbers.cpp.i
-.PHONY : DataStructures/D6/ErdösNumbers.cpp.i
+DataStructures/D7/ContestScoreboard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D7/ContestScoreboard.cpp.i
+.PHONY : DataStructures/D7/ContestScoreboard.cpp.i
 
-DataStructures/D6/ErdösNumbers.s: DataStructures/D6/ErdösNumbers.cpp.s
+DataStructures/D7/ContestScoreboard.s: DataStructures/D7/ContestScoreboard.cpp.s
 
-.PHONY : DataStructures/D6/ErdösNumbers.s
+.PHONY : DataStructures/D7/ContestScoreboard.s
 
 # target to generate assembly for a file
-DataStructures/D6/ErdösNumbers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D6/ErdösNumbers.cpp.s
-.PHONY : DataStructures/D6/ErdösNumbers.cpp.s
+DataStructures/D7/ContestScoreboard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D7/ContestScoreboard.cpp.s
+.PHONY : DataStructures/D7/ContestScoreboard.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... DataStructures/D6/ErdösNumbers.o"
-	@echo "... DataStructures/D6/ErdösNumbers.i"
-	@echo "... DataStructures/D6/ErdösNumbers.s"
+	@echo "... DataStructures/D7/ContestScoreboard.o"
+	@echo "... DataStructures/D7/ContestScoreboard.i"
+	@echo "... DataStructures/D7/ContestScoreboard.s"
 .PHONY : help
 
 
