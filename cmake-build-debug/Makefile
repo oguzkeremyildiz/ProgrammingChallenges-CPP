@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Combinatorics/C1/HowManyFibs.o: Combinatorics/C1/HowManyFibs.cpp.o
+DataStructures/D6/ErdösNumbers.o: DataStructures/D6/ErdösNumbers.cpp.o
 
-.PHONY : Combinatorics/C1/HowManyFibs.o
+.PHONY : DataStructures/D6/ErdösNumbers.o
 
 # target to build an object file
-Combinatorics/C1/HowManyFibs.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C1/HowManyFibs.cpp.o
-.PHONY : Combinatorics/C1/HowManyFibs.cpp.o
+DataStructures/D6/ErdösNumbers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D6/ErdösNumbers.cpp.o
+.PHONY : DataStructures/D6/ErdösNumbers.cpp.o
 
-Combinatorics/C1/HowManyFibs.i: Combinatorics/C1/HowManyFibs.cpp.i
+DataStructures/D6/ErdösNumbers.i: DataStructures/D6/ErdösNumbers.cpp.i
 
-.PHONY : Combinatorics/C1/HowManyFibs.i
+.PHONY : DataStructures/D6/ErdösNumbers.i
 
 # target to preprocess a source file
-Combinatorics/C1/HowManyFibs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C1/HowManyFibs.cpp.i
-.PHONY : Combinatorics/C1/HowManyFibs.cpp.i
+DataStructures/D6/ErdösNumbers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D6/ErdösNumbers.cpp.i
+.PHONY : DataStructures/D6/ErdösNumbers.cpp.i
 
-Combinatorics/C1/HowManyFibs.s: Combinatorics/C1/HowManyFibs.cpp.s
+DataStructures/D6/ErdösNumbers.s: DataStructures/D6/ErdösNumbers.cpp.s
 
-.PHONY : Combinatorics/C1/HowManyFibs.s
+.PHONY : DataStructures/D6/ErdösNumbers.s
 
 # target to generate assembly for a file
-Combinatorics/C1/HowManyFibs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C1/HowManyFibs.cpp.s
-.PHONY : Combinatorics/C1/HowManyFibs.cpp.s
+DataStructures/D6/ErdösNumbers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D6/ErdösNumbers.cpp.s
+.PHONY : DataStructures/D6/ErdösNumbers.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Combinatorics/C1/HowManyFibs.o"
-	@echo "... Combinatorics/C1/HowManyFibs.i"
-	@echo "... Combinatorics/C1/HowManyFibs.s"
+	@echo "... DataStructures/D6/ErdösNumbers.o"
+	@echo "... DataStructures/D6/ErdösNumbers.i"
+	@echo "... DataStructures/D6/ErdösNumbers.s"
 .PHONY : help
 
 
