@@ -6,15 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D7/ContestScoreboard.cpp
+../include/Comparator.h
+
+../include/Sort/TimSort.h
+../Comparator.h
+../include/Comparator.h
+vector
+-
+
+../include/Util/Permutation.h
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Round.cpp
+Round.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Round.h
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Round.h
+vector
+-
+iostream
+-
+Sort/TimSort.h
+-
+sstream
+-
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Yahtzee1.cpp
 iostream
 -
 fstream
 -
-unordered_map
--
 vector
 -
-utility
--
+Util/Permutation.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Util/Permutation.h
+Round.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Round.h
 

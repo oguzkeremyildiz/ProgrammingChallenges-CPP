@@ -80,19 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/CDVII.cpp">
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Round.cpp">
 			<Option target="ProgrammingChallenges_CPP"/>
 		</Unit>
-		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/Car.cpp">
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Round.h">
 			<Option target="ProgrammingChallenges_CPP"/>
 		</Unit>
-		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/Car.h">
-			<Option target="ProgrammingChallenges_CPP"/>
-		</Unit>
-		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/Cars.cpp">
-			<Option target="ProgrammingChallenges_CPP"/>
-		</Unit>
-		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/Cars.h">
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Yahtzee1.cpp">
 			<Option target="ProgrammingChallenges_CPP"/>
 		</Unit>
 		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/CMakeLists.txt">

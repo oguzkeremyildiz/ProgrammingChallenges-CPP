@@ -143,86 +143,59 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Sorting/S6/CDVII.o: Sorting/S6/CDVII.cpp.o
+DataStructures/D8/Round.o: DataStructures/D8/Round.cpp.o
 
-.PHONY : Sorting/S6/CDVII.o
-
-# target to build an object file
-Sorting/S6/CDVII.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.o
-.PHONY : Sorting/S6/CDVII.cpp.o
-
-Sorting/S6/CDVII.i: Sorting/S6/CDVII.cpp.i
-
-.PHONY : Sorting/S6/CDVII.i
-
-# target to preprocess a source file
-Sorting/S6/CDVII.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.i
-.PHONY : Sorting/S6/CDVII.cpp.i
-
-Sorting/S6/CDVII.s: Sorting/S6/CDVII.cpp.s
-
-.PHONY : Sorting/S6/CDVII.s
-
-# target to generate assembly for a file
-Sorting/S6/CDVII.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.s
-.PHONY : Sorting/S6/CDVII.cpp.s
-
-Sorting/S6/Car.o: Sorting/S6/Car.cpp.o
-
-.PHONY : Sorting/S6/Car.o
+.PHONY : DataStructures/D8/Round.o
 
 # target to build an object file
-Sorting/S6/Car.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.o
-.PHONY : Sorting/S6/Car.cpp.o
+DataStructures/D8/Round.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.o
+.PHONY : DataStructures/D8/Round.cpp.o
 
-Sorting/S6/Car.i: Sorting/S6/Car.cpp.i
+DataStructures/D8/Round.i: DataStructures/D8/Round.cpp.i
 
-.PHONY : Sorting/S6/Car.i
+.PHONY : DataStructures/D8/Round.i
 
 # target to preprocess a source file
-Sorting/S6/Car.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.i
-.PHONY : Sorting/S6/Car.cpp.i
+DataStructures/D8/Round.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.i
+.PHONY : DataStructures/D8/Round.cpp.i
 
-Sorting/S6/Car.s: Sorting/S6/Car.cpp.s
+DataStructures/D8/Round.s: DataStructures/D8/Round.cpp.s
 
-.PHONY : Sorting/S6/Car.s
+.PHONY : DataStructures/D8/Round.s
 
 # target to generate assembly for a file
-Sorting/S6/Car.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.s
-.PHONY : Sorting/S6/Car.cpp.s
+DataStructures/D8/Round.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.s
+.PHONY : DataStructures/D8/Round.cpp.s
 
-Sorting/S6/Cars.o: Sorting/S6/Cars.cpp.o
+DataStructures/D8/Yahtzee1.o: DataStructures/D8/Yahtzee1.cpp.o
 
-.PHONY : Sorting/S6/Cars.o
+.PHONY : DataStructures/D8/Yahtzee1.o
 
 # target to build an object file
-Sorting/S6/Cars.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.o
-.PHONY : Sorting/S6/Cars.cpp.o
+DataStructures/D8/Yahtzee1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.o
+.PHONY : DataStructures/D8/Yahtzee1.cpp.o
 
-Sorting/S6/Cars.i: Sorting/S6/Cars.cpp.i
+DataStructures/D8/Yahtzee1.i: DataStructures/D8/Yahtzee1.cpp.i
 
-.PHONY : Sorting/S6/Cars.i
+.PHONY : DataStructures/D8/Yahtzee1.i
 
 # target to preprocess a source file
-Sorting/S6/Cars.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.i
-.PHONY : Sorting/S6/Cars.cpp.i
+DataStructures/D8/Yahtzee1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.i
+.PHONY : DataStructures/D8/Yahtzee1.cpp.i
 
-Sorting/S6/Cars.s: Sorting/S6/Cars.cpp.s
+DataStructures/D8/Yahtzee1.s: DataStructures/D8/Yahtzee1.cpp.s
 
-.PHONY : Sorting/S6/Cars.s
+.PHONY : DataStructures/D8/Yahtzee1.s
 
 # target to generate assembly for a file
-Sorting/S6/Cars.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.s
-.PHONY : Sorting/S6/Cars.cpp.s
+DataStructures/D8/Yahtzee1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.s
+.PHONY : DataStructures/D8/Yahtzee1.cpp.s
 
 # Help Target
 help:
@@ -233,15 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Sorting/S6/CDVII.o"
-	@echo "... Sorting/S6/CDVII.i"
-	@echo "... Sorting/S6/CDVII.s"
-	@echo "... Sorting/S6/Car.o"
-	@echo "... Sorting/S6/Car.i"
-	@echo "... Sorting/S6/Car.s"
-	@echo "... Sorting/S6/Cars.o"
-	@echo "... Sorting/S6/Cars.i"
-	@echo "... Sorting/S6/Cars.s"
+	@echo "... DataStructures/D8/Round.o"
+	@echo "... DataStructures/D8/Round.i"
+	@echo "... DataStructures/D8/Round.s"
+	@echo "... DataStructures/D8/Yahtzee1.o"
+	@echo "... DataStructures/D8/Yahtzee1.i"
+	@echo "... DataStructures/D8/Yahtzee1.s"
 .PHONY : help
 
 

@@ -77,60 +77,45 @@ include CMakeFiles/ProgrammingChallenges_CPP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.o: ../Sorting/S6/CDVII.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/CDVII.cpp
+CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
+CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.o: ../DataStructures/D8/Yahtzee1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Yahtzee1.cpp
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/CDVII.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.i
+CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Yahtzee1.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.i
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/CDVII.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.s
+CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Yahtzee1.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.s
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.o: ../Sorting/S6/Cars.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/Cars.cpp
+CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
+CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.o: ../DataStructures/D8/Round.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Round.cpp
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/Cars.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.i
+CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Round.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.i
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/Cars.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.s
-
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.o: ../Sorting/S6/Car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/Car.cpp
-
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/Car.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.i
-
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S6/Car.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.s
+CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Round.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.s
 
 # Object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_OBJECTS = \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.o" \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.o" \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.o"
+"CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.o" \
+"CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.o"
 
 # External object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_EXTERNAL_OBJECTS =
 
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.o
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.o
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.o
+ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.o
+ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.o
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/build.make
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ProgrammingChallenges_CPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ProgrammingChallenges_CPP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProgrammingChallenges_CPP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

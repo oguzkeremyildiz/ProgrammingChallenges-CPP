@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/CDVII.cpp.o"
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Car.cpp.o"
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S6/Cars.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )
