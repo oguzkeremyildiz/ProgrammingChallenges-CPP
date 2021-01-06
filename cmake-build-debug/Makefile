@@ -143,59 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-DataStructures/D8/Round.o: DataStructures/D8/Round.cpp.o
+Strings/S1/WERTYU.o: Strings/S1/WERTYU.cpp.o
 
-.PHONY : DataStructures/D8/Round.o
-
-# target to build an object file
-DataStructures/D8/Round.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.o
-.PHONY : DataStructures/D8/Round.cpp.o
-
-DataStructures/D8/Round.i: DataStructures/D8/Round.cpp.i
-
-.PHONY : DataStructures/D8/Round.i
-
-# target to preprocess a source file
-DataStructures/D8/Round.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.i
-.PHONY : DataStructures/D8/Round.cpp.i
-
-DataStructures/D8/Round.s: DataStructures/D8/Round.cpp.s
-
-.PHONY : DataStructures/D8/Round.s
-
-# target to generate assembly for a file
-DataStructures/D8/Round.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.s
-.PHONY : DataStructures/D8/Round.cpp.s
-
-DataStructures/D8/Yahtzee1.o: DataStructures/D8/Yahtzee1.cpp.o
-
-.PHONY : DataStructures/D8/Yahtzee1.o
+.PHONY : Strings/S1/WERTYU.o
 
 # target to build an object file
-DataStructures/D8/Yahtzee1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.o
-.PHONY : DataStructures/D8/Yahtzee1.cpp.o
+Strings/S1/WERTYU.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S1/WERTYU.cpp.o
+.PHONY : Strings/S1/WERTYU.cpp.o
 
-DataStructures/D8/Yahtzee1.i: DataStructures/D8/Yahtzee1.cpp.i
+Strings/S1/WERTYU.i: Strings/S1/WERTYU.cpp.i
 
-.PHONY : DataStructures/D8/Yahtzee1.i
+.PHONY : Strings/S1/WERTYU.i
 
 # target to preprocess a source file
-DataStructures/D8/Yahtzee1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.i
-.PHONY : DataStructures/D8/Yahtzee1.cpp.i
+Strings/S1/WERTYU.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S1/WERTYU.cpp.i
+.PHONY : Strings/S1/WERTYU.cpp.i
 
-DataStructures/D8/Yahtzee1.s: DataStructures/D8/Yahtzee1.cpp.s
+Strings/S1/WERTYU.s: Strings/S1/WERTYU.cpp.s
 
-.PHONY : DataStructures/D8/Yahtzee1.s
+.PHONY : Strings/S1/WERTYU.s
 
 # target to generate assembly for a file
-DataStructures/D8/Yahtzee1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.s
-.PHONY : DataStructures/D8/Yahtzee1.cpp.s
+Strings/S1/WERTYU.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S1/WERTYU.cpp.s
+.PHONY : Strings/S1/WERTYU.cpp.s
 
 # Help Target
 help:
@@ -206,12 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... DataStructures/D8/Round.o"
-	@echo "... DataStructures/D8/Round.i"
-	@echo "... DataStructures/D8/Round.s"
-	@echo "... DataStructures/D8/Yahtzee1.o"
-	@echo "... DataStructures/D8/Yahtzee1.i"
-	@echo "... DataStructures/D8/Yahtzee1.s"
+	@echo "... Strings/S1/WERTYU.o"
+	@echo "... Strings/S1/WERTYU.i"
+	@echo "... Strings/S1/WERTYU.s"
 .PHONY : help
 
 

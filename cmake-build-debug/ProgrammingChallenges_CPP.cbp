@@ -80,13 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Round.cpp">
-			<Option target="ProgrammingChallenges_CPP"/>
-		</Unit>
-		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Round.h">
-			<Option target="ProgrammingChallenges_CPP"/>
-		</Unit>
-		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DataStructures/D8/Yahtzee1.cpp">
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Strings/S1/WERTYU.cpp">
 			<Option target="ProgrammingChallenges_CPP"/>
 		</Unit>
 		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/CMakeLists.txt">

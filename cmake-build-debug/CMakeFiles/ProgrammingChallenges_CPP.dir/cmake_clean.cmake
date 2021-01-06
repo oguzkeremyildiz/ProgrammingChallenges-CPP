@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Round.cpp.o"
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/DataStructures/D8/Yahtzee1.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S1/WERTYU.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )
