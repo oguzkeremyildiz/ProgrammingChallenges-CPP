@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Strings/S2/WheresWaldorf.o: Strings/S2/WheresWaldorf.cpp.o
+Strings/S3/CommonPermutation.o: Strings/S3/CommonPermutation.cpp.o
 
-.PHONY : Strings/S2/WheresWaldorf.o
+.PHONY : Strings/S3/CommonPermutation.o
 
 # target to build an object file
-Strings/S2/WheresWaldorf.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S2/WheresWaldorf.cpp.o
-.PHONY : Strings/S2/WheresWaldorf.cpp.o
+Strings/S3/CommonPermutation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S3/CommonPermutation.cpp.o
+.PHONY : Strings/S3/CommonPermutation.cpp.o
 
-Strings/S2/WheresWaldorf.i: Strings/S2/WheresWaldorf.cpp.i
+Strings/S3/CommonPermutation.i: Strings/S3/CommonPermutation.cpp.i
 
-.PHONY : Strings/S2/WheresWaldorf.i
+.PHONY : Strings/S3/CommonPermutation.i
 
 # target to preprocess a source file
-Strings/S2/WheresWaldorf.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S2/WheresWaldorf.cpp.i
-.PHONY : Strings/S2/WheresWaldorf.cpp.i
+Strings/S3/CommonPermutation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S3/CommonPermutation.cpp.i
+.PHONY : Strings/S3/CommonPermutation.cpp.i
 
-Strings/S2/WheresWaldorf.s: Strings/S2/WheresWaldorf.cpp.s
+Strings/S3/CommonPermutation.s: Strings/S3/CommonPermutation.cpp.s
 
-.PHONY : Strings/S2/WheresWaldorf.s
+.PHONY : Strings/S3/CommonPermutation.s
 
 # target to generate assembly for a file
-Strings/S2/WheresWaldorf.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S2/WheresWaldorf.cpp.s
-.PHONY : Strings/S2/WheresWaldorf.cpp.s
+Strings/S3/CommonPermutation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S3/CommonPermutation.cpp.s
+.PHONY : Strings/S3/CommonPermutation.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Strings/S2/WheresWaldorf.o"
-	@echo "... Strings/S2/WheresWaldorf.i"
-	@echo "... Strings/S2/WheresWaldorf.s"
+	@echo "... Strings/S3/CommonPermutation.o"
+	@echo "... Strings/S3/CommonPermutation.i"
+	@echo "... Strings/S3/CommonPermutation.s"
 .PHONY : help
 
 

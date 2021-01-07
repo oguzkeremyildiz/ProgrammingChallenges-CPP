@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Strings/S2/WheresWaldorf.cpp
-iostream
--
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Strings/S3/CommonPermutation.cpp
 fstream
 -
-algorithm
+iostream
+-
+vector
 -
 
