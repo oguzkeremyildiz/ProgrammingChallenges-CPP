@@ -8,9 +8,7 @@
 using namespace std;
 
 bool equals(char a, char b) {
-    char as = a;
-    char ab = b;
-    return tolower(as) == tolower(ab);
+    return tolower(a) == tolower(b);
 }
 
 void findWord(string **table, string *words, int tableLength1, int tableLength2, int wordLength) {
