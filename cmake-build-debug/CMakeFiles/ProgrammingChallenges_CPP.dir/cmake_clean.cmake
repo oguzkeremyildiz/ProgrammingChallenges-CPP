@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S1/WERTYU.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S2/WheresWaldorf.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )

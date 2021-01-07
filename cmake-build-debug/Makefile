@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Strings/S1/WERTYU.o: Strings/S1/WERTYU.cpp.o
+Strings/S2/WheresWaldorf.o: Strings/S2/WheresWaldorf.cpp.o
 
-.PHONY : Strings/S1/WERTYU.o
+.PHONY : Strings/S2/WheresWaldorf.o
 
 # target to build an object file
-Strings/S1/WERTYU.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S1/WERTYU.cpp.o
-.PHONY : Strings/S1/WERTYU.cpp.o
+Strings/S2/WheresWaldorf.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S2/WheresWaldorf.cpp.o
+.PHONY : Strings/S2/WheresWaldorf.cpp.o
 
-Strings/S1/WERTYU.i: Strings/S1/WERTYU.cpp.i
+Strings/S2/WheresWaldorf.i: Strings/S2/WheresWaldorf.cpp.i
 
-.PHONY : Strings/S1/WERTYU.i
+.PHONY : Strings/S2/WheresWaldorf.i
 
 # target to preprocess a source file
-Strings/S1/WERTYU.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S1/WERTYU.cpp.i
-.PHONY : Strings/S1/WERTYU.cpp.i
+Strings/S2/WheresWaldorf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S2/WheresWaldorf.cpp.i
+.PHONY : Strings/S2/WheresWaldorf.cpp.i
 
-Strings/S1/WERTYU.s: Strings/S1/WERTYU.cpp.s
+Strings/S2/WheresWaldorf.s: Strings/S2/WheresWaldorf.cpp.s
 
-.PHONY : Strings/S1/WERTYU.s
+.PHONY : Strings/S2/WheresWaldorf.s
 
 # target to generate assembly for a file
-Strings/S1/WERTYU.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S1/WERTYU.cpp.s
-.PHONY : Strings/S1/WERTYU.cpp.s
+Strings/S2/WheresWaldorf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S2/WheresWaldorf.cpp.s
+.PHONY : Strings/S2/WheresWaldorf.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Strings/S1/WERTYU.o"
-	@echo "... Strings/S1/WERTYU.i"
-	@echo "... Strings/S1/WERTYU.s"
+	@echo "... Strings/S2/WheresWaldorf.o"
+	@echo "... Strings/S2/WheresWaldorf.i"
+	@echo "... Strings/S2/WheresWaldorf.s"
 .PHONY : help
 
 
