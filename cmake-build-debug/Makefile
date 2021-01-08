@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Strings/S3/CommonPermutation.o: Strings/S3/CommonPermutation.cpp.o
+Strings/S4/CryptKickerTwo.o: Strings/S4/CryptKickerTwo.cpp.o
 
-.PHONY : Strings/S3/CommonPermutation.o
+.PHONY : Strings/S4/CryptKickerTwo.o
 
 # target to build an object file
-Strings/S3/CommonPermutation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S3/CommonPermutation.cpp.o
-.PHONY : Strings/S3/CommonPermutation.cpp.o
+Strings/S4/CryptKickerTwo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S4/CryptKickerTwo.cpp.o
+.PHONY : Strings/S4/CryptKickerTwo.cpp.o
 
-Strings/S3/CommonPermutation.i: Strings/S3/CommonPermutation.cpp.i
+Strings/S4/CryptKickerTwo.i: Strings/S4/CryptKickerTwo.cpp.i
 
-.PHONY : Strings/S3/CommonPermutation.i
+.PHONY : Strings/S4/CryptKickerTwo.i
 
 # target to preprocess a source file
-Strings/S3/CommonPermutation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S3/CommonPermutation.cpp.i
-.PHONY : Strings/S3/CommonPermutation.cpp.i
+Strings/S4/CryptKickerTwo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S4/CryptKickerTwo.cpp.i
+.PHONY : Strings/S4/CryptKickerTwo.cpp.i
 
-Strings/S3/CommonPermutation.s: Strings/S3/CommonPermutation.cpp.s
+Strings/S4/CryptKickerTwo.s: Strings/S4/CryptKickerTwo.cpp.s
 
-.PHONY : Strings/S3/CommonPermutation.s
+.PHONY : Strings/S4/CryptKickerTwo.s
 
 # target to generate assembly for a file
-Strings/S3/CommonPermutation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S3/CommonPermutation.cpp.s
-.PHONY : Strings/S3/CommonPermutation.cpp.s
+Strings/S4/CryptKickerTwo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S4/CryptKickerTwo.cpp.s
+.PHONY : Strings/S4/CryptKickerTwo.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Strings/S3/CommonPermutation.o"
-	@echo "... Strings/S3/CommonPermutation.i"
-	@echo "... Strings/S3/CommonPermutation.s"
+	@echo "... Strings/S4/CryptKickerTwo.o"
+	@echo "... Strings/S4/CryptKickerTwo.i"
+	@echo "... Strings/S4/CryptKickerTwo.s"
 .PHONY : help
 
 
