@@ -6,10 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Strings/S3/CommonPermutation.cpp
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Strings/S5/AutomatedJudgeScript.cpp
+iostream
+-
 fstream
 -
-iostream
+unordered_set
 -
 vector
 -

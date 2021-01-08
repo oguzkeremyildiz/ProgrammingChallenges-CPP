@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Strings/S4/CryptKickerTwo.o: Strings/S4/CryptKickerTwo.cpp.o
+Strings/S5/AutomatedJudgeScript.o: Strings/S5/AutomatedJudgeScript.cpp.o
 
-.PHONY : Strings/S4/CryptKickerTwo.o
+.PHONY : Strings/S5/AutomatedJudgeScript.o
 
 # target to build an object file
-Strings/S4/CryptKickerTwo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S4/CryptKickerTwo.cpp.o
-.PHONY : Strings/S4/CryptKickerTwo.cpp.o
+Strings/S5/AutomatedJudgeScript.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S5/AutomatedJudgeScript.cpp.o
+.PHONY : Strings/S5/AutomatedJudgeScript.cpp.o
 
-Strings/S4/CryptKickerTwo.i: Strings/S4/CryptKickerTwo.cpp.i
+Strings/S5/AutomatedJudgeScript.i: Strings/S5/AutomatedJudgeScript.cpp.i
 
-.PHONY : Strings/S4/CryptKickerTwo.i
+.PHONY : Strings/S5/AutomatedJudgeScript.i
 
 # target to preprocess a source file
-Strings/S4/CryptKickerTwo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S4/CryptKickerTwo.cpp.i
-.PHONY : Strings/S4/CryptKickerTwo.cpp.i
+Strings/S5/AutomatedJudgeScript.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S5/AutomatedJudgeScript.cpp.i
+.PHONY : Strings/S5/AutomatedJudgeScript.cpp.i
 
-Strings/S4/CryptKickerTwo.s: Strings/S4/CryptKickerTwo.cpp.s
+Strings/S5/AutomatedJudgeScript.s: Strings/S5/AutomatedJudgeScript.cpp.s
 
-.PHONY : Strings/S4/CryptKickerTwo.s
+.PHONY : Strings/S5/AutomatedJudgeScript.s
 
 # target to generate assembly for a file
-Strings/S4/CryptKickerTwo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S4/CryptKickerTwo.cpp.s
-.PHONY : Strings/S4/CryptKickerTwo.cpp.s
+Strings/S5/AutomatedJudgeScript.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S5/AutomatedJudgeScript.cpp.s
+.PHONY : Strings/S5/AutomatedJudgeScript.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Strings/S4/CryptKickerTwo.o"
-	@echo "... Strings/S4/CryptKickerTwo.i"
-	@echo "... Strings/S4/CryptKickerTwo.s"
+	@echo "... Strings/S5/AutomatedJudgeScript.o"
+	@echo "... Strings/S5/AutomatedJudgeScript.i"
+	@echo "... Strings/S5/AutomatedJudgeScript.s"
 .PHONY : help
 
 
