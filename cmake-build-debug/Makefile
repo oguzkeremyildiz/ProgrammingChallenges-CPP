@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Strings/S8/Fmt.o: Strings/S8/Fmt.cpp.o
+Strings/S7/Doublets.o: Strings/S7/Doublets.cpp.o
 
-.PHONY : Strings/S8/Fmt.o
+.PHONY : Strings/S7/Doublets.o
 
 # target to build an object file
-Strings/S8/Fmt.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S8/Fmt.cpp.o
-.PHONY : Strings/S8/Fmt.cpp.o
+Strings/S7/Doublets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S7/Doublets.cpp.o
+.PHONY : Strings/S7/Doublets.cpp.o
 
-Strings/S8/Fmt.i: Strings/S8/Fmt.cpp.i
+Strings/S7/Doublets.i: Strings/S7/Doublets.cpp.i
 
-.PHONY : Strings/S8/Fmt.i
+.PHONY : Strings/S7/Doublets.i
 
 # target to preprocess a source file
-Strings/S8/Fmt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S8/Fmt.cpp.i
-.PHONY : Strings/S8/Fmt.cpp.i
+Strings/S7/Doublets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S7/Doublets.cpp.i
+.PHONY : Strings/S7/Doublets.cpp.i
 
-Strings/S8/Fmt.s: Strings/S8/Fmt.cpp.s
+Strings/S7/Doublets.s: Strings/S7/Doublets.cpp.s
 
-.PHONY : Strings/S8/Fmt.s
+.PHONY : Strings/S7/Doublets.s
 
 # target to generate assembly for a file
-Strings/S8/Fmt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S8/Fmt.cpp.s
-.PHONY : Strings/S8/Fmt.cpp.s
+Strings/S7/Doublets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S7/Doublets.cpp.s
+.PHONY : Strings/S7/Doublets.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Strings/S8/Fmt.o"
-	@echo "... Strings/S8/Fmt.i"
-	@echo "... Strings/S8/Fmt.s"
+	@echo "... Strings/S7/Doublets.o"
+	@echo "... Strings/S7/Doublets.i"
+	@echo "... Strings/S7/Doublets.s"
 .PHONY : help
 
 
