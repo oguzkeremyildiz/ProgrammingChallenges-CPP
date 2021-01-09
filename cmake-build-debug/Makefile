@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Sorting/S3/Bridge.o: Sorting/S3/Bridge.cpp.o
+Sorting/S7/ShellSort.o: Sorting/S7/ShellSort.cpp.o
 
-.PHONY : Sorting/S3/Bridge.o
+.PHONY : Sorting/S7/ShellSort.o
 
 # target to build an object file
-Sorting/S3/Bridge.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S3/Bridge.cpp.o
-.PHONY : Sorting/S3/Bridge.cpp.o
+Sorting/S7/ShellSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S7/ShellSort.cpp.o
+.PHONY : Sorting/S7/ShellSort.cpp.o
 
-Sorting/S3/Bridge.i: Sorting/S3/Bridge.cpp.i
+Sorting/S7/ShellSort.i: Sorting/S7/ShellSort.cpp.i
 
-.PHONY : Sorting/S3/Bridge.i
+.PHONY : Sorting/S7/ShellSort.i
 
 # target to preprocess a source file
-Sorting/S3/Bridge.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S3/Bridge.cpp.i
-.PHONY : Sorting/S3/Bridge.cpp.i
+Sorting/S7/ShellSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S7/ShellSort.cpp.i
+.PHONY : Sorting/S7/ShellSort.cpp.i
 
-Sorting/S3/Bridge.s: Sorting/S3/Bridge.cpp.s
+Sorting/S7/ShellSort.s: Sorting/S7/ShellSort.cpp.s
 
-.PHONY : Sorting/S3/Bridge.s
+.PHONY : Sorting/S7/ShellSort.s
 
 # target to generate assembly for a file
-Sorting/S3/Bridge.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S3/Bridge.cpp.s
-.PHONY : Sorting/S3/Bridge.cpp.s
+Sorting/S7/ShellSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S7/ShellSort.cpp.s
+.PHONY : Sorting/S7/ShellSort.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Sorting/S3/Bridge.o"
-	@echo "... Sorting/S3/Bridge.i"
-	@echo "... Sorting/S3/Bridge.s"
+	@echo "... Sorting/S7/ShellSort.o"
+	@echo "... Sorting/S7/ShellSort.i"
+	@echo "... Sorting/S7/ShellSort.s"
 .PHONY : help
 
 

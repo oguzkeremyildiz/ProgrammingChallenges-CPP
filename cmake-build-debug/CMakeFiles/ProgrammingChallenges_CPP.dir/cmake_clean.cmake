@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S3/Bridge.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S7/ShellSort.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )
