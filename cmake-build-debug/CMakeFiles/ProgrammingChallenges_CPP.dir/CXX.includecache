@@ -6,9 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Strings/S8/Fmt.cpp
-iostream
+../include/Comparator.h
+
+../include/Sort/QuickSort.h
+../Comparator.h
+../include/Comparator.h
+vector
 -
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S3/Bridge.cpp
 fstream
 -
+iostream
+-
+vector
+-
+Sort/QuickSort.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S3/Sort/QuickSort.h
 

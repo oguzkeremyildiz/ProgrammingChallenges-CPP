@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Strings/S7/Doublets.o: Strings/S7/Doublets.cpp.o
+Sorting/S3/Bridge.o: Sorting/S3/Bridge.cpp.o
 
-.PHONY : Strings/S7/Doublets.o
+.PHONY : Sorting/S3/Bridge.o
 
 # target to build an object file
-Strings/S7/Doublets.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S7/Doublets.cpp.o
-.PHONY : Strings/S7/Doublets.cpp.o
+Sorting/S3/Bridge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S3/Bridge.cpp.o
+.PHONY : Sorting/S3/Bridge.cpp.o
 
-Strings/S7/Doublets.i: Strings/S7/Doublets.cpp.i
+Sorting/S3/Bridge.i: Sorting/S3/Bridge.cpp.i
 
-.PHONY : Strings/S7/Doublets.i
+.PHONY : Sorting/S3/Bridge.i
 
 # target to preprocess a source file
-Strings/S7/Doublets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S7/Doublets.cpp.i
-.PHONY : Strings/S7/Doublets.cpp.i
+Sorting/S3/Bridge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S3/Bridge.cpp.i
+.PHONY : Sorting/S3/Bridge.cpp.i
 
-Strings/S7/Doublets.s: Strings/S7/Doublets.cpp.s
+Sorting/S3/Bridge.s: Sorting/S3/Bridge.cpp.s
 
-.PHONY : Strings/S7/Doublets.s
+.PHONY : Sorting/S3/Bridge.s
 
 # target to generate assembly for a file
-Strings/S7/Doublets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S7/Doublets.cpp.s
-.PHONY : Strings/S7/Doublets.cpp.s
+Sorting/S3/Bridge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S3/Bridge.cpp.s
+.PHONY : Sorting/S3/Bridge.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Strings/S7/Doublets.o"
-	@echo "... Strings/S7/Doublets.i"
-	@echo "... Strings/S7/Doublets.s"
+	@echo "... Sorting/S3/Bridge.o"
+	@echo "... Sorting/S3/Bridge.i"
+	@echo "... Sorting/S3/Bridge.s"
 .PHONY : help
 
 
