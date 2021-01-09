@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Strings/S5/AutomatedJudgeScript.cpp
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Strings/S8/Fmt.cpp
 iostream
 -
 fstream
--
-unordered_set
--
-vector
 -
 

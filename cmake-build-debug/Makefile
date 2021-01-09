@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Strings/S6/FileFragmentation.o: Strings/S6/FileFragmentation.cpp.o
+Strings/S8/Fmt.o: Strings/S8/Fmt.cpp.o
 
-.PHONY : Strings/S6/FileFragmentation.o
+.PHONY : Strings/S8/Fmt.o
 
 # target to build an object file
-Strings/S6/FileFragmentation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S6/FileFragmentation.cpp.o
-.PHONY : Strings/S6/FileFragmentation.cpp.o
+Strings/S8/Fmt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S8/Fmt.cpp.o
+.PHONY : Strings/S8/Fmt.cpp.o
 
-Strings/S6/FileFragmentation.i: Strings/S6/FileFragmentation.cpp.i
+Strings/S8/Fmt.i: Strings/S8/Fmt.cpp.i
 
-.PHONY : Strings/S6/FileFragmentation.i
+.PHONY : Strings/S8/Fmt.i
 
 # target to preprocess a source file
-Strings/S6/FileFragmentation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S6/FileFragmentation.cpp.i
-.PHONY : Strings/S6/FileFragmentation.cpp.i
+Strings/S8/Fmt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S8/Fmt.cpp.i
+.PHONY : Strings/S8/Fmt.cpp.i
 
-Strings/S6/FileFragmentation.s: Strings/S6/FileFragmentation.cpp.s
+Strings/S8/Fmt.s: Strings/S8/Fmt.cpp.s
 
-.PHONY : Strings/S6/FileFragmentation.s
+.PHONY : Strings/S8/Fmt.s
 
 # target to generate assembly for a file
-Strings/S6/FileFragmentation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S6/FileFragmentation.cpp.s
-.PHONY : Strings/S6/FileFragmentation.cpp.s
+Strings/S8/Fmt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S8/Fmt.cpp.s
+.PHONY : Strings/S8/Fmt.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Strings/S6/FileFragmentation.o"
-	@echo "... Strings/S6/FileFragmentation.i"
-	@echo "... Strings/S6/FileFragmentation.s"
+	@echo "... Strings/S8/Fmt.o"
+	@echo "... Strings/S8/Fmt.i"
+	@echo "... Strings/S8/Fmt.s"
 .PHONY : help
 
 

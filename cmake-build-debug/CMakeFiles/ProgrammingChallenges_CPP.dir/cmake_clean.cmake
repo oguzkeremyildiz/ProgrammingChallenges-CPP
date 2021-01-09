@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S6/FileFragmentation.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/Strings/S8/Fmt.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )
