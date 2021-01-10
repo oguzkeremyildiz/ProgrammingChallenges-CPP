@@ -143,32 +143,59 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Sorting/S7/ShellSort.o: Sorting/S7/ShellSort.cpp.o
+Sorting/S5/Shoe.o: Sorting/S5/Shoe.cpp.o
 
-.PHONY : Sorting/S7/ShellSort.o
+.PHONY : Sorting/S5/Shoe.o
 
 # target to build an object file
-Sorting/S7/ShellSort.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S7/ShellSort.cpp.o
-.PHONY : Sorting/S7/ShellSort.cpp.o
+Sorting/S5/Shoe.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.o
+.PHONY : Sorting/S5/Shoe.cpp.o
 
-Sorting/S7/ShellSort.i: Sorting/S7/ShellSort.cpp.i
+Sorting/S5/Shoe.i: Sorting/S5/Shoe.cpp.i
 
-.PHONY : Sorting/S7/ShellSort.i
+.PHONY : Sorting/S5/Shoe.i
 
 # target to preprocess a source file
-Sorting/S7/ShellSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S7/ShellSort.cpp.i
-.PHONY : Sorting/S7/ShellSort.cpp.i
+Sorting/S5/Shoe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.i
+.PHONY : Sorting/S5/Shoe.cpp.i
 
-Sorting/S7/ShellSort.s: Sorting/S7/ShellSort.cpp.s
+Sorting/S5/Shoe.s: Sorting/S5/Shoe.cpp.s
 
-.PHONY : Sorting/S7/ShellSort.s
+.PHONY : Sorting/S5/Shoe.s
 
 # target to generate assembly for a file
-Sorting/S7/ShellSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S7/ShellSort.cpp.s
-.PHONY : Sorting/S7/ShellSort.cpp.s
+Sorting/S5/Shoe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.s
+.PHONY : Sorting/S5/Shoe.cpp.s
+
+Sorting/S5/ShoemakersProblem.o: Sorting/S5/ShoemakersProblem.cpp.o
+
+.PHONY : Sorting/S5/ShoemakersProblem.o
+
+# target to build an object file
+Sorting/S5/ShoemakersProblem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.o
+.PHONY : Sorting/S5/ShoemakersProblem.cpp.o
+
+Sorting/S5/ShoemakersProblem.i: Sorting/S5/ShoemakersProblem.cpp.i
+
+.PHONY : Sorting/S5/ShoemakersProblem.i
+
+# target to preprocess a source file
+Sorting/S5/ShoemakersProblem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.i
+.PHONY : Sorting/S5/ShoemakersProblem.cpp.i
+
+Sorting/S5/ShoemakersProblem.s: Sorting/S5/ShoemakersProblem.cpp.s
+
+.PHONY : Sorting/S5/ShoemakersProblem.s
+
+# target to generate assembly for a file
+Sorting/S5/ShoemakersProblem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.s
+.PHONY : Sorting/S5/ShoemakersProblem.cpp.s
 
 # Help Target
 help:
@@ -179,9 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Sorting/S7/ShellSort.o"
-	@echo "... Sorting/S7/ShellSort.i"
-	@echo "... Sorting/S7/ShellSort.s"
+	@echo "... Sorting/S5/Shoe.o"
+	@echo "... Sorting/S5/Shoe.i"
+	@echo "... Sorting/S5/Shoe.s"
+	@echo "... Sorting/S5/ShoemakersProblem.o"
+	@echo "... Sorting/S5/ShoemakersProblem.i"
+	@echo "... Sorting/S5/ShoemakersProblem.s"
 .PHONY : help
 
 
