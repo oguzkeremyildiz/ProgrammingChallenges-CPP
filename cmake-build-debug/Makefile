@@ -143,59 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Sorting/S5/Shoe.o: Sorting/S5/Shoe.cpp.o
+Sorting/S4/LongestNap.o: Sorting/S4/LongestNap.cpp.o
 
-.PHONY : Sorting/S5/Shoe.o
-
-# target to build an object file
-Sorting/S5/Shoe.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.o
-.PHONY : Sorting/S5/Shoe.cpp.o
-
-Sorting/S5/Shoe.i: Sorting/S5/Shoe.cpp.i
-
-.PHONY : Sorting/S5/Shoe.i
-
-# target to preprocess a source file
-Sorting/S5/Shoe.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.i
-.PHONY : Sorting/S5/Shoe.cpp.i
-
-Sorting/S5/Shoe.s: Sorting/S5/Shoe.cpp.s
-
-.PHONY : Sorting/S5/Shoe.s
-
-# target to generate assembly for a file
-Sorting/S5/Shoe.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.s
-.PHONY : Sorting/S5/Shoe.cpp.s
-
-Sorting/S5/ShoemakersProblem.o: Sorting/S5/ShoemakersProblem.cpp.o
-
-.PHONY : Sorting/S5/ShoemakersProblem.o
+.PHONY : Sorting/S4/LongestNap.o
 
 # target to build an object file
-Sorting/S5/ShoemakersProblem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.o
-.PHONY : Sorting/S5/ShoemakersProblem.cpp.o
+Sorting/S4/LongestNap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.o
+.PHONY : Sorting/S4/LongestNap.cpp.o
 
-Sorting/S5/ShoemakersProblem.i: Sorting/S5/ShoemakersProblem.cpp.i
+Sorting/S4/LongestNap.i: Sorting/S4/LongestNap.cpp.i
 
-.PHONY : Sorting/S5/ShoemakersProblem.i
+.PHONY : Sorting/S4/LongestNap.i
 
 # target to preprocess a source file
-Sorting/S5/ShoemakersProblem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.i
-.PHONY : Sorting/S5/ShoemakersProblem.cpp.i
+Sorting/S4/LongestNap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.i
+.PHONY : Sorting/S4/LongestNap.cpp.i
 
-Sorting/S5/ShoemakersProblem.s: Sorting/S5/ShoemakersProblem.cpp.s
+Sorting/S4/LongestNap.s: Sorting/S4/LongestNap.cpp.s
 
-.PHONY : Sorting/S5/ShoemakersProblem.s
+.PHONY : Sorting/S4/LongestNap.s
 
 # target to generate assembly for a file
-Sorting/S5/ShoemakersProblem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.s
-.PHONY : Sorting/S5/ShoemakersProblem.cpp.s
+Sorting/S4/LongestNap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.s
+.PHONY : Sorting/S4/LongestNap.cpp.s
 
 # Help Target
 help:
@@ -206,12 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Sorting/S5/Shoe.o"
-	@echo "... Sorting/S5/Shoe.i"
-	@echo "... Sorting/S5/Shoe.s"
-	@echo "... Sorting/S5/ShoemakersProblem.o"
-	@echo "... Sorting/S5/ShoemakersProblem.i"
-	@echo "... Sorting/S5/ShoemakersProblem.s"
+	@echo "... Sorting/S4/LongestNap.o"
+	@echo "... Sorting/S4/LongestNap.i"
+	@echo "... Sorting/S4/LongestNap.s"
 .PHONY : help
 
 

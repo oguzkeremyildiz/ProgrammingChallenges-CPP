@@ -77,45 +77,30 @@ include CMakeFiles/ProgrammingChallenges_CPP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.o: ../Sorting/S5/Shoe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S5/Shoe.cpp
+CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
+CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.o: ../Sorting/S4/LongestNap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S4/LongestNap.cpp
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S5/Shoe.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.i
+CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S4/LongestNap.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.i
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S5/Shoe.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.s
-
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.o: ../Sorting/S5/ShoemakersProblem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S5/ShoemakersProblem.cpp
-
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S5/ShoemakersProblem.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.i
-
-CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S5/ShoemakersProblem.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.s
+CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S4/LongestNap.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.s
 
 # Object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_OBJECTS = \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.o" \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.o"
+"CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.o"
 
 # External object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_EXTERNAL_OBJECTS =
 
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/Shoe.cpp.o
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S5/ShoemakersProblem.cpp.o
+ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.o
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/build.make
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ProgrammingChallenges_CPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ProgrammingChallenges_CPP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProgrammingChallenges_CPP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
