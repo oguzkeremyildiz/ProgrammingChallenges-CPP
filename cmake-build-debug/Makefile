@@ -143,86 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Sorting/S8/Football.o: Sorting/S8/Football.cpp.o
+GraphTraversal/G3/TheTouristGuide.o: GraphTraversal/G3/TheTouristGuide.cpp.o
 
-.PHONY : Sorting/S8/Football.o
-
-# target to build an object file
-Sorting/S8/Football.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Football.cpp.o
-.PHONY : Sorting/S8/Football.cpp.o
-
-Sorting/S8/Football.i: Sorting/S8/Football.cpp.i
-
-.PHONY : Sorting/S8/Football.i
-
-# target to preprocess a source file
-Sorting/S8/Football.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Football.cpp.i
-.PHONY : Sorting/S8/Football.cpp.i
-
-Sorting/S8/Football.s: Sorting/S8/Football.cpp.s
-
-.PHONY : Sorting/S8/Football.s
-
-# target to generate assembly for a file
-Sorting/S8/Football.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Football.cpp.s
-.PHONY : Sorting/S8/Football.cpp.s
-
-Sorting/S8/Team.o: Sorting/S8/Team.cpp.o
-
-.PHONY : Sorting/S8/Team.o
+.PHONY : GraphTraversal/G3/TheTouristGuide.o
 
 # target to build an object file
-Sorting/S8/Team.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Team.cpp.o
-.PHONY : Sorting/S8/Team.cpp.o
+GraphTraversal/G3/TheTouristGuide.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G3/TheTouristGuide.cpp.o
+.PHONY : GraphTraversal/G3/TheTouristGuide.cpp.o
 
-Sorting/S8/Team.i: Sorting/S8/Team.cpp.i
+GraphTraversal/G3/TheTouristGuide.i: GraphTraversal/G3/TheTouristGuide.cpp.i
 
-.PHONY : Sorting/S8/Team.i
-
-# target to preprocess a source file
-Sorting/S8/Team.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Team.cpp.i
-.PHONY : Sorting/S8/Team.cpp.i
-
-Sorting/S8/Team.s: Sorting/S8/Team.cpp.s
-
-.PHONY : Sorting/S8/Team.s
-
-# target to generate assembly for a file
-Sorting/S8/Team.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Team.cpp.s
-.PHONY : Sorting/S8/Team.cpp.s
-
-Sorting/S8/Teams.o: Sorting/S8/Teams.cpp.o
-
-.PHONY : Sorting/S8/Teams.o
-
-# target to build an object file
-Sorting/S8/Teams.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Teams.cpp.o
-.PHONY : Sorting/S8/Teams.cpp.o
-
-Sorting/S8/Teams.i: Sorting/S8/Teams.cpp.i
-
-.PHONY : Sorting/S8/Teams.i
+.PHONY : GraphTraversal/G3/TheTouristGuide.i
 
 # target to preprocess a source file
-Sorting/S8/Teams.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Teams.cpp.i
-.PHONY : Sorting/S8/Teams.cpp.i
+GraphTraversal/G3/TheTouristGuide.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G3/TheTouristGuide.cpp.i
+.PHONY : GraphTraversal/G3/TheTouristGuide.cpp.i
 
-Sorting/S8/Teams.s: Sorting/S8/Teams.cpp.s
+GraphTraversal/G3/TheTouristGuide.s: GraphTraversal/G3/TheTouristGuide.cpp.s
 
-.PHONY : Sorting/S8/Teams.s
+.PHONY : GraphTraversal/G3/TheTouristGuide.s
 
 # target to generate assembly for a file
-Sorting/S8/Teams.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Teams.cpp.s
-.PHONY : Sorting/S8/Teams.cpp.s
+GraphTraversal/G3/TheTouristGuide.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G3/TheTouristGuide.cpp.s
+.PHONY : GraphTraversal/G3/TheTouristGuide.cpp.s
 
 # Help Target
 help:
@@ -233,15 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Sorting/S8/Football.o"
-	@echo "... Sorting/S8/Football.i"
-	@echo "... Sorting/S8/Football.s"
-	@echo "... Sorting/S8/Team.o"
-	@echo "... Sorting/S8/Team.i"
-	@echo "... Sorting/S8/Team.s"
-	@echo "... Sorting/S8/Teams.o"
-	@echo "... Sorting/S8/Teams.i"
-	@echo "... Sorting/S8/Teams.s"
+	@echo "... GraphTraversal/G3/TheTouristGuide.o"
+	@echo "... GraphTraversal/G3/TheTouristGuide.i"
+	@echo "... GraphTraversal/G3/TheTouristGuide.s"
 .PHONY : help
 
 
