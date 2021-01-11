@@ -143,32 +143,86 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Sorting/S4/LongestNap.o: Sorting/S4/LongestNap.cpp.o
+Sorting/S8/Football.o: Sorting/S8/Football.cpp.o
 
-.PHONY : Sorting/S4/LongestNap.o
+.PHONY : Sorting/S8/Football.o
 
 # target to build an object file
-Sorting/S4/LongestNap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.o
-.PHONY : Sorting/S4/LongestNap.cpp.o
+Sorting/S8/Football.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Football.cpp.o
+.PHONY : Sorting/S8/Football.cpp.o
 
-Sorting/S4/LongestNap.i: Sorting/S4/LongestNap.cpp.i
+Sorting/S8/Football.i: Sorting/S8/Football.cpp.i
 
-.PHONY : Sorting/S4/LongestNap.i
+.PHONY : Sorting/S8/Football.i
 
 # target to preprocess a source file
-Sorting/S4/LongestNap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.i
-.PHONY : Sorting/S4/LongestNap.cpp.i
+Sorting/S8/Football.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Football.cpp.i
+.PHONY : Sorting/S8/Football.cpp.i
 
-Sorting/S4/LongestNap.s: Sorting/S4/LongestNap.cpp.s
+Sorting/S8/Football.s: Sorting/S8/Football.cpp.s
 
-.PHONY : Sorting/S4/LongestNap.s
+.PHONY : Sorting/S8/Football.s
 
 # target to generate assembly for a file
-Sorting/S4/LongestNap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.s
-.PHONY : Sorting/S4/LongestNap.cpp.s
+Sorting/S8/Football.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Football.cpp.s
+.PHONY : Sorting/S8/Football.cpp.s
+
+Sorting/S8/Team.o: Sorting/S8/Team.cpp.o
+
+.PHONY : Sorting/S8/Team.o
+
+# target to build an object file
+Sorting/S8/Team.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Team.cpp.o
+.PHONY : Sorting/S8/Team.cpp.o
+
+Sorting/S8/Team.i: Sorting/S8/Team.cpp.i
+
+.PHONY : Sorting/S8/Team.i
+
+# target to preprocess a source file
+Sorting/S8/Team.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Team.cpp.i
+.PHONY : Sorting/S8/Team.cpp.i
+
+Sorting/S8/Team.s: Sorting/S8/Team.cpp.s
+
+.PHONY : Sorting/S8/Team.s
+
+# target to generate assembly for a file
+Sorting/S8/Team.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Team.cpp.s
+.PHONY : Sorting/S8/Team.cpp.s
+
+Sorting/S8/Teams.o: Sorting/S8/Teams.cpp.o
+
+.PHONY : Sorting/S8/Teams.o
+
+# target to build an object file
+Sorting/S8/Teams.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Teams.cpp.o
+.PHONY : Sorting/S8/Teams.cpp.o
+
+Sorting/S8/Teams.i: Sorting/S8/Teams.cpp.i
+
+.PHONY : Sorting/S8/Teams.i
+
+# target to preprocess a source file
+Sorting/S8/Teams.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Teams.cpp.i
+.PHONY : Sorting/S8/Teams.cpp.i
+
+Sorting/S8/Teams.s: Sorting/S8/Teams.cpp.s
+
+.PHONY : Sorting/S8/Teams.s
+
+# target to generate assembly for a file
+Sorting/S8/Teams.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Teams.cpp.s
+.PHONY : Sorting/S8/Teams.cpp.s
 
 # Help Target
 help:
@@ -179,9 +233,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Sorting/S4/LongestNap.o"
-	@echo "... Sorting/S4/LongestNap.i"
-	@echo "... Sorting/S4/LongestNap.s"
+	@echo "... Sorting/S8/Football.o"
+	@echo "... Sorting/S8/Football.i"
+	@echo "... Sorting/S8/Football.s"
+	@echo "... Sorting/S8/Team.o"
+	@echo "... Sorting/S8/Team.i"
+	@echo "... Sorting/S8/Team.s"
+	@echo "... Sorting/S8/Teams.o"
+	@echo "... Sorting/S8/Teams.i"
+	@echo "... Sorting/S8/Teams.s"
 .PHONY : help
 
 

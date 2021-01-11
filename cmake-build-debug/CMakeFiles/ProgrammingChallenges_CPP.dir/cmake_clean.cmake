@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S4/LongestNap.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Football.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Team.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/Sorting/S8/Teams.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )

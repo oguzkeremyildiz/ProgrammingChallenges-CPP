@@ -80,7 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S4/LongestNap.cpp">
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S8/Football.cpp">
+			<Option target="ProgrammingChallenges_CPP"/>
+		</Unit>
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S8/Team.cpp">
+			<Option target="ProgrammingChallenges_CPP"/>
+		</Unit>
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S8/Team.h">
+			<Option target="ProgrammingChallenges_CPP"/>
+		</Unit>
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S8/Teams.cpp">
+			<Option target="ProgrammingChallenges_CPP"/>
+		</Unit>
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Sorting/S8/Teams.h">
 			<Option target="ProgrammingChallenges_CPP"/>
 		</Unit>
 		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/CMakeLists.txt">
