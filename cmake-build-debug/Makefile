@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GraphTraversal/G3/TheTouristGuide.o: GraphTraversal/G3/TheTouristGuide.cpp.o
+DynamicProgramming/D2/DistinctSubsequences.o: DynamicProgramming/D2/DistinctSubsequences.cpp.o
 
-.PHONY : GraphTraversal/G3/TheTouristGuide.o
+.PHONY : DynamicProgramming/D2/DistinctSubsequences.o
 
 # target to build an object file
-GraphTraversal/G3/TheTouristGuide.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G3/TheTouristGuide.cpp.o
-.PHONY : GraphTraversal/G3/TheTouristGuide.cpp.o
+DynamicProgramming/D2/DistinctSubsequences.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D2/DistinctSubsequences.cpp.o
+.PHONY : DynamicProgramming/D2/DistinctSubsequences.cpp.o
 
-GraphTraversal/G3/TheTouristGuide.i: GraphTraversal/G3/TheTouristGuide.cpp.i
+DynamicProgramming/D2/DistinctSubsequences.i: DynamicProgramming/D2/DistinctSubsequences.cpp.i
 
-.PHONY : GraphTraversal/G3/TheTouristGuide.i
+.PHONY : DynamicProgramming/D2/DistinctSubsequences.i
 
 # target to preprocess a source file
-GraphTraversal/G3/TheTouristGuide.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G3/TheTouristGuide.cpp.i
-.PHONY : GraphTraversal/G3/TheTouristGuide.cpp.i
+DynamicProgramming/D2/DistinctSubsequences.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D2/DistinctSubsequences.cpp.i
+.PHONY : DynamicProgramming/D2/DistinctSubsequences.cpp.i
 
-GraphTraversal/G3/TheTouristGuide.s: GraphTraversal/G3/TheTouristGuide.cpp.s
+DynamicProgramming/D2/DistinctSubsequences.s: DynamicProgramming/D2/DistinctSubsequences.cpp.s
 
-.PHONY : GraphTraversal/G3/TheTouristGuide.s
+.PHONY : DynamicProgramming/D2/DistinctSubsequences.s
 
 # target to generate assembly for a file
-GraphTraversal/G3/TheTouristGuide.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G3/TheTouristGuide.cpp.s
-.PHONY : GraphTraversal/G3/TheTouristGuide.cpp.s
+DynamicProgramming/D2/DistinctSubsequences.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D2/DistinctSubsequences.cpp.s
+.PHONY : DynamicProgramming/D2/DistinctSubsequences.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GraphTraversal/G3/TheTouristGuide.o"
-	@echo "... GraphTraversal/G3/TheTouristGuide.i"
-	@echo "... GraphTraversal/G3/TheTouristGuide.s"
+	@echo "... DynamicProgramming/D2/DistinctSubsequences.o"
+	@echo "... DynamicProgramming/D2/DistinctSubsequences.i"
+	@echo "... DynamicProgramming/D2/DistinctSubsequences.s"
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G3/TheTouristGuide.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D2/DistinctSubsequences.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )
