@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D2/DistinctSubsequences.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )

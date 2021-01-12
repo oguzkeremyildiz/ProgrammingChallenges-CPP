@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D2/DistinctSubsequences.cpp">
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D1/Elephant.cpp">
+			<Option target="ProgrammingChallenges_CPP"/>
+		</Unit>
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D1/Elephant.h">
+			<Option target="ProgrammingChallenges_CPP"/>
+		</Unit>
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D1/IsBiggerSmarter.cpp">
 			<Option target="ProgrammingChallenges_CPP"/>
 		</Unit>
 		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/CMakeLists.txt">
