@@ -6,17 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D1/Elephant.h
-
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D1/IsBiggerSmarter.cpp
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/FerryLoading.cpp
 fstream
 -
 iostream
 -
-unordered_map
--
 vector
 -
-Elephant.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D1/Elephant.h
+Node.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/Node.h
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/Node.cpp
+Node.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/Node.h
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/Node.h
 

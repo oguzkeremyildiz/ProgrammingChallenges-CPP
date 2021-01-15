@@ -143,59 +143,59 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-DynamicProgramming/D1/Elephant.o: DynamicProgramming/D1/Elephant.cpp.o
+DynamicProgramming/D6/FerryLoading.o: DynamicProgramming/D6/FerryLoading.cpp.o
 
-.PHONY : DynamicProgramming/D1/Elephant.o
-
-# target to build an object file
-DynamicProgramming/D1/Elephant.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.o
-.PHONY : DynamicProgramming/D1/Elephant.cpp.o
-
-DynamicProgramming/D1/Elephant.i: DynamicProgramming/D1/Elephant.cpp.i
-
-.PHONY : DynamicProgramming/D1/Elephant.i
-
-# target to preprocess a source file
-DynamicProgramming/D1/Elephant.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.i
-.PHONY : DynamicProgramming/D1/Elephant.cpp.i
-
-DynamicProgramming/D1/Elephant.s: DynamicProgramming/D1/Elephant.cpp.s
-
-.PHONY : DynamicProgramming/D1/Elephant.s
-
-# target to generate assembly for a file
-DynamicProgramming/D1/Elephant.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.s
-.PHONY : DynamicProgramming/D1/Elephant.cpp.s
-
-DynamicProgramming/D1/IsBiggerSmarter.o: DynamicProgramming/D1/IsBiggerSmarter.cpp.o
-
-.PHONY : DynamicProgramming/D1/IsBiggerSmarter.o
+.PHONY : DynamicProgramming/D6/FerryLoading.o
 
 # target to build an object file
-DynamicProgramming/D1/IsBiggerSmarter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.o
-.PHONY : DynamicProgramming/D1/IsBiggerSmarter.cpp.o
+DynamicProgramming/D6/FerryLoading.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.o
+.PHONY : DynamicProgramming/D6/FerryLoading.cpp.o
 
-DynamicProgramming/D1/IsBiggerSmarter.i: DynamicProgramming/D1/IsBiggerSmarter.cpp.i
+DynamicProgramming/D6/FerryLoading.i: DynamicProgramming/D6/FerryLoading.cpp.i
 
-.PHONY : DynamicProgramming/D1/IsBiggerSmarter.i
+.PHONY : DynamicProgramming/D6/FerryLoading.i
 
 # target to preprocess a source file
-DynamicProgramming/D1/IsBiggerSmarter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.i
-.PHONY : DynamicProgramming/D1/IsBiggerSmarter.cpp.i
+DynamicProgramming/D6/FerryLoading.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.i
+.PHONY : DynamicProgramming/D6/FerryLoading.cpp.i
 
-DynamicProgramming/D1/IsBiggerSmarter.s: DynamicProgramming/D1/IsBiggerSmarter.cpp.s
+DynamicProgramming/D6/FerryLoading.s: DynamicProgramming/D6/FerryLoading.cpp.s
 
-.PHONY : DynamicProgramming/D1/IsBiggerSmarter.s
+.PHONY : DynamicProgramming/D6/FerryLoading.s
 
 # target to generate assembly for a file
-DynamicProgramming/D1/IsBiggerSmarter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.s
-.PHONY : DynamicProgramming/D1/IsBiggerSmarter.cpp.s
+DynamicProgramming/D6/FerryLoading.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.s
+.PHONY : DynamicProgramming/D6/FerryLoading.cpp.s
+
+DynamicProgramming/D6/Node.o: DynamicProgramming/D6/Node.cpp.o
+
+.PHONY : DynamicProgramming/D6/Node.o
+
+# target to build an object file
+DynamicProgramming/D6/Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.o
+.PHONY : DynamicProgramming/D6/Node.cpp.o
+
+DynamicProgramming/D6/Node.i: DynamicProgramming/D6/Node.cpp.i
+
+.PHONY : DynamicProgramming/D6/Node.i
+
+# target to preprocess a source file
+DynamicProgramming/D6/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.i
+.PHONY : DynamicProgramming/D6/Node.cpp.i
+
+DynamicProgramming/D6/Node.s: DynamicProgramming/D6/Node.cpp.s
+
+.PHONY : DynamicProgramming/D6/Node.s
+
+# target to generate assembly for a file
+DynamicProgramming/D6/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.s
+.PHONY : DynamicProgramming/D6/Node.cpp.s
 
 # Help Target
 help:
@@ -206,12 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... DynamicProgramming/D1/Elephant.o"
-	@echo "... DynamicProgramming/D1/Elephant.i"
-	@echo "... DynamicProgramming/D1/Elephant.s"
-	@echo "... DynamicProgramming/D1/IsBiggerSmarter.o"
-	@echo "... DynamicProgramming/D1/IsBiggerSmarter.i"
-	@echo "... DynamicProgramming/D1/IsBiggerSmarter.s"
+	@echo "... DynamicProgramming/D6/FerryLoading.o"
+	@echo "... DynamicProgramming/D6/FerryLoading.i"
+	@echo "... DynamicProgramming/D6/FerryLoading.s"
+	@echo "... DynamicProgramming/D6/Node.o"
+	@echo "... DynamicProgramming/D6/Node.i"
+	@echo "... DynamicProgramming/D6/Node.s"
 .PHONY : help
 
 

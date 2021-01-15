@@ -77,42 +77,42 @@ include CMakeFiles/ProgrammingChallenges_CPP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.o: ../DynamicProgramming/D1/IsBiggerSmarter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D1/IsBiggerSmarter.cpp
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.o: ../DynamicProgramming/D6/FerryLoading.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/FerryLoading.cpp
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D1/IsBiggerSmarter.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.i
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/FerryLoading.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.i
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D1/IsBiggerSmarter.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.s
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/FerryLoading.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.s
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.o: ../DynamicProgramming/D1/Elephant.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D1/Elephant.cpp
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.o: ../DynamicProgramming/D6/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/Node.cpp
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D1/Elephant.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.i
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/Node.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.i
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D1/Elephant.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.s
+CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/Node.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.s
 
 # Object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_OBJECTS = \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.o" \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.o"
+"CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.o" \
+"CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.o"
 
 # External object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_EXTERNAL_OBJECTS =
 
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/IsBiggerSmarter.cpp.o
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D1/Elephant.cpp.o
+ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.o
+ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.o
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/build.make
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ProgrammingChallenges_CPP"
