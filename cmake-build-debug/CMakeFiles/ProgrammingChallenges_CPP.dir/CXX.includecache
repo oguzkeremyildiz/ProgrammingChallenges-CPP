@@ -6,19 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/FerryLoading.cpp
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D7/Chopstick.h
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D7/Chopsticks.cpp
+iostream
+-
+Chopstick.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D7/Chopstick.h
+unordered_map
+-
 fstream
 -
-iostream
+utility
 -
 vector
 -
-Node.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/Node.h
-
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/Node.cpp
-Node.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/Node.h
-
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D6/Node.h
+cmath
+-
 

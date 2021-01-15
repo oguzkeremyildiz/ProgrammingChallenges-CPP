@@ -143,59 +143,59 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-DynamicProgramming/D6/FerryLoading.o: DynamicProgramming/D6/FerryLoading.cpp.o
+DynamicProgramming/D7/Chopstick.o: DynamicProgramming/D7/Chopstick.cpp.o
 
-.PHONY : DynamicProgramming/D6/FerryLoading.o
-
-# target to build an object file
-DynamicProgramming/D6/FerryLoading.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.o
-.PHONY : DynamicProgramming/D6/FerryLoading.cpp.o
-
-DynamicProgramming/D6/FerryLoading.i: DynamicProgramming/D6/FerryLoading.cpp.i
-
-.PHONY : DynamicProgramming/D6/FerryLoading.i
-
-# target to preprocess a source file
-DynamicProgramming/D6/FerryLoading.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.i
-.PHONY : DynamicProgramming/D6/FerryLoading.cpp.i
-
-DynamicProgramming/D6/FerryLoading.s: DynamicProgramming/D6/FerryLoading.cpp.s
-
-.PHONY : DynamicProgramming/D6/FerryLoading.s
-
-# target to generate assembly for a file
-DynamicProgramming/D6/FerryLoading.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.s
-.PHONY : DynamicProgramming/D6/FerryLoading.cpp.s
-
-DynamicProgramming/D6/Node.o: DynamicProgramming/D6/Node.cpp.o
-
-.PHONY : DynamicProgramming/D6/Node.o
+.PHONY : DynamicProgramming/D7/Chopstick.o
 
 # target to build an object file
-DynamicProgramming/D6/Node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.o
-.PHONY : DynamicProgramming/D6/Node.cpp.o
+DynamicProgramming/D7/Chopstick.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D7/Chopstick.cpp.o
+.PHONY : DynamicProgramming/D7/Chopstick.cpp.o
 
-DynamicProgramming/D6/Node.i: DynamicProgramming/D6/Node.cpp.i
+DynamicProgramming/D7/Chopstick.i: DynamicProgramming/D7/Chopstick.cpp.i
 
-.PHONY : DynamicProgramming/D6/Node.i
+.PHONY : DynamicProgramming/D7/Chopstick.i
 
 # target to preprocess a source file
-DynamicProgramming/D6/Node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.i
-.PHONY : DynamicProgramming/D6/Node.cpp.i
+DynamicProgramming/D7/Chopstick.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D7/Chopstick.cpp.i
+.PHONY : DynamicProgramming/D7/Chopstick.cpp.i
 
-DynamicProgramming/D6/Node.s: DynamicProgramming/D6/Node.cpp.s
+DynamicProgramming/D7/Chopstick.s: DynamicProgramming/D7/Chopstick.cpp.s
 
-.PHONY : DynamicProgramming/D6/Node.s
+.PHONY : DynamicProgramming/D7/Chopstick.s
 
 # target to generate assembly for a file
-DynamicProgramming/D6/Node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.s
-.PHONY : DynamicProgramming/D6/Node.cpp.s
+DynamicProgramming/D7/Chopstick.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D7/Chopstick.cpp.s
+.PHONY : DynamicProgramming/D7/Chopstick.cpp.s
+
+DynamicProgramming/D7/Chopsticks.o: DynamicProgramming/D7/Chopsticks.cpp.o
+
+.PHONY : DynamicProgramming/D7/Chopsticks.o
+
+# target to build an object file
+DynamicProgramming/D7/Chopsticks.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D7/Chopsticks.cpp.o
+.PHONY : DynamicProgramming/D7/Chopsticks.cpp.o
+
+DynamicProgramming/D7/Chopsticks.i: DynamicProgramming/D7/Chopsticks.cpp.i
+
+.PHONY : DynamicProgramming/D7/Chopsticks.i
+
+# target to preprocess a source file
+DynamicProgramming/D7/Chopsticks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D7/Chopsticks.cpp.i
+.PHONY : DynamicProgramming/D7/Chopsticks.cpp.i
+
+DynamicProgramming/D7/Chopsticks.s: DynamicProgramming/D7/Chopsticks.cpp.s
+
+.PHONY : DynamicProgramming/D7/Chopsticks.s
+
+# target to generate assembly for a file
+DynamicProgramming/D7/Chopsticks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D7/Chopsticks.cpp.s
+.PHONY : DynamicProgramming/D7/Chopsticks.cpp.s
 
 # Help Target
 help:
@@ -206,12 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... DynamicProgramming/D6/FerryLoading.o"
-	@echo "... DynamicProgramming/D6/FerryLoading.i"
-	@echo "... DynamicProgramming/D6/FerryLoading.s"
-	@echo "... DynamicProgramming/D6/Node.o"
-	@echo "... DynamicProgramming/D6/Node.i"
-	@echo "... DynamicProgramming/D6/Node.s"
+	@echo "... DynamicProgramming/D7/Chopstick.o"
+	@echo "... DynamicProgramming/D7/Chopstick.i"
+	@echo "... DynamicProgramming/D7/Chopstick.s"
+	@echo "... DynamicProgramming/D7/Chopsticks.o"
+	@echo "... DynamicProgramming/D7/Chopsticks.i"
+	@echo "... DynamicProgramming/D7/Chopsticks.s"
 .PHONY : help
 
 
