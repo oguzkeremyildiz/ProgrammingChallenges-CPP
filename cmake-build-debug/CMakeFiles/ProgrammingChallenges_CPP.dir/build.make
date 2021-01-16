@@ -77,27 +77,27 @@ include CMakeFiles/ProgrammingChallenges_CPP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.o: ../Backtracking/B5/TugOfWar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B5/TugOfWar.cpp
+CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
+CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.o: ../ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B5/TugOfWar.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.i
+CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.i
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B5/TugOfWar.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.s
+CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.s
 
 # Object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_OBJECTS = \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.o"
+"CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.o"
 
 # External object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_EXTERNAL_OBJECTS =
 
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.o
+ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.o
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/build.make
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ProgrammingChallenges_CPP"

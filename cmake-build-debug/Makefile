@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Backtracking/B5/TugOfWar.o: Backtracking/B5/TugOfWar.cpp.o
+ArithmeticAndAlgebra/A2/ReverseAndAdd.o: ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.o
 
-.PHONY : Backtracking/B5/TugOfWar.o
+.PHONY : ArithmeticAndAlgebra/A2/ReverseAndAdd.o
 
 # target to build an object file
-Backtracking/B5/TugOfWar.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.o
-.PHONY : Backtracking/B5/TugOfWar.cpp.o
+ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.o
+.PHONY : ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.o
 
-Backtracking/B5/TugOfWar.i: Backtracking/B5/TugOfWar.cpp.i
+ArithmeticAndAlgebra/A2/ReverseAndAdd.i: ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.i
 
-.PHONY : Backtracking/B5/TugOfWar.i
+.PHONY : ArithmeticAndAlgebra/A2/ReverseAndAdd.i
 
 # target to preprocess a source file
-Backtracking/B5/TugOfWar.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.i
-.PHONY : Backtracking/B5/TugOfWar.cpp.i
+ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.i
+.PHONY : ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.i
 
-Backtracking/B5/TugOfWar.s: Backtracking/B5/TugOfWar.cpp.s
+ArithmeticAndAlgebra/A2/ReverseAndAdd.s: ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.s
 
-.PHONY : Backtracking/B5/TugOfWar.s
+.PHONY : ArithmeticAndAlgebra/A2/ReverseAndAdd.s
 
 # target to generate assembly for a file
-Backtracking/B5/TugOfWar.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.s
-.PHONY : Backtracking/B5/TugOfWar.cpp.s
+ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.s
+.PHONY : ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Backtracking/B5/TugOfWar.o"
-	@echo "... Backtracking/B5/TugOfWar.i"
-	@echo "... Backtracking/B5/TugOfWar.s"
+	@echo "... ArithmeticAndAlgebra/A2/ReverseAndAdd.o"
+	@echo "... ArithmeticAndAlgebra/A2/ReverseAndAdd.i"
+	@echo "... ArithmeticAndAlgebra/A2/ReverseAndAdd.s"
 .PHONY : help
 
 
