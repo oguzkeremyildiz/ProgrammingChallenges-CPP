@@ -9,29 +9,30 @@
 
 using namespace std;
 
-void setChosen(vector<Node> &chosen, unsigned long long int **dp, int i, int j, vector<Node> list) {
-    if (i > 0 && j - list.at(i).getWeight() > -1 && dp[i - 1][j - list.at(i).getWeight()] + list.at(i).getValue() > dp[i - 1][j]) {
-        chosen.push_back(list.at(i));
-        if (i > 0) {
-            setChosen(chosen, dp, i - 1, j - list.at(i).getWeight(), list);
-        }
-    } else {
-        if (i > 0) {
-            setChosen(chosen, dp, i - 1, j, list);
+bool control(vector<Node> list, unsigned long long int current, int ferry) {
+    vector<Node> port = vector<Node>();
+    vector<Node> starboard = vector<Node>();
+    int endIndex = INT_MAX;
+    for (int n = list.size() - 1; n > -1; n--) {
+        if (list.at(n).getValue() <= current) {
+            if (endIndex == INT_MAX) {
+                endIndex = n;
+            }
+            current -= list.at(n).getValue();
+            port.push_back(list.at(n));
         }
     }
-}
-
-bool control(vector<Node> list, int i, int j, unsigned long long int **dp, int ferry) {
-    vector<Node> chosen = vector<Node>();
-    setChosen(chosen, dp, i, j, list);
-    int total1 = 0, total2 = 0;
-    for (int k = 0; k < i + 1; ++k) {
-        if (find(chosen.begin(), chosen.end(), list.at(k)) != chosen.end()) {
-            total1 += list.at(k).getWeight();
-        } else {
-            total2 += list.at(k).getWeight();
+    for (int n = 0; n < endIndex; ++n) {
+        if (find(port.begin(), port.end(), list.at(n)) == port.end()) {
+            starboard.push_back(list.at(n));
         }
+    }
+    int total1 = 0, total2 = 0;
+    for (auto & k : port) {
+        total1 += k.getWeight();
+    }
+    for (auto & k : starboard) {
+        total2 += k.getWeight();
     }
     return ferry >= total1 && ferry >= total2;
 }
@@ -47,20 +48,20 @@ void print(unsigned long long int **dp, int ferry, vector<Node> list) {
         }
     }
     int total = 0;
-    for (int i = 0; i < list.size(); ++i) {
-        if (find(port.begin(), port.end(), list.at(i)) == port.end()) {
-            if (total + list.at(i).getWeight() > ferry) {
+    for (auto & i : list) {
+        if (find(port.begin(), port.end(), i) == port.end()) {
+            if (total + i.getWeight() > ferry) {
                 break;
             }
-            total += list.at(i).getWeight();
-            starboard.push_back(list.at(i));
+            total += i.getWeight();
+            starboard.push_back(i);
         }
     }
     cout << port.size() + starboard.size() << endl;
-    for (int i = 0; i < list.size(); ++i) {
-        if (find(port.begin(), port.end(), list.at(i)) != port.end()) {
+    for (auto & i : list) {
+        if (find(port.begin(), port.end(), i) != port.end()) {
             cout << "port" << endl;
-        } else if (find(starboard.begin(), starboard.end(), list.at(i)) != starboard.end()) {
+        } else if (find(starboard.begin(), starboard.end(), i) != starboard.end()) {
             cout << "starboard" << endl;
         }
     }
@@ -68,14 +69,9 @@ void print(unsigned long long int **dp, int ferry, vector<Node> list) {
 
 void dp(vector<Node> list, int ferry) {
     unsigned long long int **dp;
-    dp = (unsigned long long int **)malloc(list.size() * sizeof(unsigned long long int *));
+    dp = (unsigned long long int **)calloc(list.size(), sizeof(unsigned long long int *));
     for (int i = 0; i < list.size(); ++i) {
-        dp[i] = (unsigned long long int *) malloc((ferry + 1) * sizeof(unsigned long long int));
-    }
-    for (int i = 0; i < list.size(); ++i) {
-        for (int j = 0; j < ferry + 1; ++j) {
-            dp[i][j] = 0;
-        }
+        dp[i] = (unsigned long long int *) calloc((ferry + 1), sizeof(unsigned long long int));
     }
     for (int i = 0; i < ferry + 1; i++) {
         if (i >= list.at(0).getWeight()) {
@@ -85,7 +81,7 @@ void dp(vector<Node> list, int ferry) {
     for (int i = 1; i < list.size(); ++i) {
         if (list.at(i).getWeight() < ferry + 1) {
             for (int j = 1; j < ferry + 1; ++j) {
-                if (j - list.at(i).getWeight() > -1 && dp[i - 1][j - list.at(i).getWeight()] + list.at(i).getValue() > dp[i - 1][j] && control(list, i, j, dp, ferry)) {
+                if (j - list.at(i).getWeight() > -1 && dp[i - 1][j - list.at(i).getWeight()] + list.at(i).getValue() > dp[i - 1][j] && control(list, dp[i - 1][j - list.at(i).getWeight()] + list.at(i).getValue(), ferry)) {
                     dp[i][j] = dp[i - 1][j - list.at(i).getWeight()] + list.at(i).getValue();
                 } else {
                     dp[i][j] = dp[i - 1][j];
@@ -96,12 +92,17 @@ void dp(vector<Node> list, int ferry) {
     print(dp, ferry, list);
 }
 
-unsigned long long int pow(unsigned long long int first, int second) {
-    unsigned long long int total = first;
-    for (int i = 1; i < second; ++i) {
-        total *= first;
+unsigned long long int setValues(vector<unsigned long long int> &values) {
+    if (values.empty()) {
+        values.push_back(1);
+    } else {
+        unsigned long long int total = 1;
+        for (unsigned long long value : values) {
+            total += value;
+        }
+        values.push_back(total);
     }
-    return total;
+    return values.at(values.size() - 1);
 }
 
 int main() {
@@ -117,11 +118,12 @@ int main() {
             index = 0;
             file >> ferry;
             int current = INT_MAX;
+            vector<unsigned long long int> values = vector<unsigned long long int>();
             while (current != 0) {
                 file >> current;
                 if (current != 0) {
                     index++;
-                    unsigned long long int value = pow(10, index);
+                    unsigned long long int value = setValues(values);
                     list.emplace_back(value, current);
                 }
             }

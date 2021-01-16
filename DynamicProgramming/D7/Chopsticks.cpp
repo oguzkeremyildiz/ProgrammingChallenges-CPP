@@ -24,10 +24,7 @@ bool isThereAChopstick(int *array, int currentIndex, int arrayLength) {
 
 bool suitable(const bool *visited, Chopstick &chopstick1, Chopstick &chopstick2, int visitedLength) {
     if (!visited[chopstick1.getIndex()] && !visited[chopstick2.getIndex()]) {
-        int *array = (int *)malloc(visitedLength * sizeof(int));
-        for (int i = 0; i < visitedLength; ++i) {
-            array[i] = 0;
-        }
+        int *array = (int *)calloc(visitedLength, sizeof(int));
         for (int i = 0; i < visitedLength; i++) {
             if (visited[i] || chopstick1.getIndex() == i || chopstick2.getIndex() == i) {
                 array[i] = 1;

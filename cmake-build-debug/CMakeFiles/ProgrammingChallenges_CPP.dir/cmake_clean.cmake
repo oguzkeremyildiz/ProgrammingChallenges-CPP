@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D7/Chopstick.cpp.o"
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D7/Chopsticks.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )
