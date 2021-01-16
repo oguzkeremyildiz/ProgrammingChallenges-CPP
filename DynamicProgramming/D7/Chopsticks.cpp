@@ -80,7 +80,6 @@ void fill(int **dp, Chopstick &first, Chopstick &second, int i, Chopstick *chops
         for (int j = 0; j < length2; ++j) {
             dp[i][j] = dp[i - 1][j];
         }
-        //System.arraycopy(dp[i - 1], 0, dp[i], 0, length2);
     }
     if (abs(first.getIndex() - second.getIndex()) != 1) {
         if (first.getIndex() > second.getIndex()) {
@@ -118,19 +117,11 @@ void fill(int **dp, Chopstick &first, Chopstick &second, int i, Chopstick *chops
 
 int find(Chopstick *chopstick, int people, int length) {
     int **dp;
-    dp = (int **)malloc(people * sizeof(int *));
+    dp = (int **)calloc(people, sizeof(int *));
     for (int i = 0; i < people; ++i) {
-        dp[i] = (int*) malloc(length * sizeof(int));
+        dp[i] = (int*) calloc(length, sizeof(int));
     }
-    for (int i = 0; i < people; ++i) {
-        for (int j = 0; j < length; ++j) {
-            dp[i][j] = 0;
-        }
-    }
-    bool *visited = (bool *)malloc(length * sizeof(bool));
-    for (int i = 0; i < length; ++i) {
-        visited[i] = false;
-    }
+    bool *visited = (bool *)calloc(length, sizeof(bool));
     for (int i = 0; i < people; i++) {
         vector<Chopstick> list = vector<Chopstick>();
         Chopstick first = Chopstick(-1, INT_MAX);
