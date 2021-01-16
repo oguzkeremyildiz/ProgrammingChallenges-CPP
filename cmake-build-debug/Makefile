@@ -143,59 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-DynamicProgramming/D6/FerryLoading.o: DynamicProgramming/D6/FerryLoading.cpp.o
+Backtracking/B5/TugOfWar.o: Backtracking/B5/TugOfWar.cpp.o
 
-.PHONY : DynamicProgramming/D6/FerryLoading.o
-
-# target to build an object file
-DynamicProgramming/D6/FerryLoading.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.o
-.PHONY : DynamicProgramming/D6/FerryLoading.cpp.o
-
-DynamicProgramming/D6/FerryLoading.i: DynamicProgramming/D6/FerryLoading.cpp.i
-
-.PHONY : DynamicProgramming/D6/FerryLoading.i
-
-# target to preprocess a source file
-DynamicProgramming/D6/FerryLoading.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.i
-.PHONY : DynamicProgramming/D6/FerryLoading.cpp.i
-
-DynamicProgramming/D6/FerryLoading.s: DynamicProgramming/D6/FerryLoading.cpp.s
-
-.PHONY : DynamicProgramming/D6/FerryLoading.s
-
-# target to generate assembly for a file
-DynamicProgramming/D6/FerryLoading.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/FerryLoading.cpp.s
-.PHONY : DynamicProgramming/D6/FerryLoading.cpp.s
-
-DynamicProgramming/D6/Node.o: DynamicProgramming/D6/Node.cpp.o
-
-.PHONY : DynamicProgramming/D6/Node.o
+.PHONY : Backtracking/B5/TugOfWar.o
 
 # target to build an object file
-DynamicProgramming/D6/Node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.o
-.PHONY : DynamicProgramming/D6/Node.cpp.o
+Backtracking/B5/TugOfWar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.o
+.PHONY : Backtracking/B5/TugOfWar.cpp.o
 
-DynamicProgramming/D6/Node.i: DynamicProgramming/D6/Node.cpp.i
+Backtracking/B5/TugOfWar.i: Backtracking/B5/TugOfWar.cpp.i
 
-.PHONY : DynamicProgramming/D6/Node.i
+.PHONY : Backtracking/B5/TugOfWar.i
 
 # target to preprocess a source file
-DynamicProgramming/D6/Node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.i
-.PHONY : DynamicProgramming/D6/Node.cpp.i
+Backtracking/B5/TugOfWar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.i
+.PHONY : Backtracking/B5/TugOfWar.cpp.i
 
-DynamicProgramming/D6/Node.s: DynamicProgramming/D6/Node.cpp.s
+Backtracking/B5/TugOfWar.s: Backtracking/B5/TugOfWar.cpp.s
 
-.PHONY : DynamicProgramming/D6/Node.s
+.PHONY : Backtracking/B5/TugOfWar.s
 
 # target to generate assembly for a file
-DynamicProgramming/D6/Node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/DynamicProgramming/D6/Node.cpp.s
-.PHONY : DynamicProgramming/D6/Node.cpp.s
+Backtracking/B5/TugOfWar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B5/TugOfWar.cpp.s
+.PHONY : Backtracking/B5/TugOfWar.cpp.s
 
 # Help Target
 help:
@@ -206,12 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... DynamicProgramming/D6/FerryLoading.o"
-	@echo "... DynamicProgramming/D6/FerryLoading.i"
-	@echo "... DynamicProgramming/D6/FerryLoading.s"
-	@echo "... DynamicProgramming/D6/Node.o"
-	@echo "... DynamicProgramming/D6/Node.i"
-	@echo "... DynamicProgramming/D6/Node.s"
+	@echo "... Backtracking/B5/TugOfWar.o"
+	@echo "... Backtracking/B5/TugOfWar.i"
+	@echo "... Backtracking/B5/TugOfWar.s"
 .PHONY : help
 
 

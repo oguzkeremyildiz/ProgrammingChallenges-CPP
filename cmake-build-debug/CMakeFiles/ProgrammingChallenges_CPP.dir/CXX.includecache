@@ -6,20 +6,26 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D7/Chopstick.h
+../include/Comparator.h
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D7/Chopsticks.cpp
-iostream
+../include/Sort/QuickSort.h
+../Comparator.h
+../include/Comparator.h
+vector
 -
-Chopstick.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/DynamicProgramming/D7/Chopstick.h
-unordered_map
--
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B5/TugOfWar.cpp
 fstream
 -
-utility
+iostream
 -
 vector
+-
+Sort/QuickSort.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B5/Sort/QuickSort.h
+Comparator.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B5/Comparator.h
+utility
 -
 cmath
 -
