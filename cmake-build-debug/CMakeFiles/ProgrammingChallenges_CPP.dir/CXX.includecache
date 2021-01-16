@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp
 iostream
 -
-vector
+fstream
 -
 cmath
+-
+vector
 -
 

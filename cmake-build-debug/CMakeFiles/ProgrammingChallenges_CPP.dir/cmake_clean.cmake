@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )

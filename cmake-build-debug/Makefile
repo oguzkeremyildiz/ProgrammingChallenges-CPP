@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-ArithmeticAndAlgebra/A2/ReverseAndAdd.o: ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.o
+ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.o: ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.o
 
-.PHONY : ArithmeticAndAlgebra/A2/ReverseAndAdd.o
+.PHONY : ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.o
 
 # target to build an object file
-ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.o
-.PHONY : ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.o
+ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.o
+.PHONY : ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.o
 
-ArithmeticAndAlgebra/A2/ReverseAndAdd.i: ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.i
+ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.i: ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.i
 
-.PHONY : ArithmeticAndAlgebra/A2/ReverseAndAdd.i
+.PHONY : ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.i
 
 # target to preprocess a source file
-ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.i
-.PHONY : ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.i
+ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.i
+.PHONY : ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.i
 
-ArithmeticAndAlgebra/A2/ReverseAndAdd.s: ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.s
+ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.s: ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.s
 
-.PHONY : ArithmeticAndAlgebra/A2/ReverseAndAdd.s
+.PHONY : ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.s
 
 # target to generate assembly for a file
-ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.s
-.PHONY : ArithmeticAndAlgebra/A2/ReverseAndAdd.cpp.s
+ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.s
+.PHONY : ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... ArithmeticAndAlgebra/A2/ReverseAndAdd.o"
-	@echo "... ArithmeticAndAlgebra/A2/ReverseAndAdd.i"
-	@echo "... ArithmeticAndAlgebra/A2/ReverseAndAdd.s"
+	@echo "... ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.o"
+	@echo "... ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.i"
+	@echo "... ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.s"
 .PHONY : help
 
 
