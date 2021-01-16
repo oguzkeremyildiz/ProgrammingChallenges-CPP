@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.o: ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.o
+ArithmeticAndAlgebra/A4/Ones.o: ArithmeticAndAlgebra/A4/Ones.cpp.o
 
-.PHONY : ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.o
+.PHONY : ArithmeticAndAlgebra/A4/Ones.o
 
 # target to build an object file
-ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.o
-.PHONY : ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.o
+ArithmeticAndAlgebra/A4/Ones.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A4/Ones.cpp.o
+.PHONY : ArithmeticAndAlgebra/A4/Ones.cpp.o
 
-ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.i: ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.i
+ArithmeticAndAlgebra/A4/Ones.i: ArithmeticAndAlgebra/A4/Ones.cpp.i
 
-.PHONY : ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.i
+.PHONY : ArithmeticAndAlgebra/A4/Ones.i
 
 # target to preprocess a source file
-ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.i
-.PHONY : ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.i
+ArithmeticAndAlgebra/A4/Ones.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A4/Ones.cpp.i
+.PHONY : ArithmeticAndAlgebra/A4/Ones.cpp.i
 
-ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.s: ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.s
+ArithmeticAndAlgebra/A4/Ones.s: ArithmeticAndAlgebra/A4/Ones.cpp.s
 
-.PHONY : ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.s
+.PHONY : ArithmeticAndAlgebra/A4/Ones.s
 
 # target to generate assembly for a file
-ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.s
-.PHONY : ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.s
+ArithmeticAndAlgebra/A4/Ones.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A4/Ones.cpp.s
+.PHONY : ArithmeticAndAlgebra/A4/Ones.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.o"
-	@echo "... ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.i"
-	@echo "... ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.s"
+	@echo "... ArithmeticAndAlgebra/A4/Ones.o"
+	@echo "... ArithmeticAndAlgebra/A4/Ones.i"
+	@echo "... ArithmeticAndAlgebra/A4/Ones.s"
 .PHONY : help
 
 

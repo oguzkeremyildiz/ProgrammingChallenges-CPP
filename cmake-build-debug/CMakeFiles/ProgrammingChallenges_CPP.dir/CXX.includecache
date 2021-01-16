@@ -6,12 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp
-iostream
--
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/ArithmeticAndAlgebra/A4/Ones.cpp
 fstream
 -
-cmath
+iostream
 -
 vector
 -

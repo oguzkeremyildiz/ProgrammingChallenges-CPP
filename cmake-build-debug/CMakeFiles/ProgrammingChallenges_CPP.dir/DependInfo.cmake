@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp" "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A3/TheArcheologistsDilemma.cpp.o"
+  "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/ArithmeticAndAlgebra/A4/Ones.cpp" "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A4/Ones.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
