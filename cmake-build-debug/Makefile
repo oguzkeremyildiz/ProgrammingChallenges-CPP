@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-ArithmeticAndAlgebra/A4/Ones.o: ArithmeticAndAlgebra/A4/Ones.cpp.o
+GraphTraversal/G5/EditStepLadders.o: GraphTraversal/G5/EditStepLadders.cpp.o
 
-.PHONY : ArithmeticAndAlgebra/A4/Ones.o
+.PHONY : GraphTraversal/G5/EditStepLadders.o
 
 # target to build an object file
-ArithmeticAndAlgebra/A4/Ones.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A4/Ones.cpp.o
-.PHONY : ArithmeticAndAlgebra/A4/Ones.cpp.o
+GraphTraversal/G5/EditStepLadders.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G5/EditStepLadders.cpp.o
+.PHONY : GraphTraversal/G5/EditStepLadders.cpp.o
 
-ArithmeticAndAlgebra/A4/Ones.i: ArithmeticAndAlgebra/A4/Ones.cpp.i
+GraphTraversal/G5/EditStepLadders.i: GraphTraversal/G5/EditStepLadders.cpp.i
 
-.PHONY : ArithmeticAndAlgebra/A4/Ones.i
+.PHONY : GraphTraversal/G5/EditStepLadders.i
 
 # target to preprocess a source file
-ArithmeticAndAlgebra/A4/Ones.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A4/Ones.cpp.i
-.PHONY : ArithmeticAndAlgebra/A4/Ones.cpp.i
+GraphTraversal/G5/EditStepLadders.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G5/EditStepLadders.cpp.i
+.PHONY : GraphTraversal/G5/EditStepLadders.cpp.i
 
-ArithmeticAndAlgebra/A4/Ones.s: ArithmeticAndAlgebra/A4/Ones.cpp.s
+GraphTraversal/G5/EditStepLadders.s: GraphTraversal/G5/EditStepLadders.cpp.s
 
-.PHONY : ArithmeticAndAlgebra/A4/Ones.s
+.PHONY : GraphTraversal/G5/EditStepLadders.s
 
 # target to generate assembly for a file
-ArithmeticAndAlgebra/A4/Ones.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/ArithmeticAndAlgebra/A4/Ones.cpp.s
-.PHONY : ArithmeticAndAlgebra/A4/Ones.cpp.s
+GraphTraversal/G5/EditStepLadders.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G5/EditStepLadders.cpp.s
+.PHONY : GraphTraversal/G5/EditStepLadders.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... ArithmeticAndAlgebra/A4/Ones.o"
-	@echo "... ArithmeticAndAlgebra/A4/Ones.i"
-	@echo "... ArithmeticAndAlgebra/A4/Ones.s"
+	@echo "... GraphTraversal/G5/EditStepLadders.o"
+	@echo "... GraphTraversal/G5/EditStepLadders.i"
+	@echo "... GraphTraversal/G5/EditStepLadders.s"
 .PHONY : help
 
 
