@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Combinatorics/C6/ThePriestMathematician.o: Combinatorics/C6/ThePriestMathematician.cpp.o
+Combinatorics/C8/Steps.o: Combinatorics/C8/Steps.cpp.o
 
-.PHONY : Combinatorics/C6/ThePriestMathematician.o
+.PHONY : Combinatorics/C8/Steps.o
 
 # target to build an object file
-Combinatorics/C6/ThePriestMathematician.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C6/ThePriestMathematician.cpp.o
-.PHONY : Combinatorics/C6/ThePriestMathematician.cpp.o
+Combinatorics/C8/Steps.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C8/Steps.cpp.o
+.PHONY : Combinatorics/C8/Steps.cpp.o
 
-Combinatorics/C6/ThePriestMathematician.i: Combinatorics/C6/ThePriestMathematician.cpp.i
+Combinatorics/C8/Steps.i: Combinatorics/C8/Steps.cpp.i
 
-.PHONY : Combinatorics/C6/ThePriestMathematician.i
+.PHONY : Combinatorics/C8/Steps.i
 
 # target to preprocess a source file
-Combinatorics/C6/ThePriestMathematician.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C6/ThePriestMathematician.cpp.i
-.PHONY : Combinatorics/C6/ThePriestMathematician.cpp.i
+Combinatorics/C8/Steps.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C8/Steps.cpp.i
+.PHONY : Combinatorics/C8/Steps.cpp.i
 
-Combinatorics/C6/ThePriestMathematician.s: Combinatorics/C6/ThePriestMathematician.cpp.s
+Combinatorics/C8/Steps.s: Combinatorics/C8/Steps.cpp.s
 
-.PHONY : Combinatorics/C6/ThePriestMathematician.s
+.PHONY : Combinatorics/C8/Steps.s
 
 # target to generate assembly for a file
-Combinatorics/C6/ThePriestMathematician.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C6/ThePriestMathematician.cpp.s
-.PHONY : Combinatorics/C6/ThePriestMathematician.cpp.s
+Combinatorics/C8/Steps.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C8/Steps.cpp.s
+.PHONY : Combinatorics/C8/Steps.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Combinatorics/C6/ThePriestMathematician.o"
-	@echo "... Combinatorics/C6/ThePriestMathematician.i"
-	@echo "... Combinatorics/C6/ThePriestMathematician.s"
+	@echo "... Combinatorics/C8/Steps.o"
+	@echo "... Combinatorics/C8/Steps.i"
+	@echo "... Combinatorics/C8/Steps.s"
 .PHONY : help
 
 
