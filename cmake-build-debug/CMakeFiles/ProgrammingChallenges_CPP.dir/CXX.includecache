@@ -6,23 +6,17 @@
 
 #IncludeRegexTransform: 
 
-../include/Graph/Graph.h
-unordered_set
--
-unordered_map
--
-vector
+../include/Util/BigInteger.h
+iostream
 -
 utility
 -
-
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G5/EditStepLadders.cpp
-iostream
+string
 -
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Combinatorics/C6/ThePriestMathematician.cpp
 fstream
 -
-vector
+Util/BigInteger.h
 -
-Graph/Graph.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G5/Graph/Graph.h
 

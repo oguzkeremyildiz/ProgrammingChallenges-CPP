@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GraphTraversal/G5/EditStepLadders.o: GraphTraversal/G5/EditStepLadders.cpp.o
+Combinatorics/C6/ThePriestMathematician.o: Combinatorics/C6/ThePriestMathematician.cpp.o
 
-.PHONY : GraphTraversal/G5/EditStepLadders.o
+.PHONY : Combinatorics/C6/ThePriestMathematician.o
 
 # target to build an object file
-GraphTraversal/G5/EditStepLadders.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G5/EditStepLadders.cpp.o
-.PHONY : GraphTraversal/G5/EditStepLadders.cpp.o
+Combinatorics/C6/ThePriestMathematician.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C6/ThePriestMathematician.cpp.o
+.PHONY : Combinatorics/C6/ThePriestMathematician.cpp.o
 
-GraphTraversal/G5/EditStepLadders.i: GraphTraversal/G5/EditStepLadders.cpp.i
+Combinatorics/C6/ThePriestMathematician.i: Combinatorics/C6/ThePriestMathematician.cpp.i
 
-.PHONY : GraphTraversal/G5/EditStepLadders.i
+.PHONY : Combinatorics/C6/ThePriestMathematician.i
 
 # target to preprocess a source file
-GraphTraversal/G5/EditStepLadders.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G5/EditStepLadders.cpp.i
-.PHONY : GraphTraversal/G5/EditStepLadders.cpp.i
+Combinatorics/C6/ThePriestMathematician.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C6/ThePriestMathematician.cpp.i
+.PHONY : Combinatorics/C6/ThePriestMathematician.cpp.i
 
-GraphTraversal/G5/EditStepLadders.s: GraphTraversal/G5/EditStepLadders.cpp.s
+Combinatorics/C6/ThePriestMathematician.s: Combinatorics/C6/ThePriestMathematician.cpp.s
 
-.PHONY : GraphTraversal/G5/EditStepLadders.s
+.PHONY : Combinatorics/C6/ThePriestMathematician.s
 
 # target to generate assembly for a file
-GraphTraversal/G5/EditStepLadders.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G5/EditStepLadders.cpp.s
-.PHONY : GraphTraversal/G5/EditStepLadders.cpp.s
+Combinatorics/C6/ThePriestMathematician.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C6/ThePriestMathematician.cpp.s
+.PHONY : Combinatorics/C6/ThePriestMathematician.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GraphTraversal/G5/EditStepLadders.o"
-	@echo "... GraphTraversal/G5/EditStepLadders.i"
-	@echo "... GraphTraversal/G5/EditStepLadders.s"
+	@echo "... Combinatorics/C6/ThePriestMathematician.o"
+	@echo "... Combinatorics/C6/ThePriestMathematician.i"
+	@echo "... Combinatorics/C6/ThePriestMathematician.s"
 .PHONY : help
 
 

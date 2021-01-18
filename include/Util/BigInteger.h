@@ -7,6 +7,7 @@
 #include <iostream>
 #include <utility>
 #include <string>
+// working phase...
 
 using namespace std;
 
@@ -263,7 +264,7 @@ void BigInteger::operator *=(string num) {
 }
 
 void BigInteger::operator =(BigInteger b) {
-    this->value() = b.value();
+    this->number = b.value();
 }
 
 bool BigInteger::operator !=(BigInteger b) {
