@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Combinatorics/C8/Steps.o: Combinatorics/C8/Steps.cpp.o
+GraphTraversal/G8/HanoiTowerTroublesAgain.o: GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.o
 
-.PHONY : Combinatorics/C8/Steps.o
+.PHONY : GraphTraversal/G8/HanoiTowerTroublesAgain.o
 
 # target to build an object file
-Combinatorics/C8/Steps.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C8/Steps.cpp.o
-.PHONY : Combinatorics/C8/Steps.cpp.o
+GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.o
+.PHONY : GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.o
 
-Combinatorics/C8/Steps.i: Combinatorics/C8/Steps.cpp.i
+GraphTraversal/G8/HanoiTowerTroublesAgain.i: GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.i
 
-.PHONY : Combinatorics/C8/Steps.i
+.PHONY : GraphTraversal/G8/HanoiTowerTroublesAgain.i
 
 # target to preprocess a source file
-Combinatorics/C8/Steps.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C8/Steps.cpp.i
-.PHONY : Combinatorics/C8/Steps.cpp.i
+GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.i
+.PHONY : GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.i
 
-Combinatorics/C8/Steps.s: Combinatorics/C8/Steps.cpp.s
+GraphTraversal/G8/HanoiTowerTroublesAgain.s: GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.s
 
-.PHONY : Combinatorics/C8/Steps.s
+.PHONY : GraphTraversal/G8/HanoiTowerTroublesAgain.s
 
 # target to generate assembly for a file
-Combinatorics/C8/Steps.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Combinatorics/C8/Steps.cpp.s
-.PHONY : Combinatorics/C8/Steps.cpp.s
+GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.s
+.PHONY : GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Combinatorics/C8/Steps.o"
-	@echo "... Combinatorics/C8/Steps.i"
-	@echo "... Combinatorics/C8/Steps.s"
+	@echo "... GraphTraversal/G8/HanoiTowerTroublesAgain.o"
+	@echo "... GraphTraversal/G8/HanoiTowerTroublesAgain.i"
+	@echo "... GraphTraversal/G8/HanoiTowerTroublesAgain.s"
 .PHONY : help
 
 

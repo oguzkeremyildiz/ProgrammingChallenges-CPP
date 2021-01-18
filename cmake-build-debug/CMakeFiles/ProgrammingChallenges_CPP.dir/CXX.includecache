@@ -6,17 +6,25 @@
 
 #IncludeRegexTransform: 
 
-../include/Util/BigInteger.h
-iostream
+../include/Graph/Graph.h
+unordered_set
+-
+unordered_map
+-
+vector
 -
 utility
 -
-string
--
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Combinatorics/C6/ThePriestMathematician.cpp
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G8/HanoiTowerTroublesAgain.cpp
+iostream
+-
 fstream
 -
-Util/BigInteger.h
+unordered_set
+-
+Graph/Graph.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G8/Graph/Graph.h
+vector
 -
 
