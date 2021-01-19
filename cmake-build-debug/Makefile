@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GraphTraversal/G8/HanoiTowerTroublesAgain.o: GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.o
+NumberTheory/N5/SummationOfFourPrimes.o: NumberTheory/N5/SummationOfFourPrimes.cpp.o
 
-.PHONY : GraphTraversal/G8/HanoiTowerTroublesAgain.o
+.PHONY : NumberTheory/N5/SummationOfFourPrimes.o
 
 # target to build an object file
-GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.o
-.PHONY : GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.o
+NumberTheory/N5/SummationOfFourPrimes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/NumberTheory/N5/SummationOfFourPrimes.cpp.o
+.PHONY : NumberTheory/N5/SummationOfFourPrimes.cpp.o
 
-GraphTraversal/G8/HanoiTowerTroublesAgain.i: GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.i
+NumberTheory/N5/SummationOfFourPrimes.i: NumberTheory/N5/SummationOfFourPrimes.cpp.i
 
-.PHONY : GraphTraversal/G8/HanoiTowerTroublesAgain.i
+.PHONY : NumberTheory/N5/SummationOfFourPrimes.i
 
 # target to preprocess a source file
-GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.i
-.PHONY : GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.i
+NumberTheory/N5/SummationOfFourPrimes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/NumberTheory/N5/SummationOfFourPrimes.cpp.i
+.PHONY : NumberTheory/N5/SummationOfFourPrimes.cpp.i
 
-GraphTraversal/G8/HanoiTowerTroublesAgain.s: GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.s
+NumberTheory/N5/SummationOfFourPrimes.s: NumberTheory/N5/SummationOfFourPrimes.cpp.s
 
-.PHONY : GraphTraversal/G8/HanoiTowerTroublesAgain.s
+.PHONY : NumberTheory/N5/SummationOfFourPrimes.s
 
 # target to generate assembly for a file
-GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.s
-.PHONY : GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.s
+NumberTheory/N5/SummationOfFourPrimes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/NumberTheory/N5/SummationOfFourPrimes.cpp.s
+.PHONY : NumberTheory/N5/SummationOfFourPrimes.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GraphTraversal/G8/HanoiTowerTroublesAgain.o"
-	@echo "... GraphTraversal/G8/HanoiTowerTroublesAgain.i"
-	@echo "... GraphTraversal/G8/HanoiTowerTroublesAgain.s"
+	@echo "... NumberTheory/N5/SummationOfFourPrimes.o"
+	@echo "... NumberTheory/N5/SummationOfFourPrimes.i"
+	@echo "... NumberTheory/N5/SummationOfFourPrimes.s"
 .PHONY : help
 
 

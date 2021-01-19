@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G8/HanoiTowerTroublesAgain.cpp" "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G8/HanoiTowerTroublesAgain.cpp.o"
+  "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/NumberTheory/N5/SummationOfFourPrimes.cpp" "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/ProgrammingChallenges_CPP.dir/NumberTheory/N5/SummationOfFourPrimes.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
