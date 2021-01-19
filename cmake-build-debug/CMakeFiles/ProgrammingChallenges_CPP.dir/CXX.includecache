@@ -16,15 +16,17 @@ vector
 utility
 -
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G8/HanoiTowerTroublesAgain.cpp
-iostream
--
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G6/TouristGuide.cpp
 fstream
 -
-unordered_set
+iostream
+-
+vector
 -
 Graph/Graph.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G8/Graph/Graph.h
-vector
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G6/Graph/Graph.h
+utility
+-
+unordered_set
 -
 

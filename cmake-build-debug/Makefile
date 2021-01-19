@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-NumberTheory/N5/SummationOfFourPrimes.o: NumberTheory/N5/SummationOfFourPrimes.cpp.o
+GraphAlgorithms/G6/TouristGuide.o: GraphAlgorithms/G6/TouristGuide.cpp.o
 
-.PHONY : NumberTheory/N5/SummationOfFourPrimes.o
+.PHONY : GraphAlgorithms/G6/TouristGuide.o
 
 # target to build an object file
-NumberTheory/N5/SummationOfFourPrimes.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/NumberTheory/N5/SummationOfFourPrimes.cpp.o
-.PHONY : NumberTheory/N5/SummationOfFourPrimes.cpp.o
+GraphAlgorithms/G6/TouristGuide.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G6/TouristGuide.cpp.o
+.PHONY : GraphAlgorithms/G6/TouristGuide.cpp.o
 
-NumberTheory/N5/SummationOfFourPrimes.i: NumberTheory/N5/SummationOfFourPrimes.cpp.i
+GraphAlgorithms/G6/TouristGuide.i: GraphAlgorithms/G6/TouristGuide.cpp.i
 
-.PHONY : NumberTheory/N5/SummationOfFourPrimes.i
+.PHONY : GraphAlgorithms/G6/TouristGuide.i
 
 # target to preprocess a source file
-NumberTheory/N5/SummationOfFourPrimes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/NumberTheory/N5/SummationOfFourPrimes.cpp.i
-.PHONY : NumberTheory/N5/SummationOfFourPrimes.cpp.i
+GraphAlgorithms/G6/TouristGuide.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G6/TouristGuide.cpp.i
+.PHONY : GraphAlgorithms/G6/TouristGuide.cpp.i
 
-NumberTheory/N5/SummationOfFourPrimes.s: NumberTheory/N5/SummationOfFourPrimes.cpp.s
+GraphAlgorithms/G6/TouristGuide.s: GraphAlgorithms/G6/TouristGuide.cpp.s
 
-.PHONY : NumberTheory/N5/SummationOfFourPrimes.s
+.PHONY : GraphAlgorithms/G6/TouristGuide.s
 
 # target to generate assembly for a file
-NumberTheory/N5/SummationOfFourPrimes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/NumberTheory/N5/SummationOfFourPrimes.cpp.s
-.PHONY : NumberTheory/N5/SummationOfFourPrimes.cpp.s
+GraphAlgorithms/G6/TouristGuide.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G6/TouristGuide.cpp.s
+.PHONY : GraphAlgorithms/G6/TouristGuide.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... NumberTheory/N5/SummationOfFourPrimes.o"
-	@echo "... NumberTheory/N5/SummationOfFourPrimes.i"
-	@echo "... NumberTheory/N5/SummationOfFourPrimes.s"
+	@echo "... GraphAlgorithms/G6/TouristGuide.o"
+	@echo "... GraphAlgorithms/G6/TouristGuide.i"
+	@echo "... GraphAlgorithms/G6/TouristGuide.s"
 .PHONY : help
 
 
