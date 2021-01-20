@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G6/TouristGuide.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G4/SlashMaze.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )

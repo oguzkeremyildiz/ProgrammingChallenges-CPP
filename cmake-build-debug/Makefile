@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GraphAlgorithms/G6/TouristGuide.o: GraphAlgorithms/G6/TouristGuide.cpp.o
+GraphTraversal/G4/SlashMaze.o: GraphTraversal/G4/SlashMaze.cpp.o
 
-.PHONY : GraphAlgorithms/G6/TouristGuide.o
+.PHONY : GraphTraversal/G4/SlashMaze.o
 
 # target to build an object file
-GraphAlgorithms/G6/TouristGuide.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G6/TouristGuide.cpp.o
-.PHONY : GraphAlgorithms/G6/TouristGuide.cpp.o
+GraphTraversal/G4/SlashMaze.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G4/SlashMaze.cpp.o
+.PHONY : GraphTraversal/G4/SlashMaze.cpp.o
 
-GraphAlgorithms/G6/TouristGuide.i: GraphAlgorithms/G6/TouristGuide.cpp.i
+GraphTraversal/G4/SlashMaze.i: GraphTraversal/G4/SlashMaze.cpp.i
 
-.PHONY : GraphAlgorithms/G6/TouristGuide.i
+.PHONY : GraphTraversal/G4/SlashMaze.i
 
 # target to preprocess a source file
-GraphAlgorithms/G6/TouristGuide.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G6/TouristGuide.cpp.i
-.PHONY : GraphAlgorithms/G6/TouristGuide.cpp.i
+GraphTraversal/G4/SlashMaze.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G4/SlashMaze.cpp.i
+.PHONY : GraphTraversal/G4/SlashMaze.cpp.i
 
-GraphAlgorithms/G6/TouristGuide.s: GraphAlgorithms/G6/TouristGuide.cpp.s
+GraphTraversal/G4/SlashMaze.s: GraphTraversal/G4/SlashMaze.cpp.s
 
-.PHONY : GraphAlgorithms/G6/TouristGuide.s
+.PHONY : GraphTraversal/G4/SlashMaze.s
 
 # target to generate assembly for a file
-GraphAlgorithms/G6/TouristGuide.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G6/TouristGuide.cpp.s
-.PHONY : GraphAlgorithms/G6/TouristGuide.cpp.s
+GraphTraversal/G4/SlashMaze.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G4/SlashMaze.cpp.s
+.PHONY : GraphTraversal/G4/SlashMaze.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GraphAlgorithms/G6/TouristGuide.o"
-	@echo "... GraphAlgorithms/G6/TouristGuide.i"
-	@echo "... GraphAlgorithms/G6/TouristGuide.s"
+	@echo "... GraphTraversal/G4/SlashMaze.o"
+	@echo "... GraphTraversal/G4/SlashMaze.i"
+	@echo "... GraphTraversal/G4/SlashMaze.s"
 .PHONY : help
 
 
