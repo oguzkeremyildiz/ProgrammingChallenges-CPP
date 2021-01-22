@@ -5,10 +5,6 @@
 #ifndef COOKIES_CPP_TRIPLET_H
 #define COOKIES_CPP_TRIPLET_H
 
-#include <string>
-
-using namespace std;
-
 template<class A, class B, class C> class Triplet {
 private:
     A a;
@@ -20,7 +16,6 @@ public:
     A getA();
     B getB();
     C getC();
-    std::string toString();
 };
 
 template<class A, class B, class C> Triplet<A, B, C>::Triplet() = default;
@@ -41,10 +36,6 @@ template<class A, class B, class C> B Triplet<A, B, C>::getB() {
 
 template<class A, class B, class C> C Triplet<A, B, C>::getC() {
     return this->c;
-}
-
-template<class A, class B, class C> std::string Triplet<A, B, C>::toString() {
-    return "[" + std::to_string(a) + ", " + std::to_string(b) + ", " + std::to_string(c) + "]";
 }
 
 template <class A, class B, class C> bool operator ==(Triplet<A, B, C> triplet1, Triplet<A, B, C> triplet2) {

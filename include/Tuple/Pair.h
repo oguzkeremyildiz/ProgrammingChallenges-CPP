@@ -5,10 +5,6 @@
 #ifndef COOKIES_CPP_PAIR_H
 #define COOKIES_CPP_PAIR_H
 
-#include <string>
-
-using namespace std;
-
 template<class K, class V> class Pair {
 private:
     K key;
@@ -18,7 +14,6 @@ public:
     Pair(K key, V value);
     K getKey();
     V getValue();
-    std::string toString();
 };
 
 template<class K, class V> Pair<K, V>::Pair() = default;
@@ -34,10 +29,6 @@ template<class K, class V> K Pair<K, V>::getKey() {
 
 template<class K, class V> V Pair<K, V>::getValue() {
     return this->value;
-}
-
-template<class K, class V> std::string Pair<K, V>::toString() {
-    return "[" + std::to_string(key) + ", " + std::to_string(value) + "]";
 }
 
 template <class K, class V>
