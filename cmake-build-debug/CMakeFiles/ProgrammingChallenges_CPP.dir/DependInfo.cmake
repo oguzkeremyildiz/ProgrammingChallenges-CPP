@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G4/SlashMaze.cpp" "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G4/SlashMaze.cpp.o"
+  "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G6/Cube.cpp" "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G6/Cube.cpp.o"
+  "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G6/TowerOfCubes.cpp" "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G6/TowerOfCubes.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

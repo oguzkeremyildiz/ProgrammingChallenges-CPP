@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G4/SlashMaze.cpp">
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G6/Cube.cpp">
+			<Option target="ProgrammingChallenges_CPP"/>
+		</Unit>
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G6/Cube.h">
+			<Option target="ProgrammingChallenges_CPP"/>
+		</Unit>
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G6/TowerOfCubes.cpp">
 			<Option target="ProgrammingChallenges_CPP"/>
 		</Unit>
 		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/CMakeLists.txt">

@@ -6,27 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../include/Graph/Graph.h
-unordered_set
--
-unordered_map
--
-vector
--
-utility
--
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G6/Cube.cpp
+Cube.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G6/Cube.h
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G6/TouristGuide.cpp
-fstream
--
-iostream
--
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G6/Cube.h
 vector
 -
-Graph/Graph.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G6/Graph/Graph.h
 utility
--
-unordered_set
 -
 
