@@ -143,59 +143,59 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GraphTraversal/G6/Cube.o: GraphTraversal/G6/Cube.cpp.o
+GraphAlgorithms/G2/Node.o: GraphAlgorithms/G2/Node.cpp.o
 
-.PHONY : GraphTraversal/G6/Cube.o
-
-# target to build an object file
-GraphTraversal/G6/Cube.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G6/Cube.cpp.o
-.PHONY : GraphTraversal/G6/Cube.cpp.o
-
-GraphTraversal/G6/Cube.i: GraphTraversal/G6/Cube.cpp.i
-
-.PHONY : GraphTraversal/G6/Cube.i
-
-# target to preprocess a source file
-GraphTraversal/G6/Cube.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G6/Cube.cpp.i
-.PHONY : GraphTraversal/G6/Cube.cpp.i
-
-GraphTraversal/G6/Cube.s: GraphTraversal/G6/Cube.cpp.s
-
-.PHONY : GraphTraversal/G6/Cube.s
-
-# target to generate assembly for a file
-GraphTraversal/G6/Cube.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G6/Cube.cpp.s
-.PHONY : GraphTraversal/G6/Cube.cpp.s
-
-GraphTraversal/G6/TowerOfCubes.o: GraphTraversal/G6/TowerOfCubes.cpp.o
-
-.PHONY : GraphTraversal/G6/TowerOfCubes.o
+.PHONY : GraphAlgorithms/G2/Node.o
 
 # target to build an object file
-GraphTraversal/G6/TowerOfCubes.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G6/TowerOfCubes.cpp.o
-.PHONY : GraphTraversal/G6/TowerOfCubes.cpp.o
+GraphAlgorithms/G2/Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.o
+.PHONY : GraphAlgorithms/G2/Node.cpp.o
 
-GraphTraversal/G6/TowerOfCubes.i: GraphTraversal/G6/TowerOfCubes.cpp.i
+GraphAlgorithms/G2/Node.i: GraphAlgorithms/G2/Node.cpp.i
 
-.PHONY : GraphTraversal/G6/TowerOfCubes.i
+.PHONY : GraphAlgorithms/G2/Node.i
 
 # target to preprocess a source file
-GraphTraversal/G6/TowerOfCubes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G6/TowerOfCubes.cpp.i
-.PHONY : GraphTraversal/G6/TowerOfCubes.cpp.i
+GraphAlgorithms/G2/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.i
+.PHONY : GraphAlgorithms/G2/Node.cpp.i
 
-GraphTraversal/G6/TowerOfCubes.s: GraphTraversal/G6/TowerOfCubes.cpp.s
+GraphAlgorithms/G2/Node.s: GraphAlgorithms/G2/Node.cpp.s
 
-.PHONY : GraphTraversal/G6/TowerOfCubes.s
+.PHONY : GraphAlgorithms/G2/Node.s
 
 # target to generate assembly for a file
-GraphTraversal/G6/TowerOfCubes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G6/TowerOfCubes.cpp.s
-.PHONY : GraphTraversal/G6/TowerOfCubes.cpp.s
+GraphAlgorithms/G2/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.s
+.PHONY : GraphAlgorithms/G2/Node.cpp.s
+
+GraphAlgorithms/G2/TheNecklace.o: GraphAlgorithms/G2/TheNecklace.cpp.o
+
+.PHONY : GraphAlgorithms/G2/TheNecklace.o
+
+# target to build an object file
+GraphAlgorithms/G2/TheNecklace.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.o
+.PHONY : GraphAlgorithms/G2/TheNecklace.cpp.o
+
+GraphAlgorithms/G2/TheNecklace.i: GraphAlgorithms/G2/TheNecklace.cpp.i
+
+.PHONY : GraphAlgorithms/G2/TheNecklace.i
+
+# target to preprocess a source file
+GraphAlgorithms/G2/TheNecklace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.i
+.PHONY : GraphAlgorithms/G2/TheNecklace.cpp.i
+
+GraphAlgorithms/G2/TheNecklace.s: GraphAlgorithms/G2/TheNecklace.cpp.s
+
+.PHONY : GraphAlgorithms/G2/TheNecklace.s
+
+# target to generate assembly for a file
+GraphAlgorithms/G2/TheNecklace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.s
+.PHONY : GraphAlgorithms/G2/TheNecklace.cpp.s
 
 # Help Target
 help:
@@ -206,12 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GraphTraversal/G6/Cube.o"
-	@echo "... GraphTraversal/G6/Cube.i"
-	@echo "... GraphTraversal/G6/Cube.s"
-	@echo "... GraphTraversal/G6/TowerOfCubes.o"
-	@echo "... GraphTraversal/G6/TowerOfCubes.i"
-	@echo "... GraphTraversal/G6/TowerOfCubes.s"
+	@echo "... GraphAlgorithms/G2/Node.o"
+	@echo "... GraphAlgorithms/G2/Node.i"
+	@echo "... GraphAlgorithms/G2/Node.s"
+	@echo "... GraphAlgorithms/G2/TheNecklace.o"
+	@echo "... GraphAlgorithms/G2/TheNecklace.i"
+	@echo "... GraphAlgorithms/G2/TheNecklace.s"
 .PHONY : help
 
 
