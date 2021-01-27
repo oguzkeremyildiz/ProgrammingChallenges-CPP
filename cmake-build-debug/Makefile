@@ -143,59 +143,86 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GraphAlgorithms/G2/Node.o: GraphAlgorithms/G2/Node.cpp.o
+GraphAlgorithms/G4/Railroads.o: GraphAlgorithms/G4/Railroads.cpp.o
 
-.PHONY : GraphAlgorithms/G2/Node.o
-
-# target to build an object file
-GraphAlgorithms/G2/Node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.o
-.PHONY : GraphAlgorithms/G2/Node.cpp.o
-
-GraphAlgorithms/G2/Node.i: GraphAlgorithms/G2/Node.cpp.i
-
-.PHONY : GraphAlgorithms/G2/Node.i
-
-# target to preprocess a source file
-GraphAlgorithms/G2/Node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.i
-.PHONY : GraphAlgorithms/G2/Node.cpp.i
-
-GraphAlgorithms/G2/Node.s: GraphAlgorithms/G2/Node.cpp.s
-
-.PHONY : GraphAlgorithms/G2/Node.s
-
-# target to generate assembly for a file
-GraphAlgorithms/G2/Node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.s
-.PHONY : GraphAlgorithms/G2/Node.cpp.s
-
-GraphAlgorithms/G2/TheNecklace.o: GraphAlgorithms/G2/TheNecklace.cpp.o
-
-.PHONY : GraphAlgorithms/G2/TheNecklace.o
+.PHONY : GraphAlgorithms/G4/Railroads.o
 
 # target to build an object file
-GraphAlgorithms/G2/TheNecklace.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.o
-.PHONY : GraphAlgorithms/G2/TheNecklace.cpp.o
+GraphAlgorithms/G4/Railroads.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.o
+.PHONY : GraphAlgorithms/G4/Railroads.cpp.o
 
-GraphAlgorithms/G2/TheNecklace.i: GraphAlgorithms/G2/TheNecklace.cpp.i
+GraphAlgorithms/G4/Railroads.i: GraphAlgorithms/G4/Railroads.cpp.i
 
-.PHONY : GraphAlgorithms/G2/TheNecklace.i
+.PHONY : GraphAlgorithms/G4/Railroads.i
 
 # target to preprocess a source file
-GraphAlgorithms/G2/TheNecklace.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.i
-.PHONY : GraphAlgorithms/G2/TheNecklace.cpp.i
+GraphAlgorithms/G4/Railroads.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.i
+.PHONY : GraphAlgorithms/G4/Railroads.cpp.i
 
-GraphAlgorithms/G2/TheNecklace.s: GraphAlgorithms/G2/TheNecklace.cpp.s
+GraphAlgorithms/G4/Railroads.s: GraphAlgorithms/G4/Railroads.cpp.s
 
-.PHONY : GraphAlgorithms/G2/TheNecklace.s
+.PHONY : GraphAlgorithms/G4/Railroads.s
 
 # target to generate assembly for a file
-GraphAlgorithms/G2/TheNecklace.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.s
-.PHONY : GraphAlgorithms/G2/TheNecklace.cpp.s
+GraphAlgorithms/G4/Railroads.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.s
+.PHONY : GraphAlgorithms/G4/Railroads.cpp.s
+
+GraphAlgorithms/G4/Road.o: GraphAlgorithms/G4/Road.cpp.o
+
+.PHONY : GraphAlgorithms/G4/Road.o
+
+# target to build an object file
+GraphAlgorithms/G4/Road.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.o
+.PHONY : GraphAlgorithms/G4/Road.cpp.o
+
+GraphAlgorithms/G4/Road.i: GraphAlgorithms/G4/Road.cpp.i
+
+.PHONY : GraphAlgorithms/G4/Road.i
+
+# target to preprocess a source file
+GraphAlgorithms/G4/Road.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.i
+.PHONY : GraphAlgorithms/G4/Road.cpp.i
+
+GraphAlgorithms/G4/Road.s: GraphAlgorithms/G4/Road.cpp.s
+
+.PHONY : GraphAlgorithms/G4/Road.s
+
+# target to generate assembly for a file
+GraphAlgorithms/G4/Road.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.s
+.PHONY : GraphAlgorithms/G4/Road.cpp.s
+
+GraphAlgorithms/G4/Roads.o: GraphAlgorithms/G4/Roads.cpp.o
+
+.PHONY : GraphAlgorithms/G4/Roads.o
+
+# target to build an object file
+GraphAlgorithms/G4/Roads.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.o
+.PHONY : GraphAlgorithms/G4/Roads.cpp.o
+
+GraphAlgorithms/G4/Roads.i: GraphAlgorithms/G4/Roads.cpp.i
+
+.PHONY : GraphAlgorithms/G4/Roads.i
+
+# target to preprocess a source file
+GraphAlgorithms/G4/Roads.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.i
+.PHONY : GraphAlgorithms/G4/Roads.cpp.i
+
+GraphAlgorithms/G4/Roads.s: GraphAlgorithms/G4/Roads.cpp.s
+
+.PHONY : GraphAlgorithms/G4/Roads.s
+
+# target to generate assembly for a file
+GraphAlgorithms/G4/Roads.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.s
+.PHONY : GraphAlgorithms/G4/Roads.cpp.s
 
 # Help Target
 help:
@@ -206,12 +233,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GraphAlgorithms/G2/Node.o"
-	@echo "... GraphAlgorithms/G2/Node.i"
-	@echo "... GraphAlgorithms/G2/Node.s"
-	@echo "... GraphAlgorithms/G2/TheNecklace.o"
-	@echo "... GraphAlgorithms/G2/TheNecklace.i"
-	@echo "... GraphAlgorithms/G2/TheNecklace.s"
+	@echo "... GraphAlgorithms/G4/Railroads.o"
+	@echo "... GraphAlgorithms/G4/Railroads.i"
+	@echo "... GraphAlgorithms/G4/Railroads.s"
+	@echo "... GraphAlgorithms/G4/Road.o"
+	@echo "... GraphAlgorithms/G4/Road.i"
+	@echo "... GraphAlgorithms/G4/Road.s"
+	@echo "... GraphAlgorithms/G4/Roads.o"
+	@echo "... GraphAlgorithms/G4/Roads.i"
+	@echo "... GraphAlgorithms/G4/Roads.s"
 .PHONY : help
 
 

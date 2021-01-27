@@ -77,45 +77,60 @@ include CMakeFiles/ProgrammingChallenges_CPP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.o: ../GraphAlgorithms/G2/TheNecklace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G2/TheNecklace.cpp
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.o: ../GraphAlgorithms/G4/Railroads.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G4/Railroads.cpp
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G2/TheNecklace.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.i
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G4/Railroads.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.i
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G2/TheNecklace.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.s
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G4/Railroads.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.s
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.o: ../GraphAlgorithms/G2/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G2/Node.cpp
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.o: ../GraphAlgorithms/G4/Roads.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G4/Roads.cpp
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G2/Node.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.i
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G4/Roads.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.i
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G2/Node.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.s
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G4/Roads.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.s
+
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.o: ../GraphAlgorithms/G4/Road.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G4/Road.cpp
+
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G4/Road.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.i
+
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G4/Road.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.s
 
 # Object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_OBJECTS = \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.o" \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.o"
+"CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.o" \
+"CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.o" \
+"CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.o"
 
 # External object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_EXTERNAL_OBJECTS =
 
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/TheNecklace.cpp.o
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G2/Node.cpp.o
+ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.o
+ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.o
+ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.o
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/build.make
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ProgrammingChallenges_CPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ProgrammingChallenges_CPP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProgrammingChallenges_CPP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
