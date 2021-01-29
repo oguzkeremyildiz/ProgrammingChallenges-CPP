@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.o"
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.o"
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G7/FromDuskTillDawn.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )

@@ -143,86 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GraphAlgorithms/G4/Railroads.o: GraphAlgorithms/G4/Railroads.cpp.o
+GraphTraversal/G7/FromDuskTillDawn.o: GraphTraversal/G7/FromDuskTillDawn.cpp.o
 
-.PHONY : GraphAlgorithms/G4/Railroads.o
-
-# target to build an object file
-GraphAlgorithms/G4/Railroads.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.o
-.PHONY : GraphAlgorithms/G4/Railroads.cpp.o
-
-GraphAlgorithms/G4/Railroads.i: GraphAlgorithms/G4/Railroads.cpp.i
-
-.PHONY : GraphAlgorithms/G4/Railroads.i
-
-# target to preprocess a source file
-GraphAlgorithms/G4/Railroads.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.i
-.PHONY : GraphAlgorithms/G4/Railroads.cpp.i
-
-GraphAlgorithms/G4/Railroads.s: GraphAlgorithms/G4/Railroads.cpp.s
-
-.PHONY : GraphAlgorithms/G4/Railroads.s
-
-# target to generate assembly for a file
-GraphAlgorithms/G4/Railroads.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Railroads.cpp.s
-.PHONY : GraphAlgorithms/G4/Railroads.cpp.s
-
-GraphAlgorithms/G4/Road.o: GraphAlgorithms/G4/Road.cpp.o
-
-.PHONY : GraphAlgorithms/G4/Road.o
+.PHONY : GraphTraversal/G7/FromDuskTillDawn.o
 
 # target to build an object file
-GraphAlgorithms/G4/Road.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.o
-.PHONY : GraphAlgorithms/G4/Road.cpp.o
+GraphTraversal/G7/FromDuskTillDawn.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G7/FromDuskTillDawn.cpp.o
+.PHONY : GraphTraversal/G7/FromDuskTillDawn.cpp.o
 
-GraphAlgorithms/G4/Road.i: GraphAlgorithms/G4/Road.cpp.i
+GraphTraversal/G7/FromDuskTillDawn.i: GraphTraversal/G7/FromDuskTillDawn.cpp.i
 
-.PHONY : GraphAlgorithms/G4/Road.i
-
-# target to preprocess a source file
-GraphAlgorithms/G4/Road.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.i
-.PHONY : GraphAlgorithms/G4/Road.cpp.i
-
-GraphAlgorithms/G4/Road.s: GraphAlgorithms/G4/Road.cpp.s
-
-.PHONY : GraphAlgorithms/G4/Road.s
-
-# target to generate assembly for a file
-GraphAlgorithms/G4/Road.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Road.cpp.s
-.PHONY : GraphAlgorithms/G4/Road.cpp.s
-
-GraphAlgorithms/G4/Roads.o: GraphAlgorithms/G4/Roads.cpp.o
-
-.PHONY : GraphAlgorithms/G4/Roads.o
-
-# target to build an object file
-GraphAlgorithms/G4/Roads.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.o
-.PHONY : GraphAlgorithms/G4/Roads.cpp.o
-
-GraphAlgorithms/G4/Roads.i: GraphAlgorithms/G4/Roads.cpp.i
-
-.PHONY : GraphAlgorithms/G4/Roads.i
+.PHONY : GraphTraversal/G7/FromDuskTillDawn.i
 
 # target to preprocess a source file
-GraphAlgorithms/G4/Roads.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.i
-.PHONY : GraphAlgorithms/G4/Roads.cpp.i
+GraphTraversal/G7/FromDuskTillDawn.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G7/FromDuskTillDawn.cpp.i
+.PHONY : GraphTraversal/G7/FromDuskTillDawn.cpp.i
 
-GraphAlgorithms/G4/Roads.s: GraphAlgorithms/G4/Roads.cpp.s
+GraphTraversal/G7/FromDuskTillDawn.s: GraphTraversal/G7/FromDuskTillDawn.cpp.s
 
-.PHONY : GraphAlgorithms/G4/Roads.s
+.PHONY : GraphTraversal/G7/FromDuskTillDawn.s
 
 # target to generate assembly for a file
-GraphAlgorithms/G4/Roads.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G4/Roads.cpp.s
-.PHONY : GraphAlgorithms/G4/Roads.cpp.s
+GraphTraversal/G7/FromDuskTillDawn.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G7/FromDuskTillDawn.cpp.s
+.PHONY : GraphTraversal/G7/FromDuskTillDawn.cpp.s
 
 # Help Target
 help:
@@ -233,15 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GraphAlgorithms/G4/Railroads.o"
-	@echo "... GraphAlgorithms/G4/Railroads.i"
-	@echo "... GraphAlgorithms/G4/Railroads.s"
-	@echo "... GraphAlgorithms/G4/Road.o"
-	@echo "... GraphAlgorithms/G4/Road.i"
-	@echo "... GraphAlgorithms/G4/Road.s"
-	@echo "... GraphAlgorithms/G4/Roads.o"
-	@echo "... GraphAlgorithms/G4/Roads.i"
-	@echo "... GraphAlgorithms/G4/Roads.s"
+	@echo "... GraphTraversal/G7/FromDuskTillDawn.o"
+	@echo "... GraphTraversal/G7/FromDuskTillDawn.i"
+	@echo "... GraphTraversal/G7/FromDuskTillDawn.s"
 .PHONY : help
 
 

@@ -12,8 +12,8 @@ private:
 public:
     Pair();
     Pair(K key, V value);
-    K getKey();
-    V getValue();
+    K getKey() const;
+    V getValue() const;
 };
 
 template<class K, class V> Pair<K, V>::Pair() = default;
@@ -23,11 +23,11 @@ template<class K, class V> Pair<K, V>::Pair(K key, V value) {
     this->value = value;
 }
 
-template<class K, class V> K Pair<K, V>::getKey() {
+template<class K, class V> K Pair<K, V>::getKey() const {
     return this->key;
 }
 
-template<class K, class V> V Pair<K, V>::getValue() {
+template<class K, class V> V Pair<K, V>::getValue() const {
     return this->value;
 }
 

@@ -13,9 +13,9 @@ private:
 public:
     Triplet();
     Triplet(A a, B b, C c);
-    A getA();
-    B getB();
-    C getC();
+    A getA() const;
+    B getB() const;
+    C getC() const;
 };
 
 template<class A, class B, class C> Triplet<A, B, C>::Triplet() = default;
@@ -26,15 +26,15 @@ template<class A, class B, class C> Triplet<A, B, C>::Triplet(A a, B b, C c) {
     this->c = c;
 }
 
-template<class A, class B, class C> A Triplet<A, B, C>::getA() {
+template<class A, class B, class C> A Triplet<A, B, C>::getA() const {
     return this->a;
 }
 
-template<class A, class B, class C> B Triplet<A, B, C>::getB() {
+template<class A, class B, class C> B Triplet<A, B, C>::getB() const {
     return this->b;
 }
 
-template<class A, class B, class C> C Triplet<A, B, C>::getC() {
+template<class A, class B, class C> C Triplet<A, B, C>::getC() const {
     return this->c;
 }
 

@@ -13,7 +13,7 @@ private:
 public:
     Unit();
     Unit(A a);
-    A getA();
+    A getA() const;
 };
 
 template<class A> Unit<A>::Unit() = default;
@@ -22,7 +22,7 @@ template<class A> Unit<A>::Unit(A a) {
     this->a = a;
 }
 
-template<class A> A Unit<A>::getA() {
+template<class A> A Unit<A>::getA() const {
     return this->a;
 }
 
