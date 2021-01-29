@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G7/FromDuskTillDawn.cpp" "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G7/FromDuskTillDawn.cpp.o"
+  "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B7/ColorHash.cpp" "/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

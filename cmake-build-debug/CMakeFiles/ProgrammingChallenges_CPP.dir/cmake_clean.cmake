@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G7/FromDuskTillDawn.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )

@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GraphTraversal/G7/FromDuskTillDawn.o: GraphTraversal/G7/FromDuskTillDawn.cpp.o
+Backtracking/B7/ColorHash.o: Backtracking/B7/ColorHash.cpp.o
 
-.PHONY : GraphTraversal/G7/FromDuskTillDawn.o
+.PHONY : Backtracking/B7/ColorHash.o
 
 # target to build an object file
-GraphTraversal/G7/FromDuskTillDawn.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G7/FromDuskTillDawn.cpp.o
-.PHONY : GraphTraversal/G7/FromDuskTillDawn.cpp.o
+Backtracking/B7/ColorHash.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.o
+.PHONY : Backtracking/B7/ColorHash.cpp.o
 
-GraphTraversal/G7/FromDuskTillDawn.i: GraphTraversal/G7/FromDuskTillDawn.cpp.i
+Backtracking/B7/ColorHash.i: Backtracking/B7/ColorHash.cpp.i
 
-.PHONY : GraphTraversal/G7/FromDuskTillDawn.i
+.PHONY : Backtracking/B7/ColorHash.i
 
 # target to preprocess a source file
-GraphTraversal/G7/FromDuskTillDawn.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G7/FromDuskTillDawn.cpp.i
-.PHONY : GraphTraversal/G7/FromDuskTillDawn.cpp.i
+Backtracking/B7/ColorHash.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.i
+.PHONY : Backtracking/B7/ColorHash.cpp.i
 
-GraphTraversal/G7/FromDuskTillDawn.s: GraphTraversal/G7/FromDuskTillDawn.cpp.s
+Backtracking/B7/ColorHash.s: Backtracking/B7/ColorHash.cpp.s
 
-.PHONY : GraphTraversal/G7/FromDuskTillDawn.s
+.PHONY : Backtracking/B7/ColorHash.s
 
 # target to generate assembly for a file
-GraphTraversal/G7/FromDuskTillDawn.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphTraversal/G7/FromDuskTillDawn.cpp.s
-.PHONY : GraphTraversal/G7/FromDuskTillDawn.cpp.s
+Backtracking/B7/ColorHash.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.s
+.PHONY : Backtracking/B7/ColorHash.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GraphTraversal/G7/FromDuskTillDawn.o"
-	@echo "... GraphTraversal/G7/FromDuskTillDawn.i"
-	@echo "... GraphTraversal/G7/FromDuskTillDawn.s"
+	@echo "... Backtracking/B7/ColorHash.o"
+	@echo "... Backtracking/B7/ColorHash.i"
+	@echo "... Backtracking/B7/ColorHash.s"
 .PHONY : help
 
 

@@ -6,24 +6,10 @@
 
 #IncludeRegexTransform: 
 
-../include/Tuple/Quartet.h
-
-../include/Tuple/Triplet.h
-
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G7/FromDuskTillDawn.cpp
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B7/ColorHash.cpp
 iostream
 -
 fstream
--
-utility
--
-Tuple/Triplet.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G7/Tuple/Triplet.h
-Tuple/Quartet.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphTraversal/G7/Tuple/Quartet.h
-unordered_map
--
-unordered_set
 -
 vector
 -
