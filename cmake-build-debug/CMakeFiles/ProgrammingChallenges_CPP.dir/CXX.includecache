@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B7/ColorHash.cpp
+../include/Tuple/Quartet.h
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B8/BiggerSquarePlease.cpp
+vector
+-
 iostream
 -
 fstream
 -
-vector
+Tuple/Quartet.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B8/Tuple/Quartet.h
+unordered_set
+-
+cmath
 -
 

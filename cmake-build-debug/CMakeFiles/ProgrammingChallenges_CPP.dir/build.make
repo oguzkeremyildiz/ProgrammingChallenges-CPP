@@ -77,27 +77,27 @@ include CMakeFiles/ProgrammingChallenges_CPP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.o: ../Backtracking/B7/ColorHash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B7/ColorHash.cpp
+CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.o: CMakeFiles/ProgrammingChallenges_CPP.dir/flags.make
+CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.o: ../Backtracking/B8/BiggerSquarePlease.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.o -c /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B8/BiggerSquarePlease.cpp
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B7/ColorHash.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.i
+CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B8/BiggerSquarePlease.cpp > CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.i
 
-CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B7/ColorHash.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.s
+CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B8/BiggerSquarePlease.cpp -o CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.s
 
 # Object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_OBJECTS = \
-"CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.o"
+"CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.o"
 
 # External object files for target ProgrammingChallenges_CPP
 ProgrammingChallenges_CPP_EXTERNAL_OBJECTS =
 
-ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.o
+ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.o
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/build.make
 ProgrammingChallenges_CPP: CMakeFiles/ProgrammingChallenges_CPP.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ProgrammingChallenges_CPP"

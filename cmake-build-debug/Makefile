@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Backtracking/B7/ColorHash.o: Backtracking/B7/ColorHash.cpp.o
+Backtracking/B8/BiggerSquarePlease.o: Backtracking/B8/BiggerSquarePlease.cpp.o
 
-.PHONY : Backtracking/B7/ColorHash.o
+.PHONY : Backtracking/B8/BiggerSquarePlease.o
 
 # target to build an object file
-Backtracking/B7/ColorHash.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.o
-.PHONY : Backtracking/B7/ColorHash.cpp.o
+Backtracking/B8/BiggerSquarePlease.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.o
+.PHONY : Backtracking/B8/BiggerSquarePlease.cpp.o
 
-Backtracking/B7/ColorHash.i: Backtracking/B7/ColorHash.cpp.i
+Backtracking/B8/BiggerSquarePlease.i: Backtracking/B8/BiggerSquarePlease.cpp.i
 
-.PHONY : Backtracking/B7/ColorHash.i
+.PHONY : Backtracking/B8/BiggerSquarePlease.i
 
 # target to preprocess a source file
-Backtracking/B7/ColorHash.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.i
-.PHONY : Backtracking/B7/ColorHash.cpp.i
+Backtracking/B8/BiggerSquarePlease.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.i
+.PHONY : Backtracking/B8/BiggerSquarePlease.cpp.i
 
-Backtracking/B7/ColorHash.s: Backtracking/B7/ColorHash.cpp.s
+Backtracking/B8/BiggerSquarePlease.s: Backtracking/B8/BiggerSquarePlease.cpp.s
 
-.PHONY : Backtracking/B7/ColorHash.s
+.PHONY : Backtracking/B8/BiggerSquarePlease.s
 
 # target to generate assembly for a file
-Backtracking/B7/ColorHash.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B7/ColorHash.cpp.s
-.PHONY : Backtracking/B7/ColorHash.cpp.s
+Backtracking/B8/BiggerSquarePlease.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.s
+.PHONY : Backtracking/B8/BiggerSquarePlease.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Backtracking/B7/ColorHash.o"
-	@echo "... Backtracking/B7/ColorHash.i"
-	@echo "... Backtracking/B7/ColorHash.s"
+	@echo "... Backtracking/B8/BiggerSquarePlease.o"
+	@echo "... Backtracking/B8/BiggerSquarePlease.i"
+	@echo "... Backtracking/B8/BiggerSquarePlease.s"
 .PHONY : help
 
 
