@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-Backtracking/B8/BiggerSquarePlease.o: Backtracking/B8/BiggerSquarePlease.cpp.o
+GraphAlgorithms/G5/War.o: GraphAlgorithms/G5/War.cpp.o
 
-.PHONY : Backtracking/B8/BiggerSquarePlease.o
+.PHONY : GraphAlgorithms/G5/War.o
 
 # target to build an object file
-Backtracking/B8/BiggerSquarePlease.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.o
-.PHONY : Backtracking/B8/BiggerSquarePlease.cpp.o
+GraphAlgorithms/G5/War.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G5/War.cpp.o
+.PHONY : GraphAlgorithms/G5/War.cpp.o
 
-Backtracking/B8/BiggerSquarePlease.i: Backtracking/B8/BiggerSquarePlease.cpp.i
+GraphAlgorithms/G5/War.i: GraphAlgorithms/G5/War.cpp.i
 
-.PHONY : Backtracking/B8/BiggerSquarePlease.i
+.PHONY : GraphAlgorithms/G5/War.i
 
 # target to preprocess a source file
-Backtracking/B8/BiggerSquarePlease.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.i
-.PHONY : Backtracking/B8/BiggerSquarePlease.cpp.i
+GraphAlgorithms/G5/War.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G5/War.cpp.i
+.PHONY : GraphAlgorithms/G5/War.cpp.i
 
-Backtracking/B8/BiggerSquarePlease.s: Backtracking/B8/BiggerSquarePlease.cpp.s
+GraphAlgorithms/G5/War.s: GraphAlgorithms/G5/War.cpp.s
 
-.PHONY : Backtracking/B8/BiggerSquarePlease.s
+.PHONY : GraphAlgorithms/G5/War.s
 
 # target to generate assembly for a file
-Backtracking/B8/BiggerSquarePlease.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/Backtracking/B8/BiggerSquarePlease.cpp.s
-.PHONY : Backtracking/B8/BiggerSquarePlease.cpp.s
+GraphAlgorithms/G5/War.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G5/War.cpp.s
+.PHONY : GraphAlgorithms/G5/War.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... Backtracking/B8/BiggerSquarePlease.o"
-	@echo "... Backtracking/B8/BiggerSquarePlease.i"
-	@echo "... Backtracking/B8/BiggerSquarePlease.s"
+	@echo "... GraphAlgorithms/G5/War.o"
+	@echo "... GraphAlgorithms/G5/War.i"
+	@echo "... GraphAlgorithms/G5/War.s"
 .PHONY : help
 
 

@@ -6,19 +6,33 @@
 
 #IncludeRegexTransform: 
 
-../include/Tuple/Quartet.h
-
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B8/BiggerSquarePlease.cpp
+../include/Set/DisjointSet.h
+../Set/Set.h
+../include/Set/Set.h
+unordered_map
+-
 vector
 -
-iostream
+
+../include/Set/Set.h
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G5/Disjoint.h
+Set/DisjointSet.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G5/Set/DisjointSet.h
+unordered_map
 -
-fstream
--
-Tuple/Quartet.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/Backtracking/B8/Tuple/Quartet.h
 unordered_set
 -
-cmath
+vector
+-
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G5/War.cpp
+iostream
+-
+Disjoint.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G5/Disjoint.h
+fstream
+-
+vector
 -
 
