@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GraphAlgorithms/G5/War.o: GraphAlgorithms/G5/War.cpp.o
+GraphAlgorithms/G7/TheGrandDinner.o: GraphAlgorithms/G7/TheGrandDinner.cpp.o
 
-.PHONY : GraphAlgorithms/G5/War.o
+.PHONY : GraphAlgorithms/G7/TheGrandDinner.o
 
 # target to build an object file
-GraphAlgorithms/G5/War.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G5/War.cpp.o
-.PHONY : GraphAlgorithms/G5/War.cpp.o
+GraphAlgorithms/G7/TheGrandDinner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G7/TheGrandDinner.cpp.o
+.PHONY : GraphAlgorithms/G7/TheGrandDinner.cpp.o
 
-GraphAlgorithms/G5/War.i: GraphAlgorithms/G5/War.cpp.i
+GraphAlgorithms/G7/TheGrandDinner.i: GraphAlgorithms/G7/TheGrandDinner.cpp.i
 
-.PHONY : GraphAlgorithms/G5/War.i
+.PHONY : GraphAlgorithms/G7/TheGrandDinner.i
 
 # target to preprocess a source file
-GraphAlgorithms/G5/War.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G5/War.cpp.i
-.PHONY : GraphAlgorithms/G5/War.cpp.i
+GraphAlgorithms/G7/TheGrandDinner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G7/TheGrandDinner.cpp.i
+.PHONY : GraphAlgorithms/G7/TheGrandDinner.cpp.i
 
-GraphAlgorithms/G5/War.s: GraphAlgorithms/G5/War.cpp.s
+GraphAlgorithms/G7/TheGrandDinner.s: GraphAlgorithms/G7/TheGrandDinner.cpp.s
 
-.PHONY : GraphAlgorithms/G5/War.s
+.PHONY : GraphAlgorithms/G7/TheGrandDinner.s
 
 # target to generate assembly for a file
-GraphAlgorithms/G5/War.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G5/War.cpp.s
-.PHONY : GraphAlgorithms/G5/War.cpp.s
+GraphAlgorithms/G7/TheGrandDinner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G7/TheGrandDinner.cpp.s
+.PHONY : GraphAlgorithms/G7/TheGrandDinner.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GraphAlgorithms/G5/War.o"
-	@echo "... GraphAlgorithms/G5/War.i"
-	@echo "... GraphAlgorithms/G5/War.s"
+	@echo "... GraphAlgorithms/G7/TheGrandDinner.o"
+	@echo "... GraphAlgorithms/G7/TheGrandDinner.i"
+	@echo "... GraphAlgorithms/G7/TheGrandDinner.s"
 .PHONY : help
 
 

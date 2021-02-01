@@ -6,33 +6,39 @@
 
 #IncludeRegexTransform: 
 
-../include/Set/DisjointSet.h
-../Set/Set.h
-../include/Set/Set.h
-unordered_map
--
-vector
+../include/Graph/Edge.h
+LengthInterface.h
+../include/Graph/LengthInterface.h
+
+../include/Graph/IntegerLength.h
+iostream
 -
 
-../include/Set/Set.h
+../include/Graph/LengthInterface.h
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G5/Disjoint.h
-Set/DisjointSet.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G5/Set/DisjointSet.h
+../include/Graph/WeightedGraphEdge.h
 unordered_map
 -
 unordered_set
 -
+LengthInterface.h
+../include/Graph/LengthInterface.h
+utility
+-
 vector
 -
+Edge.h
+../include/Graph/Edge.h
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G5/War.cpp
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G7/TheGrandDinner.cpp
 iostream
 -
-Disjoint.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G5/Disjoint.h
 fstream
 -
+Graph/WeightedGraphEdge.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G7/Graph/WeightedGraphEdge.h
+Graph/IntegerLength.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G7/Graph/IntegerLength.h
 vector
 -
 

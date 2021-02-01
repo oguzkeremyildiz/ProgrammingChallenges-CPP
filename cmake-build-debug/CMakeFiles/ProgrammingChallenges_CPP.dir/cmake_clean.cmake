@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G5/War.cpp.o"
+  "CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G7/TheGrandDinner.cpp.o"
   "ProgrammingChallenges_CPP"
   "ProgrammingChallenges_CPP.pdb"
 )

@@ -80,10 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G5/Disjoint.h">
-			<Option target="ProgrammingChallenges_CPP"/>
-		</Unit>
-		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G5/War.cpp">
+		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G7/TheGrandDinner.cpp">
 			<Option target="ProgrammingChallenges_CPP"/>
 		</Unit>
 		<Unit filename="/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/CMakeLists.txt">
