@@ -30,15 +30,25 @@ vector
 Edge.h
 ../include/Graph/Edge.h
 
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G7/TheGrandDinner.cpp
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G8/Problem.h
+vector
+-
+
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp
 iostream
 -
 fstream
 -
 Graph/WeightedGraphEdge.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G7/Graph/WeightedGraphEdge.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G8/Graph/WeightedGraphEdge.h
+Graph/Edge.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G8/Graph/Edge.h
 Graph/IntegerLength.h
-/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G7/Graph/IntegerLength.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G8/Graph/IntegerLength.h
+Problem.h
+/Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G8/Problem.h
 vector
+-
+unordered_map
 -
 

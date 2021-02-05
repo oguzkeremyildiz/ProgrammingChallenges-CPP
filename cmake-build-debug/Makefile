@@ -143,32 +143,32 @@ ProgrammingChallenges_CPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/build
 .PHONY : ProgrammingChallenges_CPP/fast
 
-GraphAlgorithms/G7/TheGrandDinner.o: GraphAlgorithms/G7/TheGrandDinner.cpp.o
+GraphAlgorithms/G8/TheProblemWithTheProblemSetter.o: GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.o
 
-.PHONY : GraphAlgorithms/G7/TheGrandDinner.o
+.PHONY : GraphAlgorithms/G8/TheProblemWithTheProblemSetter.o
 
 # target to build an object file
-GraphAlgorithms/G7/TheGrandDinner.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G7/TheGrandDinner.cpp.o
-.PHONY : GraphAlgorithms/G7/TheGrandDinner.cpp.o
+GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.o
+.PHONY : GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.o
 
-GraphAlgorithms/G7/TheGrandDinner.i: GraphAlgorithms/G7/TheGrandDinner.cpp.i
+GraphAlgorithms/G8/TheProblemWithTheProblemSetter.i: GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.i
 
-.PHONY : GraphAlgorithms/G7/TheGrandDinner.i
+.PHONY : GraphAlgorithms/G8/TheProblemWithTheProblemSetter.i
 
 # target to preprocess a source file
-GraphAlgorithms/G7/TheGrandDinner.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G7/TheGrandDinner.cpp.i
-.PHONY : GraphAlgorithms/G7/TheGrandDinner.cpp.i
+GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.i
+.PHONY : GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.i
 
-GraphAlgorithms/G7/TheGrandDinner.s: GraphAlgorithms/G7/TheGrandDinner.cpp.s
+GraphAlgorithms/G8/TheProblemWithTheProblemSetter.s: GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.s
 
-.PHONY : GraphAlgorithms/G7/TheGrandDinner.s
+.PHONY : GraphAlgorithms/G8/TheProblemWithTheProblemSetter.s
 
 # target to generate assembly for a file
-GraphAlgorithms/G7/TheGrandDinner.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G7/TheGrandDinner.cpp.s
-.PHONY : GraphAlgorithms/G7/TheGrandDinner.cpp.s
+GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProgrammingChallenges_CPP.dir/build.make CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.s
+.PHONY : GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProgrammingChallenges_CPP"
-	@echo "... GraphAlgorithms/G7/TheGrandDinner.o"
-	@echo "... GraphAlgorithms/G7/TheGrandDinner.i"
-	@echo "... GraphAlgorithms/G7/TheGrandDinner.s"
+	@echo "... GraphAlgorithms/G8/TheProblemWithTheProblemSetter.o"
+	@echo "... GraphAlgorithms/G8/TheProblemWithTheProblemSetter.i"
+	@echo "... GraphAlgorithms/G8/TheProblemWithTheProblemSetter.s"
 .PHONY : help
 
 
