@@ -17,9 +17,13 @@ double length(pair<double, double> first, pair<double, double> second) {
     return sqrt((x * x) + (y * y));
 }
 
-bool contains(vector<pair<int, double>> vector, pair<int, double> pair) {
+bool equals(pair<int, Edge<double>*> first, pair<int, double> second) {
+    return first.first == second.first && first.second->getLength() == second.second;
+}
+
+bool contains(vector<pair<int, Edge<double>*>> vector, pair<int, double> pair) {
     for (int i = 0; i < vector.size(); i++) {
-        if (vector.at(i) == pair) {
+        if (equals(vector.at(i), pair)) {
             return true;
         }
     }

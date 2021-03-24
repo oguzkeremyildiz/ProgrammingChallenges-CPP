@@ -11,6 +11,7 @@
 #include "../Tuple/Triplet.h"
 #include "../Set/DisjointSet.h"
 #include "../Graph/LengthInterface.h"
+#include "../Graph/Edge.h"
 #include <iostream>
 
 using namespace std;
@@ -19,7 +20,7 @@ template<class...> class WeightedGraph;
 
 template<class Symbol, class Length, class sizet> class WeightedGraph<Symbol, Length, sizet> {
 private:
-    unordered_map<Symbol, vector<pair<Symbol, Length>>, sizet> edgeList;
+    unordered_map<Symbol, vector<pair<Symbol, Edge<Length>*>>, sizet> edgeList;
     unordered_set<Symbol, sizet> vertexList;
     LengthInterface<Length> *lengthInterface;
     bool containsAll(unordered_set<Symbol, sizet> elements);
@@ -34,15 +35,18 @@ public:
     bool isEmpty();
     bool containsKey(Symbol element);
     bool contains(Symbol element);
+    void addDirectedEdge(Symbol from, Symbol to, Edge<Length>* edge);
     void addDirectedEdge(Symbol from, Symbol to, Length length);
     void addUndirectedEdge(Symbol from, Symbol to, Length length);
+    void addUndirectedEdge(Symbol from, Symbol to, Edge<Length>* edge);
     void addUndirectedEdge(Symbol from, Symbol to, Length lengthFrom, Length lengthTo);
+    void addUndirectedEdge(Symbol from, Symbol to, Edge<Length>* lengthFrom, Edge<Length>* lengthTo);
     vector<Symbol> getKeySet();
     unordered_set<Symbol, sizet> getVertexList();
     int size();
-    void put(Symbol index, vector<pair<Symbol, Length>> list);
-    vector<pair<Symbol, Length>> get(Symbol symbol);
-    pair<Symbol, Length> get(Symbol element, int index);
+    void put(Symbol index, vector<pair<Symbol, Edge<Length>*>> list);
+    vector<pair<Symbol, Edge<Length>*>> get(Symbol symbol);
+    pair<Symbol, Edge<Length>*> get(Symbol element, int index);
     unordered_map<Symbol, pair<Length, Symbol>, sizet> bellmanFord(Symbol edge);
     vector<vector<Length>> floydWarshall();
     Length prims();
@@ -52,7 +56,7 @@ public:
 
 template<class Symbol, class Length> class WeightedGraph<Symbol, Length> {
 private:
-    unordered_map<Symbol, vector<pair<Symbol, Length>>> edgeList;
+    unordered_map<Symbol, vector<pair<Symbol, Edge<Length>*>>> edgeList;
     unordered_set<Symbol> vertexList;
     LengthInterface<Length> *lengthInterface;
     unordered_map<int, Symbol> invert(unordered_map<Symbol, int> map);
@@ -69,15 +73,18 @@ public:
     bool isEmpty();
     bool containsKey(Symbol element);
     bool contains(Symbol element);
+    void addDirectedEdge(Symbol from, Symbol to, Edge<Length>* edge);
     void addDirectedEdge(Symbol from, Symbol to, Length length);
     void addUndirectedEdge(Symbol from, Symbol to, Length length);
+    void addUndirectedEdge(Symbol from, Symbol to, Edge<Length>* edge);
     void addUndirectedEdge(Symbol from, Symbol to, Length lengthFrom, Length lengthTo);
+    void addUndirectedEdge(Symbol from, Symbol to, Edge<Length>* lengthFrom, Edge<Length>* lengthTo);
     vector<Symbol> getKeySet();
     unordered_set<Symbol> getVertexList();
     int size();
-    void put(Symbol index, vector<pair<Symbol, Length>> list);
-    vector<pair<Symbol, Length>> get(Symbol symbol);
-    pair<Symbol, Length> get(Symbol element, int index);
+    void put(Symbol index, vector<pair<Symbol, Edge<Length>*>> list);
+    vector<pair<Symbol, Edge<Length>*>> get(Symbol symbol);
+    pair<Symbol, Edge<Length>*> get(Symbol element, int index);
     unordered_map<Symbol, pair<Length, Symbol>> bellmanFord(Symbol edge);
     vector<vector<Length>> floydWarshall();
     pair<unordered_map<int, Symbol>, vector<vector<Length>>> floydWarshallWithKeys();
@@ -92,25 +99,25 @@ template<class Symbol, class Length, class sizet> WeightedGraph<Symbol, Length, 
 template<class Symbol, class Length> WeightedGraph<Symbol, Length>::WeightedGraph() = default;
 
 template<class Symbol, class Length, class sizet> WeightedGraph<Symbol, Length, sizet>::WeightedGraph(LengthInterface<Length> *lengthInterface) {
-    edgeList = unordered_map<Symbol, vector<pair<Symbol, Length>>, sizet>();
+    edgeList = unordered_map<Symbol, vector<pair<Symbol, Edge<Length>*>>, sizet>();
     vertexList = unordered_set<Symbol, sizet>();
     this->lengthInterface = lengthInterface;
 }
 
 template<class Symbol, class Length> WeightedGraph<Symbol, Length>::WeightedGraph(LengthInterface<Length> *lengthInterface) {
-    edgeList = unordered_map<Symbol, vector<pair<Symbol, Length>>>();
+    edgeList = unordered_map<Symbol, vector<pair<Symbol, Edge<Length>*>>>();
     vertexList = unordered_set<Symbol>();
     this->lengthInterface = lengthInterface;
 }
 
 template<class Symbol, class Length, class sizet> WeightedGraph<Symbol, Length, sizet>::WeightedGraph(unordered_set<Symbol, sizet> vertexList, LengthInterface<Length> *lengthInterface) {
-    edgeList = unordered_map<Symbol, vector<pair<Symbol, Length>>, sizet>();
+    edgeList = unordered_map<Symbol, vector<pair<Symbol, Edge<Length>*>>, sizet>();
     this->vertexList = vertexList;
     this->lengthInterface = lengthInterface;
 }
 
 template<class Symbol, class Length> WeightedGraph<Symbol, Length>::WeightedGraph(unordered_set<Symbol> vertexList, LengthInterface<Length> *lengthInterface) {
-    edgeList = unordered_map<Symbol, vector<pair<Symbol, Length>>>();
+    edgeList = unordered_map<Symbol, vector<pair<Symbol, Edge<Length>*>>>();
     this->vertexList = vertexList;
     this->lengthInterface = lengthInterface;
 }
@@ -149,16 +156,40 @@ template<class Symbol, class Length> bool WeightedGraph<Symbol, Length>::contain
     return vertexList.find(element) != vertexList.end();
 }
 
+template<class Symbol, class Length, class sizet> void WeightedGraph<Symbol, Length, sizet>::addDirectedEdge(Symbol from, Symbol to, Edge<Length>* edge) {
+    vertexList.insert(from);
+    vertexList.insert(to);
+    edgeList[from].push_back(pair<Symbol, Edge<Length>*>(to, edge));
+}
+
 template<class Symbol, class Length, class sizet> void WeightedGraph<Symbol, Length, sizet>::addDirectedEdge(Symbol from, Symbol to, Length length) {
     vertexList.insert(from);
     vertexList.insert(to);
-    edgeList[from].push_back(pair<Symbol, Length>(to, length));
+    Edge<Length> *edge = new Edge<Length>(length);
+    edgeList[from].push_back(pair<Symbol, Edge<Length>*>(to, edge));
+}
+
+template<class Symbol, class Length> void WeightedGraph<Symbol, Length>::addDirectedEdge(Symbol from, Symbol to, Edge<Length>* edge) {
+    vertexList.insert(from);
+    vertexList.insert(to);
+    edgeList[from].push_back(pair<Symbol, Edge<Length>*>(to, edge));
 }
 
 template<class Symbol, class Length> void WeightedGraph<Symbol, Length>::addDirectedEdge(Symbol from, Symbol to, Length length) {
     vertexList.insert(from);
     vertexList.insert(to);
-    edgeList[from].push_back(pair<Symbol, Length>(to, length));
+    Edge<Length> *edge = new Edge<Length>(length);
+    edgeList[from].push_back(pair<Symbol, Edge<Length>*>(to, edge));
+}
+
+template<class Symbol, class Length, class sizet> void WeightedGraph<Symbol, Length, sizet>::addUndirectedEdge(Symbol from, Symbol to, Edge<Length>* edge) {
+    addDirectedEdge(from, to, edge);
+    addDirectedEdge(to, from, edge);
+}
+
+template<class Symbol, class Length> void WeightedGraph<Symbol, Length>::addUndirectedEdge(Symbol from, Symbol to, Edge<Length>* edge) {
+    addDirectedEdge(from, to, edge);
+    addDirectedEdge(to, from, edge);
 }
 
 template<class Symbol, class Length, class sizet> void WeightedGraph<Symbol, Length, sizet>::addUndirectedEdge(Symbol from, Symbol to, Length length) {
@@ -169,6 +200,16 @@ template<class Symbol, class Length, class sizet> void WeightedGraph<Symbol, Len
 template<class Symbol, class Length> void WeightedGraph<Symbol, Length>::addUndirectedEdge(Symbol from, Symbol to, Length length) {
     addDirectedEdge(from, to, length);
     addDirectedEdge(to, from, length);
+}
+
+template<class Symbol, class Length, class sizet> void WeightedGraph<Symbol, Length, sizet>::addUndirectedEdge(Symbol from, Symbol to, Edge<Length> *lengthFrom, Edge<Length> *lengthTo) {
+    addDirectedEdge(from, to, lengthTo);
+    addDirectedEdge(to, from, lengthFrom);
+}
+
+template<class Symbol, class Length> void WeightedGraph<Symbol, Length>::addUndirectedEdge(Symbol from, Symbol to, Edge<Length> *lengthFrom, Edge<Length> *lengthTo) {
+    addDirectedEdge(from, to, lengthTo);
+    addDirectedEdge(to, from, lengthFrom);
 }
 
 template<class Symbol, class Length, class sizet> void WeightedGraph<Symbol, Length, sizet>::addUndirectedEdge(Symbol from, Symbol to, Length lengthFrom, Length lengthTo) {
@@ -213,39 +254,39 @@ template<class Symbol, class Length> int WeightedGraph<Symbol, Length>::size() {
     return edgeList.size();
 }
 
-template<class Symbol, class Length, class sizet> void WeightedGraph<Symbol, Length, sizet>::put(Symbol index, vector<pair<Symbol, Length>> list) {
+template<class Symbol, class Length, class sizet> void WeightedGraph<Symbol, Length, sizet>::put(Symbol index, vector<pair<Symbol, Edge<Length>*>> list) {
     vertexList.insert(index);
     edgeList[index] = list;
     if (list.size() > 0) {
-        for (pair<Symbol, Length> element : list) {
+        for (pair<Symbol, Edge<Length>*> element : list) {
             vertexList.insert(element.first);
         }
     }
 }
 
-template<class Symbol, class Length> void WeightedGraph<Symbol, Length>::put(Symbol index, vector<pair<Symbol, Length>> list) {
+template<class Symbol, class Length> void WeightedGraph<Symbol, Length>::put(Symbol index, vector<pair<Symbol, Edge<Length>*>> list) {
     vertexList.insert(index);
     edgeList[index] = list;
     if (list.size() > 0) {
-        for (pair<Symbol, Length> element : list) {
+        for (pair<Symbol, Edge<Length>*> element : list) {
             vertexList.insert(element.first);
         }
     }
 }
 
-template<class Symbol, class Length, class sizet> vector<pair<Symbol, Length>> WeightedGraph<Symbol, Length, sizet>::get(Symbol symbol) {
+template<class Symbol, class Length, class sizet> vector<pair<Symbol, Edge<Length>*>> WeightedGraph<Symbol, Length, sizet>::get(Symbol symbol) {
     return edgeList[symbol];
 }
 
-template<class Symbol, class Length> vector<pair<Symbol, Length>> WeightedGraph<Symbol, Length>::get(Symbol index) {
+template<class Symbol, class Length> vector<pair<Symbol, Edge<Length>*>> WeightedGraph<Symbol, Length>::get(Symbol index) {
     return edgeList[index];
 }
 
-template<class Symbol, class Length, class sizet> pair<Symbol, Length> WeightedGraph<Symbol, Length, sizet>::get(Symbol element, int index) {
+template<class Symbol, class Length, class sizet> pair<Symbol, Edge<Length>*> WeightedGraph<Symbol, Length, sizet>::get(Symbol element, int index) {
     return edgeList[element].at(index);
 }
 
-template<class Symbol, class Length> pair<Symbol, Length> WeightedGraph<Symbol, Length>::get(Symbol element, int index) {
+template<class Symbol, class Length> pair<Symbol, Edge<Length>*> WeightedGraph<Symbol, Length>::get(Symbol element, int index) {
     return edgeList[element].at(index);
 }
 
@@ -261,10 +302,11 @@ template<class Symbol, class Length, class sizet> unordered_map<Symbol, pair<Len
         for (auto& key : map) {
             if (this->containsKey(key.first)) {
                 for (int i = 0; i < this->get(key.first).size(); i++) {
-                    pair<Symbol, Length> element = this->get(key.first).at(i);
+                    pair<Symbol, Edge<Length>*> element = this->get(key.first).at(i);
                     if (map[key.first].first != lengthInterface->max()) {
-                        if (lengthInterface->compare(map[element.first].first, lengthInterface->add(element.second, map[key.first].first)) > 0) {
-                            map[element.first] = pair<Length, Symbol>(lengthInterface->add(element.second, map[key.first].first), key.first);
+                        if (lengthInterface->compare(map[element.first].first, lengthInterface->add(
+                                element.second->getLength(), map[key.first].first)) > 0) {
+                            map[element.first] = pair<Length, Symbol>(lengthInterface->add(element.second->getLength(), map[key.first].first), key.first);
                         }
                     }
                 }
@@ -286,10 +328,11 @@ template<class Symbol, class Length> unordered_map<Symbol, pair<Length, Symbol>>
         for (auto& key : map) {
             if (this->containsKey(key.first)) {
                 for (int i = 0; i < this->get(key.first).size(); i++) {
-                    pair<Symbol, Length> element = this->get(key.first).at(i);
+                    pair<Symbol, Edge<Length>*> element = this->get(key.first).at(i);
                     if (map[key.first].first != lengthInterface->max()) {
-                        if (lengthInterface->compare(map[element.first].first, lengthInterface->add(element.second, map[key.first].first)) > 0) {
-                            map[element.first] = pair<Length, Symbol>(lengthInterface->add(element.second, map[key.first].first), key.first);
+                        if (lengthInterface->compare(map[element.first].first, lengthInterface->add(
+                                element.second->getLength(), map[key.first].first)) > 0) {
+                            map[element.first] = pair<Length, Symbol>(lengthInterface->add(element.second->getLength(), map[key.first].first), key.first);
                         }
                     }
                 }
@@ -324,7 +367,7 @@ template<class Symbol, class Length, class sizet> vector<vector<Length>> Weighte
     }
     for (Symbol key : this->getKeySet()) {
         for (int k = 0; k < this->get(key).size(); k++) {
-            array.at(map[key]).at(map[this->get(key).at(k).first]) = this->get(key).at(k).second;
+            array.at(map[key]).at(map[this->get(key).at(k).first]) = this->get(key).at(k).second->getLength();
         }
     }
     for (int j = 0; j < vertexList.size(); j++) {
@@ -367,7 +410,7 @@ template<class Symbol, class Length> vector<vector<Length>> WeightedGraph<Symbol
     }
     for (Symbol key : this->getKeySet()) {
         for (int k = 0; k < this->get(key).size(); k++) {
-            array.at(map[key]).at(map[this->get(key).at(k).first]) = this->get(key).at(k).second;
+            array.at(map[key]).at(map[this->get(key).at(k).first]) = this->get(key).at(k).second->getLength();
         }
     }
     for (int j = 0; j < vertexList.size(); j++) {
@@ -410,7 +453,7 @@ template<class Symbol, class Length> pair<unordered_map<int, Symbol>, vector<vec
     }
     for (Symbol key : this->getKeySet()) {
         for (int k = 0; k < this->get(key).size(); k++) {
-            array.at(map[key]).at(map[this->get(key).at(k).first]) = this->get(key).at(k).second;
+            array.at(map[key]).at(map[this->get(key).at(k).first]) = this->get(key).at(k).second->getLength();
         }
     }
     for (int j = 0; j < vertexList.size(); j++) {
@@ -449,9 +492,9 @@ template<class Symbol, class Length, class sizet> Length WeightedGraph<Symbol, L
             Length minimum = lengthInterface->max();
             for (Symbol element : elements) {
                 for (int i = 0; i < get(element).size(); i++) {
-                    pair<Symbol, Length> pair = get(element, i);
-                    if (elements.find(pair.first) == elements.end() && lengthInterface->compare(pair.second, minimum) < 0) {
-                        minimum = pair.second;
+                    pair<Symbol, Edge<Length>*> pair = get(element, i);
+                    if (elements.find(pair.first) == elements.end() && lengthInterface->compare(pair.second->getLength(), minimum) < 0) {
+                        minimum = pair.second->getLength();
                         edge = pair.first;
                     }
                 }
@@ -463,7 +506,7 @@ template<class Symbol, class Length, class sizet> Length WeightedGraph<Symbol, L
         }
     } else {
         for (Symbol key : getKeySet()) {
-            total = get(key, 0).second;
+            total = get(key, 0).second->getLength();
             break;
         }
     }
@@ -486,9 +529,9 @@ template<class Symbol, class Length> Length WeightedGraph<Symbol, Length>::prims
             Length minimum = lengthInterface->max();
             for (Symbol element : elements) {
                 for (int i = 0; i < get(element).size(); i++) {
-                    pair<Symbol, Length> pair = get(element, i);
-                    if (elements.find(pair.first) == elements.end() && lengthInterface->compare(pair.second, minimum) < 0) {
-                        minimum = pair.second;
+                    pair<Symbol, Edge<Length>*> pair = get(element, i);
+                    if (elements.find(pair.first) == elements.end() && lengthInterface->compare(pair.second->getLength(), minimum) < 0) {
+                        minimum = pair.second->getLength();
                         edge = pair.first;
                     }
                 }
@@ -500,7 +543,7 @@ template<class Symbol, class Length> Length WeightedGraph<Symbol, Length>::prims
         }
     } else {
         for (Symbol key : getKeySet()) {
-            total = get(key, 0).second;
+            total = get(key, 0).second->getLength();
             break;
         }
     }
@@ -537,9 +580,12 @@ template<class Symbol, class Length> Length WeightedGraph<Symbol, Length>::krusk
     DisjointSet<Symbol> set = DisjointSet<Symbol>(nodes, vertexList.size());
     for (auto &key : edgeList) {
         for (int i = 0; i < edgeList[key.first].size(); i++) {
-            Triplet<Symbol, Symbol, Length> triplet = Triplet<Symbol, Symbol, Length>(edgeList[key.first].at(i).first, key.first, edgeList[key.first].at(i).second);
+            Triplet<Symbol, Symbol, Length> triplet = Triplet<Symbol, Symbol, Length>(edgeList[key.first].at(i).first, key.first,
+                                                                                      edgeList[key.first].at(
+                                                                                              i).second->getLength());
             if (find(list.begin(), list.end(), triplet) == list.end()) {
-                list.push_back(Triplet<Symbol, Symbol, Length>(key.first, edgeList[key.first].at(i).first, edgeList[key.first].at(i).second));
+                list.push_back(Triplet<Symbol, Symbol, Length>(key.first, edgeList[key.first].at(i).first,
+                                                               edgeList[key.first].at(i).second->getLength()));
             }
         }
     }
@@ -620,7 +666,7 @@ template<class Symbol, class Length, class sizet> unordered_map<Symbol, pair<Len
         if (edge == element) {
             map[element] = pair<Length, Symbol>(lengthInterface->min(), edge);
         } else if (containsElement(edge, element).first) {
-            map[element] = pair<Length, Symbol>(get(edge, containsElement(edge, element).second).second, edge);
+            map[element] = pair<Length, Symbol>(get(edge, containsElement(edge, element).second).second->getLength(), edge);
         } else {
             map[element] = pair<Length, Symbol>(lengthInterface->max(), Symbol());
         }
@@ -630,8 +676,9 @@ template<class Symbol, class Length, class sizet> unordered_map<Symbol, pair<Len
         visited.insert(key);
         if (containsKey(key)) {
             for (int j = 0; j < get(key).size(); j++) {
-                if (lengthInterface->compare(lengthInterface->add(map[key].first, get(key, j).second), map[get(key, j).first].first) < 0) {
-                    map[get(key, j).first] = pair<Length, Symbol>(lengthInterface->add(map[key].first, get(key, j).second), key);
+                if (lengthInterface->compare(lengthInterface->add(map[key].first, get(key, j).second->getLength()), map[get(key, j).first].first) < 0) {
+                    map[get(key, j).first] = pair<Length, Symbol>(lengthInterface->add(map[key].first,
+                                                                                       get(key, j).second->getLength()), key);
                 }
             }
         }
@@ -647,7 +694,7 @@ template<class Symbol, class Length> unordered_map<Symbol, pair<Length, Symbol>>
         if (edge == element) {
             map[element] = pair<Length, Symbol>(lengthInterface->min(), edge);
         } else if (containsElement(edge, element).first) {
-            map[element] = pair<Length, Symbol>(get(edge, containsElement(edge, element).second).second, edge);
+            map[element] = pair<Length, Symbol>(get(edge, containsElement(edge, element).second).second->getLength(), edge);
         } else {
             map[element] = pair<Length, Symbol>(lengthInterface->max(), Symbol());
         }
@@ -657,8 +704,9 @@ template<class Symbol, class Length> unordered_map<Symbol, pair<Length, Symbol>>
         visited.insert(key);
         if (containsKey(key)) {
             for (int j = 0; j < get(key).size(); j++) {
-                if (lengthInterface->compare(lengthInterface->add(map[key].first, get(key, j).second), map[get(key, j).first].first) < 0) {
-                    map[get(key, j).first] = pair<Length, Symbol>(lengthInterface->add(map[key].first, get(key, j).second), key);
+                if (lengthInterface->compare(lengthInterface->add(map[key].first, get(key, j).second->getLength()), map[get(key, j).first].first) < 0) {
+                    map[get(key, j).first] = pair<Length, Symbol>(lengthInterface->add(map[key].first,
+                                                                                       get(key, j).second->getLength()), key);
                 }
             }
         }
@@ -709,7 +757,7 @@ template<class Symbol, class Length> vector<WeightedGraph<Symbol, Length>> Weigh
 template<class Symbol, class Length, class sizet> void WeightedGraph<Symbol, Length, sizet>::depthFirstSearch(WeightedGraph<Symbol, Length, sizet> &connectedComponent, Symbol i, unordered_map<Symbol, bool, sizet> &visited) {
     if (containsKey(i)) {
         connectedComponent.put(i, get(i));
-        for (pair<Symbol, Length> toNode : get(i)) {
+        for (pair<Symbol, Edge<Length>*> toNode : get(i)) {
             if (!visited[toNode.first]) {
                 visited[toNode.first] = true;
                 depthFirstSearch(connectedComponent, toNode.first, visited);
@@ -721,7 +769,7 @@ template<class Symbol, class Length, class sizet> void WeightedGraph<Symbol, Len
 template<class Symbol, class Length> void WeightedGraph<Symbol, Length>::depthFirstSearch(WeightedGraph<Symbol, Length> &connectedComponent, Symbol i, unordered_map<Symbol, bool> &visited) {
     if (containsKey(i)) {
         connectedComponent.put(i, get(i));
-        for (pair<Symbol, Length> toNode : get(i)) {
+        for (pair<Symbol, Edge<Length>*> toNode : get(i)) {
             if (!visited[toNode.first]) {
                 visited[toNode.first] = true;
                 depthFirstSearch(connectedComponent, toNode.first, visited);

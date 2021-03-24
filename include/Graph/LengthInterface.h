@@ -15,6 +15,7 @@ public:
     virtual Length max() = 0;
     virtual Length add(Length length1, Length length2) = 0;
     virtual Length remove(Length length1, Length length2) = 0;
+    virtual Length min(Length length1, Length length2) = 0;
 };
 
 #endif //COOKIES_CPP_LENGTHINTERFACE_H

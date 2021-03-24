@@ -20,7 +20,7 @@ struct road_hash {
 
 void addEdge(WeightedGraph<Road, int, road_hash> &graph, Roads list) {
     if (graph.size() > 0) {
-        graph.put(list.getFirst(), vector<pair<Road, int>>());
+        graph.put(list.getFirst(), vector<pair<Road, Edge<int>*>>());
         for (int i = 1; i < list.size(); i++) {
             graph.addDirectedEdge(list.getFirst(), list.get(i), abs(list.get(i).getHour() - list.getFirst().getHour()));
         }
@@ -37,7 +37,7 @@ void addEdge(WeightedGraph<Road, int, road_hash> &graph, Roads list) {
             }
         }
     } else {
-        graph.put(list.getFirst(), vector<pair<Road, int>>());
+        graph.put(list.getFirst(), vector<pair<Road, Edge<int>*>>());
         for (int i = 1; i < list.size(); i++) {
             graph.addDirectedEdge(list.getFirst(), list.get(i), abs(list.get(i).getHour() - list.getFirst().getHour()));
         }

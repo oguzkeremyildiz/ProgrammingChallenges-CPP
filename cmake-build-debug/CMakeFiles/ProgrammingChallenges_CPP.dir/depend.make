@@ -4,7 +4,11 @@
 CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.o: ../include/Graph/Edge.h
 CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.o: ../include/Graph/IntegerLength.h
 CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.o: ../include/Graph/LengthInterface.h
-CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.o: ../include/Graph/WeightedGraphEdge.h
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.o: ../include/Graph/ResidualEdge.h
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.o: ../include/Graph/WeightedGraph.h
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.o: ../include/Set/DisjointSet.h
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.o: ../include/Set/Set.h
+CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.o: ../include/Tuple/Triplet.h
 CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.o: ../GraphAlgorithms/G8/Problem.h
 CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp.o: ../GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp
 

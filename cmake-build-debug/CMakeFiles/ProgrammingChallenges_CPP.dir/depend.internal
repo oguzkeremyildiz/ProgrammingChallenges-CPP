@@ -5,6 +5,10 @@ CMakeFiles/ProgrammingChallenges_CPP.dir/GraphAlgorithms/G8/TheProblemWithThePro
  ../include/Graph/Edge.h
  ../include/Graph/IntegerLength.h
  ../include/Graph/LengthInterface.h
- ../include/Graph/WeightedGraphEdge.h
+ ../include/Graph/ResidualEdge.h
+ ../include/Graph/WeightedGraph.h
+ ../include/Set/DisjointSet.h
+ ../include/Set/Set.h
+ ../include/Tuple/Triplet.h
  /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G8/Problem.h
  /Users/oguzkeremyildiz/Dropbox/ProgrammingChallenges-CPP/GraphAlgorithms/G8/TheProblemWithTheProblemSetter.cpp

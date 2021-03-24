@@ -20,6 +20,9 @@ public:
             return 0;
         }
     }
+    virtual double min(double length1, double length2) {
+        return std::min(length1, length2);
+    }
     virtual double min() {
         return 0.0;
     }

@@ -3,8 +3,8 @@
 //
 #include <iostream>
 #include <fstream>
-#include "Graph/WeightedGraphEdge.h"
-#include "Graph/Edge.h"
+#include "Graph/WeightedGraph.h"
+#include "Graph/ResidualEdge.h"
 #include "Graph/IntegerLength.h"
 #include "Problem.h"
 #include <vector>
@@ -50,7 +50,7 @@ bool containsValue(const unordered_map<string, string>& previousMap, const strin
     return false;
 }
 
-unordered_map<string, string> breadthFirstSearch(WeightedGraphEdge<string, int> graph, const string& source) {
+unordered_map<string, string> breadthFirstSearch(WeightedGraph<string, int> graph, const string& source) {
     unordered_map<string, string> returning = unordered_map<string, string>();
     unordered_set<string> set = unordered_set<string>();
     unordered_map<int, vector<string>> map = unordered_map<int, vector<string>>();
@@ -65,7 +65,7 @@ unordered_map<string, string> breadthFirstSearch(WeightedGraphEdge<string, int> 
             if (graph.containsKey(current)) {
                 set.insert(current);
                 for (int j = 0; j < graph.get(current).size(); j++) {
-                    if (set.find(graph.get(current).at(j).first) == set.end() && graph.get(current).at(j).second.getResidual() > 0) {
+                    if (set.find(graph.get(current).at(j).first) == set.end() && static_cast<ResidualEdge<int>*>(graph.get(current).at(j).second)->getResidual() > 0) {
                         set.insert(graph.get(current, j).first);
                         map[iterate + 1].push_back(graph.get(current, j).first);
                         returning[graph.get(current, j).first] = current;
@@ -84,15 +84,15 @@ void removeAll(vector<Problem> &currentList, const vector<Problem>& list) {
     }
 }
 
-bool check(WeightedGraphEdge<string, int> graph, vector<string> path, int now, Problem problem) {
+bool check(WeightedGraph<string, int> graph, vector<string> path, int now, Problem problem) {
     int total = problem.findTotal(now);
     for (int j = 0; j < graph.get(path.at(3)).size(); j++) {
         string current = graph.get(path.at(3), j).first;
         if (current == path.at(2)) {
-            if (graph.get(path.at(3), j).second.getFlow() + total <= graph.get(path.at(3), j).second.getCapacity()) {
+            if (static_cast<ResidualEdge<int>*>(graph.get(path.at(3), j).second)->getFlow() + total <= graph.get(path.at(3), j).second->getLength()) {
                 for (int i = 0; i < graph.get(path.at(1)).size(); i++) {
                     if (graph.get(path.at(1), i).first == path.at(0)) {
-                        return graph.get(path.at(1), i).second.getFlow() + total <= graph.get(path.at(1), i).second.getCapacity();
+                        return static_cast<ResidualEdge<int>*>(graph.get(path.at(1), i).second)->getFlow() + total <= graph.get(path.at(1), i).second->getLength();
                     }
                 }
             } else {
@@ -103,7 +103,7 @@ bool check(WeightedGraphEdge<string, int> graph, vector<string> path, int now, P
     return false;
 }
 
-void setGraphAndMap(WeightedGraphEdge<string, int> &graph, unordered_map<string, vector<Problem>> &map, vector<string> path, unordered_map<string, vector<Problem>> &used, vector<Problem> list) {
+void setGraphAndMap(WeightedGraph<string, int> &graph, unordered_map<string, vector<Problem>> &map, vector<string> path, unordered_map<string, vector<Problem>> &used, vector<Problem> list) {
     vector<Problem> currentList = vector<Problem>();
     for (int i = 0; i < list.size(); ++i) {
         Problem problem = list.at(i);
@@ -122,10 +122,10 @@ void setGraphAndMap(WeightedGraphEdge<string, int> &graph, unordered_map<string,
             for (int j = 0; j < graph.get(path.at(3)).size(); j++) {
                 string current = graph.get(path.at(3), j).first;
                 if (current == path.at(2)) {
-                    graph.setFlow(path.at(3), j, graph.get(path.at(3), j).second.getFlow() + total);
+                    static_cast<ResidualEdge<int>*>(graph.get(path.at(3), j).second)->setFlow(static_cast<ResidualEdge<int>*>(graph.get(path.at(3), j).second)->getFlow() + total);
                     for (int k = 0; k < graph.get(path.at(2)).size(); k++) {
                         if (graph.get(path.at(2), k).first == path.at(3)) {
-                            graph.setFlow(path.at(2), k, graph.get(path.at(2), k).second.getFlow() - total);
+                            static_cast<ResidualEdge<int>*>(graph.get(path.at(2), k).second)->setFlow(static_cast<ResidualEdge<int>*>(graph.get(path.at(2), k).second)->getFlow() - total);
                             break;
                         }
                     }
@@ -135,10 +135,10 @@ void setGraphAndMap(WeightedGraphEdge<string, int> &graph, unordered_map<string,
             for (int j = 0; j < graph.get(path.at(1)).size(); j++) {
                 string current = graph.get(path.at(1), j).first;
                 if (current == path.at(0)) {
-                    graph.setFlow(path.at(1), j, graph.get(path.at(1), j).second.getFlow() + total);
+                    static_cast<ResidualEdge<int>*>(graph.get(path.at(1), j).second)->setFlow(static_cast<ResidualEdge<int>*>(graph.get(path.at(1), j).second)->getFlow() + total);
                     for (int k = 0; k < graph.get(path.at(0)).size(); k++) {
                         if (graph.get(path.at(0), k).first == path.at(1)) {
-                            graph.setFlow(path.at(0), k, graph.get(path.at(0), k).second.getFlow() - total);
+                            static_cast<ResidualEdge<int>*>(graph.get(path.at(0), k).second)->setFlow(static_cast<ResidualEdge<int>*>(graph.get(path.at(0), k).second)->getFlow() - total);
                             break;
                         }
                     }
@@ -162,10 +162,10 @@ void setGraphAndMap(WeightedGraphEdge<string, int> &graph, unordered_map<string,
                         for (int j = 0; j < graph.get(path.at(3)).size(); j++) {
                             string current = graph.get(path.at(3), j).first;
                             if (current == path.at(2)) {
-                                graph.setFlow(path.at(3), j, graph.get(path.at(3), j).second.getFlow() + total);
+                                static_cast<ResidualEdge<int>*>(graph.get(path.at(3), j).second)->setFlow(static_cast<ResidualEdge<int>*>(graph.get(path.at(3), j).second)->getFlow() + total);
                                 for (int k = 0; k < graph.get(path.at(2)).size(); k++) {
                                     if (graph.get(path.at(2), k).first == path.at(3)) {
-                                        graph.setFlow(path.at(2), k, graph.get(path.at(2), k).second.getFlow() - total);
+                                        static_cast<ResidualEdge<int>*>(graph.get(path.at(2), k).second)->setFlow(static_cast<ResidualEdge<int>*>(graph.get(path.at(2), k).second)->getFlow() - total);
                                         break;
                                     }
                                 }
@@ -175,10 +175,10 @@ void setGraphAndMap(WeightedGraphEdge<string, int> &graph, unordered_map<string,
                         for (int j = 0; j < graph.get(path.at(1)).size(); j++) {
                             string current = graph.get(path.at(1), j).first;
                             if (current == path.at(0)) {
-                                graph.setFlow(path.at(1), j, graph.get(path.at(1), j).second.getFlow() + total);
+                                static_cast<ResidualEdge<int>*>(graph.get(path.at(1), j).second)->setFlow(static_cast<ResidualEdge<int>*>(graph.get(path.at(1), j).second)->getFlow() + total);
                                 for (int k = 0; k < graph.get(path.at(0)).size(); k++) {
                                     if (graph.get(path.at(0), k).first == path.at(1)) {
-                                        graph.setFlow(path.at(0), k, graph.get(path.at(0), k).second.getFlow() - total);
+                                        static_cast<ResidualEdge<int>*>(graph.get(path.at(0), k).second)->setFlow(static_cast<ResidualEdge<int>*>(graph.get(path.at(0), k).second)->getFlow() - total);
                                         break;
                                     }
                                 }
@@ -193,10 +193,10 @@ void setGraphAndMap(WeightedGraphEdge<string, int> &graph, unordered_map<string,
                         for (int j = 0; j < graph.get(anotherPath.at(3)).size(); j++) {
                             string current = graph.get(anotherPath.at(3), j).first;
                             if (current == anotherPath.at(2)) {
-                                graph.setFlow(anotherPath.at(3), j, graph.get(anotherPath.at(3), j).second.getFlow() - total);
+                                static_cast<ResidualEdge<int>*>(graph.get(anotherPath.at(3), j).second)->setFlow(static_cast<ResidualEdge<int>*>(graph.get(anotherPath.at(3), j).second)->getFlow() - total);
                                 for (int k = 0; k < graph.get(anotherPath.at(2)).size(); k++) {
                                     if (graph.get(anotherPath.at(2), k).first == anotherPath.at(3)) {
-                                        graph.setFlow(anotherPath.at(2), k, graph.get(anotherPath.at(2), k).second.getFlow() + total);
+                                        static_cast<ResidualEdge<int>*>(graph.get(anotherPath.at(2), k).second)->setFlow(static_cast<ResidualEdge<int>*>(graph.get(anotherPath.at(2), k).second)->getFlow() + total);
                                         break;
                                     }
                                 }
@@ -206,10 +206,10 @@ void setGraphAndMap(WeightedGraphEdge<string, int> &graph, unordered_map<string,
                         for (int j = 0; j < graph.get(anotherPath.at(1)).size(); j++) {
                             string current = graph.get(anotherPath.at(1), j).first;
                             if (current == anotherPath.at(0)) {
-                                graph.setFlow(anotherPath.at(1), j, graph.get(anotherPath.at(1), j).second.getFlow() - total);
+                                static_cast<ResidualEdge<int>*>(graph.get(anotherPath.at(1), j).second)->setFlow(static_cast<ResidualEdge<int>*>(graph.get(anotherPath.at(1), j).second)->getFlow() - total);
                                 for (int k = 0; k < graph.get(anotherPath.at(0)).size(); k++) {
                                     if (graph.get(anotherPath.at(0), k).first == anotherPath.at(1)) {
-                                        graph.setFlow(anotherPath.at(0), k, graph.get(anotherPath.at(0), k).second.getFlow() + total);
+                                        static_cast<ResidualEdge<int>*>(graph.get(anotherPath.at(0), k).second)->setFlow(static_cast<ResidualEdge<int>*>(graph.get(anotherPath.at(0), k).second)->getFlow() + total);
                                         break;
                                     }
                                 }
@@ -237,7 +237,7 @@ bool isASolution(unordered_map<string, vector<Problem>> map, vector<int> size) {
     return totalElement == total;
 }
 
-void fordFulkerson(WeightedGraphEdge<string, int> &graph, vector<Problem> list, vector<int> boundary) {
+void fordFulkerson(WeightedGraph<string, int> &graph, vector<Problem> list, vector<int> boundary) {
     string source = "s";
     string sink = "t";
     unordered_map<string, vector<Problem>> used = unordered_map<string, vector<Problem>>();
@@ -276,16 +276,16 @@ void fordFulkerson(WeightedGraphEdge<string, int> &graph, vector<Problem> list, 
     }
 }
 
-WeightedGraphEdge<string, int> setGraph(const vector<Problem>& list, vector<int> boundary) {
-    WeightedGraphEdge<string, int> graph = WeightedGraphEdge<string, int>(new IntegerLength());
+WeightedGraph<string, int> setGraph(const vector<Problem>& list, vector<int> boundary) {
+    WeightedGraph<string, int> graph = WeightedGraph<string, int>(new IntegerLength());
     string source = "s";
     string sink = "t";
-    graph.addUndirectedEdge(source, "problems", Edge<int>(list.size(), 0, new IntegerLength()), Edge<int>(list.size(), new IntegerLength()));
+    graph.addUndirectedEdge(source, "problems", new ResidualEdge<int>(list.size(), 0, new IntegerLength()), new ResidualEdge<int>(list.size(), new IntegerLength()));
     for (int i = 0; i < boundary.size(); i++) {
-        graph.addUndirectedEdge("problems", "category" + to_string(i + 1), Edge<int>(boundary.at(i), 0, new IntegerLength()), Edge<int>(boundary.at(i), new IntegerLength()));
+        graph.addUndirectedEdge("problems", "category" + to_string(i + 1), new ResidualEdge<int>(boundary.at(i), 0, new IntegerLength()), new ResidualEdge<int>(boundary.at(i), new IntegerLength()));
     }
     for (int i = 0; i < boundary.size(); i++) {
-        graph.addUndirectedEdge("category" + to_string(i + 1), sink, Edge<int>(boundary.at(i), 0, new IntegerLength()), Edge<int>(boundary.at(i), new IntegerLength()));
+        graph.addUndirectedEdge("category" + to_string(i + 1), sink, new ResidualEdge<int>(boundary.at(i), 0, new IntegerLength()), new ResidualEdge<int>(boundary.at(i), new IntegerLength()));
     }
     return graph;
 }
@@ -315,7 +315,7 @@ int main() {
             file >> problems;
             vector<Problem> list = vector<Problem>();
             vector<int> boundary = vector<int>();
-            WeightedGraphEdge<string, int> graph;
+            WeightedGraph<string, int> graph;
             if (categories != 0 && problems != 0) {
                 for (int i = 0; i < categories; i++) {
                     int current;

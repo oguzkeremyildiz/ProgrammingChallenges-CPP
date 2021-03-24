@@ -19,6 +19,9 @@ public:
             return 0;
         }
     }
+    virtual int min(int length1, int length2) {
+        return std::min(length1, length2);
+    }
     virtual int min() {
         return 0;
     }
