@@ -37,6 +37,8 @@ utility
 ../include/Graph/LengthInterface.h
 ../Graph/Edge.h
 ../include/Graph/Edge.h
+../Graph/ResidualEdge.h
+../include/Graph/ResidualEdge.h
 iostream
 -
 

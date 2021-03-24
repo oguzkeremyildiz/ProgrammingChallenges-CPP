@@ -30,20 +30,20 @@ bool contains(vector<pair<int, Edge<double>*>> vector, pair<int, double> pair) {
     return false;
 }
 
-WeightedGraph<int, double> addEdges(vector<pair<double, double>> coordinates) {
+WeightedGraph<int, double>* addEdges(vector<pair<double, double>> coordinates) {
     LengthInterface<double> *lengthInterface = new DoubleLength();
-    WeightedGraph<int, double> graph = WeightedGraph<int, double>(lengthInterface);
+    auto* graph = new WeightedGraph<int, double>(lengthInterface);
     for (int i = 0; i < coordinates.size(); i++) {
         pair<double, double> first = coordinates.at(i);
         for (int j = 0; j < coordinates.size(); j++) {
             pair<double, double> second = coordinates.at(j);
             if (second != first) {
-                if (graph.containsKey(i)) {
-                    if (!contains(graph.get(i), pair<int, double>(j, length(first, second)))) {
-                        graph.addUndirectedEdge(i, j, length(first, second), length(first, second));
+                if (graph->containsKey(i)) {
+                    if (!contains(graph->get(i), pair<int, double>(j, length(first, second)))) {
+                        graph->addUndirectedEdge(i, j, length(first, second), length(first, second));
                     }
                 } else {
-                    graph.addUndirectedEdge(i, j, length(first, second), length(first, second));
+                    graph->addUndirectedEdge(i, j, length(first, second), length(first, second));
                 }
             }
         }
@@ -58,7 +58,7 @@ int main() {
         cout << "file not reading" << endl;
     } else {
         LengthInterface<double> *lengthInterface = new DoubleLength();
-        WeightedGraph<int, double> graph = WeightedGraph<int, double>(lengthInterface);
+        auto* graph = new WeightedGraph<int, double>(lengthInterface);
         vector<pair<double, double>> coordinates = vector<pair<double, double>>();
         string times, sequence;
         double d1, d2;
@@ -71,7 +71,7 @@ int main() {
                 coordinates.emplace_back(d1, d2);
             }
             graph = addEdges(coordinates);
-            cout << graph.kruskal() << endl;
+            cout << graph->kruskal() << endl;
         }
     }
 }
